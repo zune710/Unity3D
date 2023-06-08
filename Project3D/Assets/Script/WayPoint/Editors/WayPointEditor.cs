@@ -13,12 +13,13 @@ public class WayPointEditor : EditorWindow  // 윈도우 창에서 작업할 경우
         GetWindow<WayPointEditor>("WayPoint");  // 띄우는 창의 이름
     }
 
-    //[Header("부모 Node (Group)")]  // 안 됨 - 찾아보기
-    //[Tooltip("부모 Node (Group)")]  // 안 됨 - 찾아보기
+    //[Header("부모 Node (Group)")]
+    //[Tooltip("부모 Node (Group)")]
     private GameObject Parent;
 
     private void OnGUI()  // 
     {
+        EditorGUILayout.LabelField("부모 Node (Group)", EditorStyles.boldLabel);
         Parent = (GameObject)EditorGUILayout.ObjectField("Parent", Parent, typeof(GameObject), true);
 
         GUILayout.BeginHorizontal();
@@ -51,35 +52,3 @@ public class WayPointEditor : EditorWindow  // 윈도우 창에서 작업할 경우
     }
 }
 #endif
-
-/*
-[CustomEditor(typeof(WayPoint))]
-public class WayPointEditor : Editor  // 인스펙터뷰에서 작업할 경우
-{
-    public Object Parent;
-
-    public override void OnInspectorGUI()  // 인스펙터가 갱신될 때마다 바뀌는 형태
-    {
-        base.OnInspectorGUI();
-
-        WayPoint Target = (WayPoint)target;
-
-        Parent = EditorGUILayout.ObjectField("Parent", Parent, typeof(GameObject), true);
-
-        GUILayout.BeginHorizontal();  // 줄 띄워쓰기
-        {
-            GUILayout.FlexibleSpace();  // 가운데 정렬
-    
-            if (GUILayout.Button("Button", GUILayout.Width(250), GUILayout.Height(25), GUILayout.MaxWidth(350), GUILayout.MaxHeight(25)))
-            {
-                if(Parent != null)
-                {
-    
-                }
-            }
-            GUILayout.FlexibleSpace();
-        }
-        GUILayout.EndHorizontal();
-    }
-}
-*/
