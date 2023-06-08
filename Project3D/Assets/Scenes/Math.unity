@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ba820a6c791eac48a12c99bf19352e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PointList: []
+  Angle: 0
 --- !u!4 &438017779
 Transform:
   m_ObjectHideFlags: 0

@@ -57,11 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\WayPoint\Editors\WayPoint.cs" />
+    <Compile Include="Assets\Script\Math\MyGizmo.cs" />
+    <Compile Include="Assets\Script\Math\CenterController.cs" />
     <Compile Include="Assets\Script\WayPoint\Editors\WayPointEditor.cs" />
     <Compile Include="Assets\Script\WayPoint\Node.cs" />
     <Compile Include="Assets\Script\EnemyController.cs" />
-    <Compile Include="Assets\Script\Math\MyGizmo.cs" />
-    <Compile Include="Assets\Script\Math\CenterController.cs" />
     <Compile Include="Assets\Script\Math\BulletController.cs" />
   </ItemGroup>
   <ItemGroup>
