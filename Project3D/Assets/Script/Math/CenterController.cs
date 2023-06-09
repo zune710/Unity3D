@@ -38,13 +38,26 @@ public class CenterController : MonoBehaviour
 
     private void Update()
     {
+        /*
         float hor = Input.GetAxis("Horizontal");
         float ver = Input.GetAxis("Vertical");
 
-        Vector3 Movement = new Vector3(hor, Mathf.Sin(Angle * Mathf.Deg2Rad) * 5.0f, ver) * 5.0f * Time.deltaTime;
+        Vector3 Start = new Vector3(5.0f, 0.0f, 0.0f);
+        Vector3 End = new Vector3(10.0f, 5.0f, 0.0f);
 
-        transform.Translate(Movement);
+        Debug.DrawLine(Start, End);
 
-        transform.position = Movement;
+        Vector3 movement = new Vector3(hor, 0.0f, 0.0f) * 5.0f * Time.deltaTime;
+
+        float fx = End.x - Start.x;
+        float fy = End.y - Start.y;
+        
+        float distance = Mathf.Sqrt((fx * fx) + (fy * fy));
+
+        if (Start.x < transform.position.x && transform.position.x < End.x)
+            transform.position += new Vector3(fx / distance, fy / distance, 0.0f) * hor * 5.0f * Time.deltaTime;
+        else
+            transform.position += movement;
+         */
     }
 }
