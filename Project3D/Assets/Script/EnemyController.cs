@@ -23,6 +23,8 @@ public class EnemyController : MonoBehaviour
 
     private Vector3 offset;
 
+    private Quaternion Rotation;
+
     private void Awake()
     {
         camera = Camera.main;
@@ -49,13 +51,16 @@ public class EnemyController : MonoBehaviour
 
         Angle = 45.0f;
 
-        move = false;
+        //move = false;
+        move = true;
         View = false;
 
         offset = new Vector3(0.0f, 10.0f, 10.0f);
+
+        Rotation = transform.rotation;
     }
 
-    private void Update()  // 실행되는 간격이 매번 다름
+    private void Update()
     {
         View = Input.GetKey(KeyCode.Tab) ? true : false;
 
@@ -81,25 +86,31 @@ public class EnemyController : MonoBehaviour
         {
             if (move)
             {
-                // 최종적으로 보여지는 것은 자연스러워야 하므로 연산이지만 FixedUpdate가 아닌 Update에서 처리
                 Vector3 Direction = (Target.transform.position - transform.position).normalized;
                 transform.position += Direction * Speed * Time.deltaTime;
+
+                Rotation = transform.rotation;
             }
             else
             {
+                //transform.rotation = Quaternion.Lerp(
+                //transform.rotation,
+                //Quaternion.LookRotation(Vector3.back),
+                //Time.deltaTime);
+
                 transform.rotation = Quaternion.Lerp(
                 transform.rotation,
-                Quaternion.LookRotation(Vector3.back),
+                Quaternion.Inverse(Rotation),
                 Time.deltaTime);
+
+                if (transform.rotation == Quaternion.Inverse(Rotation))
+                    move = true;
             }
         }
     }
 
-    private void FixedUpdate()  // 일정한 속도, 간격으로 실행
+    private void FixedUpdate()
     {
-        // 주기적으로 확인해 줘야 하는 물리적 업데이트, 논리적, 산술적 연산 - FixedUpdate
-        // 또는 코루틴 함수(비동기) 사용
-
         RaycastHit hit;
 
         Debug.DrawRay(transform.position,
@@ -159,6 +170,9 @@ public class EnemyController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(Target.transform.name == other.transform.name)
+        {
             Target = Target.Next;
+            move = false;
+        }
     }
 }
