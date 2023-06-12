@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class EnemyController : MonoBehaviour
 {
-    private Camera camera;
+    public Camera camera;
 
     public Node Target;
 
@@ -73,7 +73,7 @@ public class EnemyController : MonoBehaviour
         camera.transform.position = Vector3.Lerp(
             camera.transform.position,
             transform.position + offset,
-            0.016f);
+            Time.deltaTime);
 
         camera.transform.LookAt(transform.position);
 
@@ -122,7 +122,7 @@ public class EnemyController : MonoBehaviour
 
         }
 
-        for (float f = -Angle; f <= Angle; f += 5.0f)
+        for (float f = -Angle + 5.0f; f < Angle; f += 5.0f)
         {
             Debug.DrawRay(transform.position,
             new Vector3(
