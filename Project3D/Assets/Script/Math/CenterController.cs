@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CenterController : MonoBehaviour
 {
-    /* // µø±◊∂ÛπÃ
+    /* // ÎèôÍ∑∏ÎùºÎØ∏
     public List<GameObject> PointList;
     
     void Start()
@@ -16,8 +16,8 @@ public class CenterController : MonoBehaviour
             obj.AddComponent<MyGizmo>();
 
             obj.transform.position = new Vector3(
-                Mathf.Sin((i * 5.0f) * Mathf.Deg2Rad), // πÊ«‚∏∏
-                Mathf.Cos((i * 5.0f) * Mathf.Deg2Rad), // πÊ«‚∏∏
+                Mathf.Sin((i * 5.0f) * Mathf.Deg2Rad), // Î∞©Ìñ•Îßå
+                Mathf.Cos((i * 5.0f) * Mathf.Deg2Rad), // Î∞©Ìñ•Îßå
                 0.0f) * 5.0f;  // 5.0f: distance
 
             PointList.Add(obj);
@@ -25,7 +25,7 @@ public class CenterController : MonoBehaviour
     }
     */
 
-    // ¡°«¡
+    // Ï†êÌîÑ
     [Range(-90.0f, 90.0f)]
     public float Angle;
 

@@ -17,7 +17,7 @@ public class WayPointEditor : EditorWindow
 
     private void OnGUI()
     {
-        EditorGUILayout.LabelField("∫Œ∏ Node (Group)", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Î∂ÄÎ™® Node (Group)", EditorStyles.boldLabel);
         Parent = (GameObject)EditorGUILayout.ObjectField("Parent", Parent, typeof(GameObject), true);
 
         GUILayout.BeginHorizontal();
@@ -32,7 +32,7 @@ public class WayPointEditor : EditorWindow
                     NodeObject.transform.name = "node_" + Parent.transform.childCount;
                     Node node = NodeObject.AddComponent<Node>();
 
-                    // ** Node¿« º≥¡§
+                    // ** NodeÏùò ÏÑ§Ï†ï
                     SphereCollider coll = node.GetComponent<SphereCollider>();
                     coll.radius = 0.05f;
 

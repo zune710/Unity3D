@@ -28,19 +28,19 @@ public class Rotation : MonoBehaviour
         move = false;
     }
 
-    void Update()  // µ¿±â ¹æ½Ä: ÀıÂ÷¿¡ µû¶ó ½ÇÇà, ¼ø¼­´ë·Î µº
+    void Update()  // ë™ê¸° ë°©ì‹: ì ˆì°¨ì— ë”°ë¼ ì‹¤í–‰, ìˆœì„œëŒ€ë¡œ ë
     {
         //transform.eulerAngles = new Vector3(0.0f, Angle, 0.0f);
 
 
-        // °ªÀ» ¹Ş¾Æ¿È
+        // ê°’ì„ ë°›ì•„ì˜´
         Quaternion rotation = transform.rotation;
 
-        // ** rotation °¢ÀÇ º¯°æ
+        // ** rotation ê°ì˜ ë³€ê²½
 
-        //transform.rotation = Quaternion.Lerp(transform.rotation,  );  // ¸¹ÀÌ »ç¿ë
+        //transform.rotation = Quaternion.Lerp(transform.rotation,  );  // ë§ì´ ì‚¬ìš©
 
-        // º¯°æµÈ °ª ´Ù½Ã ¼¼ÆÃ
+        // ë³€ê²½ëœ ê°’ ë‹¤ì‹œ ì„¸íŒ…
         transform.rotation = rotation;
 
         if(Input.GetMouseButtonDown(0))
@@ -48,19 +48,6 @@ public class Rotation : MonoBehaviour
             //StartCoroutine(SetMove());
             function();
         }
-
-
-
-
-        Debug.DrawRay(transform.position, 
-            new Vector3(
-                Mathf.Sin(Angle * Mathf.Deg2Rad), 0.0f, Mathf.Cos(Angle * Mathf.Deg2Rad)) * 2.5f,
-            Color.green);
-
-        Debug.DrawRay(transform.position,
-            new Vector3(
-                Mathf.Sin(-Angle * Mathf.Deg2Rad), 0.0f, Mathf.Cos(-Angle * Mathf.Deg2Rad)) * 2.5f,
-            Color.green);
     }
 
     void function()
@@ -72,7 +59,7 @@ public class Rotation : MonoBehaviour
         StartCoroutine(SetMove());
     }
 
-    IEnumerator SetMove()  // ÄÚ·çÆ¾ ÇÔ¼ö - ºñµ¿±â ¹æ½Ä: ÀıÂ÷ ¹«½ÃÇÏ°í µû·Î µº
+    IEnumerator SetMove()  // ì½”ë£¨í‹´ í•¨ìˆ˜ - ë¹„ë™ê¸° ë°©ì‹: ì ˆì°¨ ë¬´ì‹œí•˜ê³  ë”°ë¡œ ë
     {
         /*
         if (move)
@@ -89,7 +76,7 @@ public class Rotation : MonoBehaviour
         {
             if(check == 0)
             {
-                transform.position = Vector3.Lerp(dest, temp, time);  // ÇÁ·¹ÀÓ ´ÜÀ§·Î µµ´Ï±î ¼Óµµ ÀÏÁ¤
+                transform.position = Vector3.Lerp(dest, temp, time);  // í”„ë ˆì„ ë‹¨ìœ„ë¡œ ë„ë‹ˆê¹Œ ì†ë„ ì¼ì •
             }
             else
             {
@@ -101,14 +88,14 @@ public class Rotation : MonoBehaviour
             yield return null;
         }
 
-        move = false;  // ºñµ¿±â´Â ³¡³ª´Â ½ÃÁ¡À» ¾Ë ¼ö ¾øÀ¸¹Ç·Î ³¡³ª´Â ½ÃÁ¡À» ¾Ë±â À§ÇØ bool º¯¼ö »ç¿ë
+        move = false;  // ë¹„ë™ê¸°ëŠ” ëë‚˜ëŠ” ì‹œì ì„ ì•Œ ìˆ˜ ì—†ìœ¼ë¯€ë¡œ ëë‚˜ëŠ” ì‹œì ì„ ì•Œê¸° ìœ„í•´ bool ë³€ìˆ˜ ì‚¬ìš©
 
         /*
-        // ¸¹ÀÌ »ç¿ëÇÏ´Â Lerp ÇÔ¼ö ÇüÅÂ
+        // ë§ì´ ì‚¬ìš©í•˜ëŠ” Lerp í•¨ìˆ˜ í˜•íƒœ
         transform.position = Vector3.Lerp(
             transform.position,
             transform.position * 5.0f,  // 5.0f: Speed
-            dis) * Time.deltaTime;  // dis: ºñÀ² - Start¿Í EndÀÇ °Å¸®ÀÇ dis ºñÀ²¸¸Å­ ÀÌµ¿, Start¿Í EndÀÇ °Å¸®°¡ ÁÙ¾îµé¸é¼­ Á¡Á¡ ´À·ÁÁü
+            dis) * Time.deltaTime;  // dis: ë¹„ìœ¨ - Startì™€ Endì˜ ê±°ë¦¬ì˜ dis ë¹„ìœ¨ë§Œí¼ ì´ë™, Startì™€ Endì˜ ê±°ë¦¬ê°€ ì¤„ì–´ë“¤ë©´ì„œ ì ì  ëŠë ¤ì§
          */
 
     }
