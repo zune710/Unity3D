@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\WayPoint\Editors\WayPoint.cs" />
+    <Compile Include="Assets\Script\CameraController.cs" />
     <Compile Include="Assets\Script\Math\LineCollision.cs" />
     <Compile Include="Assets\Script\Math\MyGizmo.cs" />
     <Compile Include="Assets\Script\WayPoint\Node.cs" />
@@ -65,7 +66,6 @@
     <Compile Include="Assets\Script\Math\CenterController.cs" />
     <Compile Include="Assets\Script\Math\BulletController.cs" />
     <Compile Include="Assets\Script\Rotation\Rotation.cs" />
-    <Compile Include="Assets\Script\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

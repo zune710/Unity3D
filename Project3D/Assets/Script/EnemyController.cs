@@ -6,9 +6,13 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class EnemyController : MonoBehaviour
 {
-    public Node Target;
+    public Node Target = null;
+
+    public List<Vector3> vertices = new List<Vector3>();
 
     private float Speed;
+
+    public Material material;
 
     Vector3 LeftCheck;
     Vector3 RightCheck;
@@ -27,7 +31,7 @@ public class EnemyController : MonoBehaviour
         Rigidbody rigid = GetComponent<Rigidbody>();
         rigid.useGravity = false;
 
-        Target = GameObject.Find("ParentObject").transform.GetChild(0).GetComponent<Node>();
+        //Target = GameObject.Find("ParentObject").transform.GetChild(0).GetComponent<Node>();
     }
 
     private void Start()
@@ -47,6 +51,35 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            RaycastHit hit;
+
+            if(Physics.Raycast(transform.position, transform.forward, out hit, Mathf.Infinity))
+            {
+                MeshFilter meshFilter = hit.transform.gameObject.GetComponent<MeshFilter>();
+
+                Vector3[] verticesPoint = meshFilter.mesh.vertices;
+
+                for(int i = 0; i < verticesPoint.Length; ++i)
+                {
+                    if(!vertices.Contains(verticesPoint[i]) && verticesPoint[i].y < transform.position.y + 0.05f && transform.position.y < verticesPoint[i].y + 0.05f)
+                        vertices.Add(verticesPoint[i]);
+                }
+            }
+
+            for (int i = 0; i < vertices.Count; ++i)
+            {
+                GameObject obj = new GameObject(i.ToString());
+                obj.transform.position = new Vector3(
+                                hit.transform.position.x + vertices[i].x * hit.transform.lossyScale.x,
+                                transform.position.y,
+                                hit.transform.position.z + vertices[i].z * hit.transform.lossyScale.x);
+
+                obj.AddComponent<MyGizmo>();
+            }
+        }
+
         if (Target)
         {
             Vector3 Direction = (Target.transform.position - transform.position).normalized;
@@ -77,8 +110,6 @@ public class EnemyController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //Vector3 LineDir = transform.TransformDirection(Vector3.forward) * 3.0f;
-
         float startAngle = (transform.eulerAngles.y - Angle);
 
         RaycastHit hit;
@@ -102,10 +133,8 @@ public class EnemyController : MonoBehaviour
         {
 
         }
-
-
         
-        
+
         int Count = (int)((Angle * 2) / 5.0f);
 
         for(int i = 1; i < Count; ++i)
@@ -127,6 +156,7 @@ public class EnemyController : MonoBehaviour
          */
     }
 
+    /* 안씀
     void function()
     {
         if (move)
@@ -151,12 +181,21 @@ public class EnemyController : MonoBehaviour
 
         move = false;
     }
+    */
+
+    private void LateUpdate()
+    {
+
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        move = false;
-
+        /*
         if (Target.transform.name == other.transform.name)
+        {
+            move = false;
             Target = Target.Next;
+        }
+         */
     }
 }
