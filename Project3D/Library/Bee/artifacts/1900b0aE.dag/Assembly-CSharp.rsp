@@ -345,6 +345,7 @@
 "Assets/Script/Math/CenterController.cs"
 "Assets/Script/Math/LineCollision.cs"
 "Assets/Script/Math/MyGizmo.cs"
+"Assets/Script/Matrix.cs"
 "Assets/Script/Rotation/Rotation.cs"
 "Assets/Script/WayPoint/Editors/WayPoint.cs"
 "Assets/Script/WayPoint/Editors/WayPointEditor.cs"

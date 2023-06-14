@@ -66,6 +66,7 @@
     <Compile Include="Assets\Script\Math\CenterController.cs" />
     <Compile Include="Assets\Script\Math\BulletController.cs" />
     <Compile Include="Assets\Script\Rotation\Rotation.cs" />
+    <Compile Include="Assets\Script\Matrix.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
