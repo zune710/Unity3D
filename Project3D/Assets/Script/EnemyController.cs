@@ -12,10 +12,11 @@ public class EnemyController : MonoBehaviour
     const int S = 3;  // Scale
     const int M = 0;  // Matrix
 
-
     public Node Target = null;
 
-    public List<Vector3> vertices = new List<Vector3>();
+    public List<GameObject> vertices = new List<GameObject>();
+    public List<GameObject> bestList = new List<GameObject>();
+    public List<Node> OpenList = new List<Node>();  // 확인한 노드 저장
 
     private float Speed;
 
@@ -32,6 +33,8 @@ public class EnemyController : MonoBehaviour
     [Range(1.0f, 2.0f)]
     public float scale;
 
+    private GameObject parent;
+
     private void Awake()
     {
         SphereCollider coll = GetComponent<SphereCollider>();
@@ -46,6 +49,8 @@ public class EnemyController : MonoBehaviour
 
     private void Start()
     {
+        parent = new GameObject("Nodes");
+
         Speed = 5.0f;
 
         float x = 2.5f;
@@ -102,25 +107,117 @@ public class EnemyController : MonoBehaviour
                             temp[i].z);
                 }
 
+                GameObject startPoint = null;
+                float dis = 0.0f;
+                float bestDistance = 1000000.0f;
+
+                OpenList.Clear();
                 vertices.Clear();  // vertices에 값이 중복으로 계속해서 들어가는 것을 막기 위한 것
+
                 for (int i = 0; i < temp.Count; ++i)
                 {
                     GameObject obj = new GameObject(i.ToString());
 
                     Matrix4x4[] matrix = new Matrix4x4[4];
+
                     matrix[T] = Matrix.Translate(hit.transform.position);
                     matrix[R] = Matrix.Rotate(hit.transform.eulerAngles);
                     matrix[S] = Matrix.Scale(hit.transform.lossyScale * scale);
-                    // Matrix4x4.Translate() 등 만들어진 것 있음, 위의 함수는 기존에 있는 함수를 직접 만들어본 것
+                    // Matrix4x4.Translate(), Matrix4x4.Rotate(), Matrix4x4.Scale()
 
                     matrix[M] = matrix[T] * matrix[R] * matrix[S];  // T, R, S 순으로 곱해줘야 함
 
                     Vector3 v = matrix[M].MultiplyPoint(temp[i]);
-                    
-                    vertices.Add(v);
+                    dis = Vector3.Distance(transform.position, v);
 
                     obj.transform.position = v;
+                    obj.AddComponent<Node>();
+
+                    obj.transform.SetParent(parent.transform);
                     obj.AddComponent<MyGizmo>();
+
+                    if (dis < bestDistance)
+                    {
+                        bestDistance = dis;
+                        startPoint = obj;
+
+                        if(i == 0)
+                            vertices.Add(obj);
+                    }
+                    else
+                        vertices.Add(obj);
+                }
+
+                if(startPoint)
+                {
+                    startPoint.GetComponent<MyGizmo>().color = Color.red;
+                    OpenList.Add(startPoint.GetComponent<Node>());
+                }
+
+                //List<GameObject> CloseList = new List<GameObject>();  // 못 가는 노드 저장
+                
+                
+                Node MainNode = OpenList[0].GetComponent<Node>();  // startPoint
+                MainNode.Cost = 0.0f;
+
+                while(vertices.Count != 0)
+                {
+                    float OldDistance = 1000000.0f;
+                    int index = 0;
+
+                    Node node = OpenList[OpenList.Count - 1];//
+                    GameObject EndPoint = GameObject.Find("1");//
+
+                    for (int i = 0; i < vertices.Count; ++i)
+                    {
+                        //float Distance = Vector3.Distance(OpenList[0].transform.position, vertices[i].transform.position);
+                        float Distance = Vector3.Distance(node.transform.position, vertices[i].transform.position);
+
+                        if (Distance < OldDistance)
+                        {
+                            OldDistance = Distance;
+                            Node NextNode = vertices[i].GetComponent<Node>();
+                            NextNode.Cost = MainNode.Cost + Distance;
+                            index = i;
+                        }
+                    }
+                    
+                    if(!OpenList.Contains(vertices[index].GetComponent<Node>()))
+                    {
+                        /*
+                        * 조건 1
+                        RaycastHit Hit;
+
+                        if (Physics.Raycast(origin(이전노드), direction(현재노드), out Hit, OldDistance))
+                        {
+                            if (Hit.transform.tag != "Node")
+                            {
+                                // 장애물이 있어 노드 사용불가
+                            }
+                            else
+                            {
+                                // 노드 추가
+                            }
+                        }
+                        */
+
+                        /*
+                         *  조건 2
+                         *  이전 노드의 위치에서 EndPoint의 거리보다 현재 노드에서 EndPoint의 거리가 더 짧을 때
+                         */
+
+                        OpenList.Add(vertices[index].GetComponent<Node>());
+                        vertices[index].GetComponent<Node>();
+
+                        vertices.Remove(vertices[index]);
+
+                    }
+
+                    if (OpenList[OpenList.Count - 1] == EndPoint.GetComponent<Node>())//
+                        break;
+
+                    //bestList[0].GetComponent<Node>().Next;
+                    //bestList[1].GetComponent<Node>();
                 }
             }
         }
