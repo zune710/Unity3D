@@ -132,6 +132,7 @@ public class EnemyController : MonoBehaviour
 
                     obj.transform.position = v;
                     obj.AddComponent<Node>();
+                    obj.tag = "Node";//
 
                     obj.transform.SetParent(parent.transform);
                     obj.AddComponent<MyGizmo>();
@@ -181,9 +182,39 @@ public class EnemyController : MonoBehaviour
                             index = i;
                         }
                     }
-                    
-                    if(!OpenList.Contains(vertices[index].GetComponent<Node>()))
+
+                    float prevDis = Vector3.Distance(node.transform.position, EndPoint.transform.position);//
+                    float curDis = Vector3.Distance(vertices[index].transform.position, EndPoint.transform.position);//
+
+                    if (!OpenList.Contains(vertices[index].GetComponent<Node>()))
                     {
+                        /**/
+                        if (curDis < prevDis)
+                        {
+                            RaycastHit Hit;
+
+                            //Debug.DrawRay(node.transform.position, (vertices[index].transform.position - node.transform.position).normalized, Color.blue, OldDistance);
+                            if (Physics.Raycast(node.transform.position, (vertices[index].transform.position - node.transform.position).normalized, out Hit, OldDistance))
+                            {
+                                if (Hit.transform.tag != "Node")
+                                {
+                                    vertices.Remove(vertices[index]);
+                                    break;
+                                }
+                                else
+                                {
+                                    OpenList.Add(vertices[index].GetComponent<Node>());
+                                    vertices.Remove(vertices[index]);
+                                }
+                            }
+                            else
+                            {
+                                OpenList.Add(vertices[index].GetComponent<Node>());
+                                vertices.Remove(vertices[index]);
+                            }
+                        }
+
+                        
                         /*
                         * 조건 1
                         RaycastHit Hit;
@@ -206,11 +237,13 @@ public class EnemyController : MonoBehaviour
                          *  이전 노드의 위치에서 EndPoint의 거리보다 현재 노드에서 EndPoint의 거리가 더 짧을 때
                          */
 
+
+                        /*
                         OpenList.Add(vertices[index].GetComponent<Node>());
-                        vertices[index].GetComponent<Node>();
+                        vertices[index].GetComponent<Node>();//?
 
                         vertices.Remove(vertices[index]);
-
+                         */
                     }
 
                     if (OpenList[OpenList.Count - 1] == EndPoint.GetComponent<Node>())//
