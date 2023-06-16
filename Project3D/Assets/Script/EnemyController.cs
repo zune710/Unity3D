@@ -204,17 +204,23 @@ public class EnemyController : MonoBehaviour
                                 else
                                 {
                                     OpenList.Add(vertices[index].GetComponent<Node>());
+                                    node.Next = vertices[index].GetComponent<Node>();
                                     vertices.Remove(vertices[index]);
                                 }
                             }
                             else
                             {
                                 OpenList.Add(vertices[index].GetComponent<Node>());
+                                node.Next = vertices[index].GetComponent<Node>();
                                 vertices.Remove(vertices[index]);
                             }
                         }
+                        else
+                        {
+                            vertices.Remove(vertices[index]);
+                        }
 
-                        
+
                         /*
                         * 조건 1
                         RaycastHit Hit;
@@ -247,7 +253,10 @@ public class EnemyController : MonoBehaviour
                     }
 
                     if (OpenList[OpenList.Count - 1] == EndPoint.GetComponent<Node>())//
+                    {
+                        bestList[0] = OpenList[0].gameObject;//Target
                         break;
+                    }
 
                     //bestList[0].GetComponent<Node>().Next;
                     //bestList[1].GetComponent<Node>();
