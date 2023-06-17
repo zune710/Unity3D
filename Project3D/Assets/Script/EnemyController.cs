@@ -16,7 +16,6 @@ public class EnemyController : MonoBehaviour
     public Node Target = null;
 
     public List<Node> BestList = new List<Node>();
-    public List<Node> Vertices = new List<Node>();
     public List<Node> OpenList = new List<Node>();  // 확인한 노드 저장
     public List<Node> CloseList = new List<Node>();  // 열어본 것, 못 가는 노드 저장
 
@@ -112,6 +111,10 @@ public class EnemyController : MonoBehaviour
                         Vector3 v = matrix[M].MultiplyPoint(element);
 
                         Node node = new Node(v);
+                        //Node node = new Node();
+                        //node.Position = v;
+                        //node.Cost = 0.0f;
+                        //node.Next = null;
 
                         OpenList.Add(node);
 
@@ -139,7 +142,7 @@ public class EnemyController : MonoBehaviour
                     MyGizmo gizmo = StartPoint.AddComponent<MyGizmo>();
                     gizmo.color = Color.red;
 
-                    for (int i = 0; i < BestList.Count; ++i)
+                    for (int i = 1; i < BestList.Count; ++i)
                     {
                         GameObject Object = new GameObject("node");
                         Object.transform.position = BestList[i].Position;
@@ -319,7 +322,7 @@ public class EnemyController : MonoBehaviour
                 }
             }
             
-            if (!bestNodes.Contains(OpenList[index]))
+            if (!bestNodes.Contains(compare))
             {
                 #region 조건
                 /*
@@ -346,7 +349,7 @@ public class EnemyController : MonoBehaviour
                 #endregion
 
                 Node OldNode = bestNodes[bestNodes.Count - 1];
-                Node CurrentNode = OpenList[index];
+                Node CurrentNode = compare;
 
                 RaycastHit Hit;
 
@@ -366,7 +369,7 @@ public class EnemyController : MonoBehaviour
                 if (Vector3.Distance(EndNode.Position, CurrentNode.Position) < Vector3.Distance(EndNode.Position, OldNode.Position))
                 {
                     OpenList.Remove(CurrentNode);
-                    BestList.Add(CurrentNode);
+                    bestNodes.Add(CurrentNode);  // ?
                 }
                 else
                     break;
@@ -380,6 +383,8 @@ public class EnemyController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        ////move = false;
+        //
         //if (Target)
         //{
         //    if (Target.transform.name == other.transform.name)

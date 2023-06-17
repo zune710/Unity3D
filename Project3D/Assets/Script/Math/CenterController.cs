@@ -43,9 +43,9 @@ public class CenterController : MonoBehaviour
 
         Vector3 Movement = new Vector3(hor, Mathf.Sin(Angle * Mathf.Deg2Rad) * 5.0f, ver) * 5.0f * Time.deltaTime;
 
-        transform.Translate(Movement);
+        //transform.Translate(Movement);
 
-        transform.position = Movement;
+        transform.position += Movement;
 
         /* // 6/9
         float hor = Input.GetAxis("Horizontal");
