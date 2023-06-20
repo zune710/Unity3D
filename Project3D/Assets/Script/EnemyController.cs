@@ -181,6 +181,7 @@ public class EnemyController : MonoBehaviour
             }
         }
          */
+
     }
 
     private void FixedUpdate()
@@ -301,6 +302,8 @@ public class EnemyController : MonoBehaviour
 
         Node compare = StartNode;
 
+        CloseList.Clear();
+
         while (OpenList.Count != 0)
         {
             ++Count;
@@ -370,13 +373,31 @@ public class EnemyController : MonoBehaviour
                 {
                     OpenList.Remove(CurrentNode);
                     bestNodes.Add(CurrentNode);
+
+                    CloseList.Clear();
                 }
                 else
-                    break;
+                {
+                    if (Physics.Raycast(OldNode.Position, EndNode.Position, out Hit, Vector3.Distance(EndNode.Position, OldNode.Position)))
+                    {
+                        if (Hit.transform.tag != "Node")
+                        {
+                            OpenList.Remove(CurrentNode);
+                            bestNodes.Add(CurrentNode);
+
+                            CloseList.Clear();
+                        }
+                        else
+                            break;
+                    }
+                    else
+                        break;
+                }
             }
         }
 
-        bestNodes.Add(EndNode);
+        if (!bestNodes.Contains(EndNode))
+            bestNodes.Add(EndNode);
 
         return bestNodes;
     }
@@ -384,8 +405,8 @@ public class EnemyController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         ////move = false;
-        //
-        //if (Target)
+
+        //if (Target != null)
         //{
         //    if (Target.transform.name == other.transform.name)
         //    {
