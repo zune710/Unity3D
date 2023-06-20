@@ -313,7 +313,10 @@ public class EnemyController : MonoBehaviour
 
             for (int i = 0; i < OpenList.Count; ++i)
             {
-                float Distance = Vector3.Distance(compare.Position, OpenList[i].Position);
+                if (CloseList.Contains(OpenList[i]))
+                    continue;
+                
+                float Distance = Vector3.Distance(bestNodes[bestNodes.Count - 1].Position, OpenList[i].Position);
 
                 if (Distance < OldDistance)
                 {
@@ -358,18 +361,15 @@ public class EnemyController : MonoBehaviour
                 {
                     if (Hit.transform.tag != "Node")
                     {
-
-                    }
-                    else
-                    {
-
+                        CloseList.Add(CurrentNode);
+                        continue;
                     }
                 }
 
                 if (Vector3.Distance(EndNode.Position, CurrentNode.Position) < Vector3.Distance(EndNode.Position, OldNode.Position))
                 {
                     OpenList.Remove(CurrentNode);
-                    bestNodes.Add(CurrentNode);  // ?
+                    bestNodes.Add(CurrentNode);
                 }
                 else
                     break;
