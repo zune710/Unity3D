@@ -1,0 +1,473 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 8.1  (6.3.0) 64bit Core' Language: 'ko' Physical Memory: 16321 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity 2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/user/Desktop/Unity3D/Project3D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50493
+Successfully changed project path to: C:/Users/user/Desktop/Unity3D/Project3D
+C:/Users/user/Desktop/Unity3D/Project3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10880] Host "[IP] 125.135.60.21 [Port] 0 [Flags] 2 [Guid] 2843058945 [EditorId] 2843058945 [Version] 1048832 [Id] WindowsEditor(7,user01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10880] Host "[IP] 125.135.60.21 [Port] 0 [Flags] 2 [Guid] 2843058945 [EditorId] 2843058945 [Version] 1048832 [Id] WindowsEditor(7,user01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 73.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity 2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/Unity3D/Project3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     1928 MB
+    Driver:   26.21.14.4166
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity 2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity 2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity 2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity 2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity 2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005080 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 66.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.749 seconds
+Domain Reload Profiling:
+	ReloadAssembly (749ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (514ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016562 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (858ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2935 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (56.7 KB). Loaded Objects now: 3418.
+Memory consumption went from 115.6 MB to 115.5 MB.
+Total: 3.350364 ms (FindLiveObjects: 0.342514 ms CreateObjectMapping: 0.300580 ms MarkObjects: 2.608445 ms  DeleteObjects: 0.097652 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1815.601662 seconds.
+  path: Assets/Visual Design Cafe
+  artifactKey: Guid(cf83624458aac5b4fbc397bef81289e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe using Guid(cf83624458aac5b4fbc397bef81289e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c452a227baa2f088af4ce1792b297c') in 0.010589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Visual Design Cafe/Package Manager
+  artifactKey: Guid(9278ae6845409184d827d4d5574f8deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Package Manager using Guid(9278ae6845409184d827d4d5574f8deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0259fb26e9a26eb25fd021be56dbc10e') in 0.005861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Visual Design Cafe/Packages
+  artifactKey: Guid(d42d5d0eadc58ea45b073c166e81169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Packages using Guid(d42d5d0eadc58ea45b073c166e81169b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89afb98e051917914ea8d8c9266c6233') in 0.004465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Design Cafe/Packages/com.vdc.nature-renderer.vsp.asset
+  artifactKey: Guid(6545948d8529d074cbba1b899c416502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Packages/com.vdc.nature-renderer.vsp.asset using Guid(6545948d8529d074cbba1b899c416502) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
+You must inherit from Editor. See the Editor class script documentation.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.CustomEditorAttributes:Rebuild ()
+UnityEditor.CustomEditorAttributes:FindCustomEditorTypeByType (System.Type,bool)
+UnityEditor.CustomEditorAttributes:FindCustomEditorType (UnityEngine.Object,bool)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+ -> (artifact id: 'a59ef0c8e95d76d01a68b698df4b7154') in 0.044921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.200035 seconds.
+  path: Assets/Visual Design Cafe/Packages/com.vdc.nature-shaders.embedded-2021.1.2.unitypackage
+  artifactKey: Guid(76ee0be040765004d85bed4318af39e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Packages/com.vdc.nature-shaders.embedded-2021.1.2.unitypackage using Guid(76ee0be040765004d85bed4318af39e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1b0947d47dfb02208b4e8ed359bbe8') in 0.034360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.985743 seconds.
+  path: Assets/Visual Design Cafe/Packages/com.vdc.nature-renderer.vsp-2021.2.1.unitypackage
+  artifactKey: Guid(a42f6618bf7eb05498af30ca73b0d7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Packages/com.vdc.nature-renderer.vsp-2021.2.1.unitypackage using Guid(a42f6618bf7eb05498af30ca73b0d7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fea9e9ae5dd5c8baebcf4fb1e2fdcc') in 0.006558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 277.164290 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer/Nature Renderer.asset
+  artifactKey: Guid(c34b4f167b2c16542b4dd862579bc4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer/Nature Renderer.asset using Guid(c34b4f167b2c16542b4dd862579bc4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7511ce1ac0a163617397b48050f6df29') in 0.008711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.611836 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo
+  artifactKey: Guid(01f28647828287a41a6b066e8cc72c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo using Guid(01f28647828287a41a6b066e8cc72c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a60c202394e9ee3c984afc5f41bd74d') in 0.007100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.794458 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic
+  artifactKey: Guid(627fddf4cc99bd14caaf639409089ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic using Guid(627fddf4cc99bd14caaf639409089ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fb7e35188eff1e7338882afec68906') in 0.011615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063124 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Realistic Demo Terrain.asset
+  artifactKey: Guid(32bf9f2776c7c5442a2c79a4e29482e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Realistic Demo Terrain.asset using Guid(32bf9f2776c7c5442a2c79a4e29482e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e228e9876ed48e9dc5f78387dd3a5ccd') in 0.123315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.298280 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art
+  artifactKey: Guid(cf077654fcbe533468c3162346f348c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art using Guid(cf077654fcbe533468c3162346f348c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d26758139f9971585d1880433aad8fd') in 0.009043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.669313 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees
+  artifactKey: Guid(414e6549b46139f4d9637fb6d623fd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees using Guid(414e6549b46139f4d9637fb6d623fd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65ce09c330601115ba4c0ca89e85f67') in 0.008140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039367 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Conifer.prefab
+  artifactKey: Guid(cce4d8667f2436a479759f07084d8ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Conifer.prefab using Guid(cce4d8667f2436a479759f07084d8ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732915e42b167e6cf306b8c2572d9d7d') in 0.101647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab
+  artifactKey: Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab using Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5165be267159181d52fa19ba10a407bb') in 0.056274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.822367 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets
+  artifactKey: Guid(67b992e9aedb5fd4a91ba2b8aa1c2c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets using Guid(67b992e9aedb5fd4a91ba2b8aa1c2c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690d06fb57481a27aae7f92bebc25b60') in 0.008737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056790 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Bark_Color.tif
+  artifactKey: Guid(877e214aa51fdc743b16177e0438bc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Bark_Color.tif using Guid(877e214aa51fdc743b16177e0438bc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9c3e86a44e7fa7e2c55f06659dc0bc') in 0.022844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Normal.tif
+  artifactKey: Guid(9dd60826ca5058b44a81ab706c7fb267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Normal.tif using Guid(9dd60826ca5058b44a81ab706c7fb267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5057e9e208e70e269f9aa5d4f655173c') in 0.022972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Subsurface.png
+  artifactKey: Guid(69b720bc483f66243adc0e2c777cb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Subsurface.png using Guid(69b720bc483f66243adc0e2c777cb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02033e74cac3fdf954b44b5999734ad2') in 0.024873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Bark.mat
+  artifactKey: Guid(b3b1064828dfaa1478b9eb16c4dd51b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Bark.mat using Guid(b3b1064828dfaa1478b9eb16c4dd51b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d342f85d2810a2d1ef3068ad0fdde1') in 0.109257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Extra.png
+  artifactKey: Guid(21b32960189125946817a5a98817c4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Extra.png using Guid(21b32960189125946817a5a98817c4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad3d209429198601cf4405936c1897c') in 0.016491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Confier_Bark_Color.png
+  artifactKey: Guid(1a963b442f079054d97b6543dd119481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Confier_Bark_Color.png using Guid(1a963b442f079054d97b6543dd119481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c62f02b37c7ba037ccf12930297f15') in 0.016398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Confier_Bark_Normal.png
+  artifactKey: Guid(fb3aa4ad87ec1994494e3665cbdcdfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Confier_Bark_Normal.png using Guid(fb3aa4ad87ec1994494e3665cbdcdfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2018e15d04b55be43f282505b5621076') in 0.014649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Normal.png
+  artifactKey: Guid(7b24d7997f7027e47b59fb9f777457d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Normal.png using Guid(7b24d7997f7027e47b59fb9f777457d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fff6cb2a932ca2af7aee3d504e2f587') in 0.016227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress.fbx
+  artifactKey: Guid(edae4aeba61861a448b96cc6df69c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress.fbx using Guid(edae4aeba61861a448b96cc6df69c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40c94df8089d37362cc509821104f5c') in 0.096382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Subsurface.png
+  artifactKey: Guid(b3110108144cfd04bb60590ac93e60d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Subsurface.png using Guid(b3110108144cfd04bb60590ac93e60d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebfd94be346a3fa4dfa255e5b797e1c') in 0.016480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Billboard_Color.tif
+  artifactKey: Guid(9db7c8b514cd7234e97656d7a26c7b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Billboard_Color.tif using Guid(9db7c8b514cd7234e97656d7a26c7b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f364aff6db0f18c4e8052225273c192b') in 0.018571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Confier_Cap_Extra.png
+  artifactKey: Guid(30acfc55e14e8c14d9803ad97fbe8174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Confier_Cap_Extra.png using Guid(30acfc55e14e8c14d9803ad97fbe8174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac0ff23e47a1f0e09e4fcd688c78e4f') in 0.014571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard.mat
+  artifactKey: Guid(f38129caef3a2854e806254192b46337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard.mat using Guid(f38129caef3a2854e806254192b46337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e81121692683516050d75c51c1c96ca') in 0.024284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Extra.png
+  artifactKey: Guid(edcd0e8c7fd488c4389ffd92c72e9c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Extra.png using Guid(edcd0e8c7fd488c4389ffd92c72e9c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9bd46adc591a5775edb589750b1776') in 0.014505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Billboard.mat
+  artifactKey: Guid(7b3b0bbb41aad8d498346c69e3af75aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Billboard.mat using Guid(7b3b0bbb41aad8d498346c69e3af75aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5149634f345dc1f98c244c17e8ff5ea6') in 0.023663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer.fbx
+  artifactKey: Guid(84780ae5ff5a1ca4985fc4b147cd81a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer.fbx using Guid(84780ae5ff5a1ca4985fc4b147cd81a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0cd0ffb84ce12d066ba3bbe4e5e370') in 0.072881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Color.png
+  artifactKey: Guid(80ec7e07223ddfa46b063d556e2d1d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Color.png using Guid(80ec7e07223ddfa46b063d556e2d1d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62aa87597f0c4b869ee9e7fdb410523a') in 0.017933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop.mat
+  artifactKey: Guid(484d480047172944b92b8f1eff56fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop.mat using Guid(484d480047172944b92b8f1eff56fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfc78490ff891fc25c09930e176c1cb') in 0.026966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Normal.png
+  artifactKey: Guid(e77eeb540c78bfd49a2429003968c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Normal.png using Guid(e77eeb540c78bfd49a2429003968c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f93a519e82f0a08dc0af076758a0691') in 0.017238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Billboard_Subsurface.tif
+  artifactKey: Guid(64847124c71e4524abae0e94169c0405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Billboard_Subsurface.tif using Guid(64847124c71e4524abae0e94169c0405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e800266723761b0bcb7b88202bef2920') in 0.014564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Extra.tif
+  artifactKey: Guid(aebf54decced33f468f69953ea94e151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Extra.tif using Guid(aebf54decced33f468f69953ea94e151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fec40a21f5c9a0870d62b35ac21b332') in 0.024895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Color.tif
+  artifactKey: Guid(cf1ec094e4846ce4a80157b947bff0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Color.tif using Guid(cf1ec094e4846ce4a80157b947bff0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b6e43d0ebe19ccde6fc94042101903') in 0.027993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Confier_Cap_Normal.png
+  artifactKey: Guid(dc3a3aca296e4a54c88f94434651daa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Confier_Cap_Normal.png using Guid(dc3a3aca296e4a54c88f94434651daa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe565498ef89377959f07b56b4371e0b') in 0.024142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Billboard_Extra.tif
+  artifactKey: Guid(dbda5ab6f9a23bd46b831987f6a14c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Billboard_Extra.tif using Guid(dbda5ab6f9a23bd46b831987f6a14c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9106b9df722e4fdc14b981a3a8d2c1f6') in 0.022794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Confier_Cap_Color.png
+  artifactKey: Guid(357c917d325bcf24982efec540bbc87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Confier_Cap_Color.png using Guid(357c917d325bcf24982efec540bbc87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85907dbabc08ed71793e840b642b1d6b') in 0.020338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Billboard_Normal.tif
+  artifactKey: Guid(28bb358aea79dd84b9d2480b3bf62a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Billboard_Normal.tif using Guid(28bb358aea79dd84b9d2480b3bf62a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc1a7b306515d2632b8fad190453d56') in 0.023572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Subsurface.tif
+  artifactKey: Guid(9129b4cd529fd7b45832fb67467c70ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Subsurface.tif using Guid(9129b4cd529fd7b45832fb67467c70ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95d0f343b5e7aa47ccee5ab26c29e99') in 0.022785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Confier_Bark_Extra.png
+  artifactKey: Guid(902e5a797d8e0264e9c9ac00621c406f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Confier_Bark_Extra.png using Guid(902e5a797d8e0264e9c9ac00621c406f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e832457a9c8982f002b8387a56951f10') in 0.012806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Bark_Extra.tif
+  artifactKey: Guid(199f5d792c70f744ba9d046685be46fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Bark_Extra.tif using Guid(199f5d792c70f744ba9d046685be46fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7401de6f9cc325e9c0634a73b96e25f2') in 0.013142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Cap.mat
+  artifactKey: Guid(869de798d1018874785f1dfbb10a01a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Cap.mat using Guid(869de798d1018874785f1dfbb10a01a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09911befbe91beb82fb24c96e2526592') in 0.015059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Color.png
+  artifactKey: Guid(85a29d61543e03447acfbd4eb59ff7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard_Color.png using Guid(85a29d61543e03447acfbd4eb59ff7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcaf41387748701d1dfdaf43ad8f4dff') in 0.016463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Bark_Normal.tif
+  artifactKey: Guid(aa7416f20ee1d4243bdc01b33710f4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Bark_Normal.tif using Guid(aa7416f20ee1d4243bdc01b33710f4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dab094ab3c6f2fd394cf572fdb29c2') in 0.013361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Bark.mat
+  artifactKey: Guid(c27accfbe09d7274ea785a7b4e21a7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Bark.mat using Guid(c27accfbe09d7274ea785a7b4e21a7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4fc8dcf1bffa17614d0a699c1434b4') in 0.016357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Branches.mat
+  artifactKey: Guid(2d8f43f89265fc742ae7f01886320b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Branches.mat using Guid(2d8f43f89265fc742ae7f01886320b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cb035d4a6356830f85e2da99570f03') in 0.024270 seconds 
