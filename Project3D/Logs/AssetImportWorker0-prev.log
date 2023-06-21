@@ -15,7 +15,7 @@ C:/Users/user/Desktop/Unity3D/Project3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59408
+59782
 Successfully changed project path to: C:/Users/user/Desktop/Unity3D/Project3D
 C:/Users/user/Desktop/Unity3D/Project3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/user/Desktop/Unity3D/Project3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17628] Host "[IP] 125.135.60.21 [Port] 0 [Flags] 2 [Guid] 3742244878 [EditorId] 3742244878 [Version] 1048832 [Id] WindowsEditor(7,user01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17948] Host "[IP] 125.135.60.21 [Port] 0 [Flags] 2 [Guid] 2980449545 [EditorId] 2980449545 [Version] 1048832 [Id] WindowsEditor(7,user01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17628] Host "[IP] 125.135.60.21 [Port] 0 [Flags] 2 [Guid] 3742244878 [EditorId] 3742244878 [Version] 1048832 [Id] WindowsEditor(7,user01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17948] Host "[IP] 125.135.60.21 [Port] 0 [Flags] 2 [Guid] 2980449545 [EditorId] 2980449545 [Version] 1048832 [Id] WindowsEditor(7,user01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 77.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity 2021.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -68,18 +68,18 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity 2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity 2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity 2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity 2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity 2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005434 seconds.
+Registered in 0.004816 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 69.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.736 seconds
+- Completed reload, in  0.737 seconds
 Domain Reload Profiling:
 	ReloadAssembly (737ms)
 		BeginReloadAssembly (103ms)
@@ -88,72 +88,72 @@ Domain Reload Profiling:
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (512ms)
+		EndReloadAssembly (515ms)
 			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (124ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (301ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (291ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
+				RefreshPlugins (74ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.027587 seconds.
+Registered in 0.024630 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 72.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.430 seconds
+- Completed reload, in  1.458 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1431ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (1459ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1119ms)
-			LoadAssemblies (144ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1171ms)
+			LoadAssemblies (129ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
+			SetupTypeCache (292ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (467ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (479ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
+				RefreshPlugins (72ms)
 				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2964 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 39 unused Assets / (1.8 MB). Loaded Objects now: 3462.
-Memory consumption went from 132.3 MB to 130.5 MB.
-Total: 4.126886 ms (FindLiveObjects: 0.295594 ms CreateObjectMapping: 0.381223 ms MarkObjects: 3.111073 ms  DeleteObjects: 0.337529 ms)
+Memory consumption went from 132.2 MB to 130.4 MB.
+Total: 3.762378 ms (FindLiveObjects: 0.289730 ms CreateObjectMapping: 0.260991 ms MarkObjects: 2.884099 ms  DeleteObjects: 0.326386 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,10 +167,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 94703.583200 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
+  Time since last request: 95522.095627 seconds.
+  path: Assets/Damaged Road Materials
+  artifactKey: Guid(8babd71b002cb444e9529eb82aa7e7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Damaged Road Materials using Guid(8babd71b002cb444e9529eb82aa7e7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f47ca9afa2c20d6ad719295506aed0') in 0.010026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Damaged Road Materials/Materials
+  artifactKey: Guid(caea08a4ac29b344285a088401c6c27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Damaged Road Materials/Materials using Guid(caea08a4ac29b344285a088401c6c27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a4238d351574ae987078917f230437') in 0.009273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Damaged Road Materials/Materials/Road Dam3 Marked
+  artifactKey: Guid(55bb1eb32fd94b7459b10e44fa4b78ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Damaged Road Materials/Materials/Road Dam3 Marked using Guid(55bb1eb32fd94b7459b10e44fa4b78ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8267fb36e1ade720a6ad2d0012d9cf4a') in 0.004922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Damaged Road Materials/Materials/Road Dam3 Marked/Road Dam3 Marked3 Displacement.mat
+  artifactKey: Guid(62f2694c461ec844b95d3097fd4cd439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Damaged Road Materials/Materials/Road Dam3 Marked/Road Dam3 Marked3 Displacement.mat using Guid(62f2694c461ec844b95d3097fd4cd439) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
 You must inherit from Editor. See the Editor class script documentation.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -182,16 +200,148 @@ UnityEditor.CustomEditorAttributes:FindCustomEditorType (UnityEngine.Object,bool
 UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
 UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
 
- -> (artifact id: 'bb7c65f1161f6061ba6f4f4874ee30b3') in 0.181907 seconds 
+ -> (artifact id: '28ac42ea98a9d6af867ba00ad742d54c') in 0.486251 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.282160 seconds.
-  path: Assets/Pure Poly
-  artifactKey: Guid(7bb3feb928b94914486b4256417f2b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly using Guid(7bb3feb928b94914486b4256417f2b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7398fdc106316ab86237c358bb87520') in 0.004902 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/Damaged Road Materials/Textures
+  artifactKey: Guid(aa6967e3676206c4faa683c41cb1d383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Damaged Road Materials/Textures using Guid(aa6967e3676206c4faa683c41cb1d383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b399b138543997d1e89f350633ba046') in 0.004583 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.117080 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack
-  artifactKey: Guid(66b27ce4f4133f842bb739439cd12299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack using Guid(66b27ce4f4133f842bb739439cd12299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8270587a2847578d54e29fd394f611cc') in 0.004773 seconds 
+  Time since last request: 296.890690 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass
+  artifactKey: Guid(b3a47dd33b99ec34c9c079e038cb3f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass using Guid(b3a47dd33b99ec34c9c079e038cb3f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3ffde676bfbc485801d996e8e32758') in 0.007761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050682 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Detailed Grass 01 - Variant 2.prefab
+  artifactKey: Guid(5203ed3c52a18f54c9f483844d768d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Detailed Grass 01 - Variant 2.prefab using Guid(5203ed3c52a18f54c9f483844d768d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2da5b258e5d277d479cc9a1692e174') in 0.081255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.332730 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Conifer.prefab
+  artifactKey: Guid(cce4d8667f2436a479759f07084d8ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Conifer.prefab using Guid(cce4d8667f2436a479759f07084d8ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189a8e2ca51975aed1c4272ef7b38111') in 0.117298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab
+  artifactKey: Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab using Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c7b56d53374fe45998ef09874b6ce7') in 0.111426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.698129 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/White Flowers 01 - Variant 1.prefab
+  artifactKey: Guid(b06663635cebb894a949841a80904ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/White Flowers 01 - Variant 1.prefab using Guid(b06663635cebb894a949841a80904ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855a2c93d5c5e44f8f81dd02ad096cfe') in 0.065228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.415180 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Flowering Plant 02 - Variant 1.prefab
+  artifactKey: Guid(bc30c949fb71d0642a5b1b237dbd689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Flowering Plant 02 - Variant 1.prefab using Guid(bc30c949fb71d0642a5b1b237dbd689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190a19eb3d33c277cc06cca722d49a68') in 0.030027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Flowering Plant 02 - Variant 2.prefab
+  artifactKey: Guid(2f8939170d456df4c9ad03755e9d51b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Flowering Plant 02 - Variant 2.prefab using Guid(2f8939170d456df4c9ad03755e9d51b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25859e0a4f0669da1a4e6628806f4e26') in 0.032955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 485.336722 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac376d0c37ae5d26106f2da255c4e3b') in 0.160252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.530083 seconds.
+  path: Assets/Abandoned World
+  artifactKey: Guid(2182f5486860de74d8b8b90ea9c37a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World using Guid(2182f5486860de74d8b8b90ea9c37a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6757f66290fa084186888627a028d31') in 0.010246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.642856 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier
+  artifactKey: Guid(3e23c0935c80fab41bfdf3312244f158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier using Guid(3e23c0935c80fab41bfdf3312244f158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad28a5acec323facaaa6c559de641408') in 0.005200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.045799 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Materials
+  artifactKey: Guid(06661b8b1cc9beb4b9166dacaabba3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Materials using Guid(06661b8b1cc9beb4b9166dacaabba3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305b032920d19576cb15c3ef885d5dd7') in 0.009337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097208 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Materials/Metal_Concrete_Barrier.mat
+  artifactKey: Guid(1dbe9939191ae904b89e67c5e8796b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Materials/Metal_Concrete_Barrier.mat using Guid(1dbe9939191ae904b89e67c5e8796b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34efa41b17dd42a076eabc55af3b5062') in 0.292361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Materials/Plane.mat
+  artifactKey: Guid(a2d5f8c6a87b5e640b7c40ed10264f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Materials/Plane.mat using Guid(a2d5f8c6a87b5e640b7c40ed10264f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e2411ff26015ea40e34e7457efbda1') in 0.261540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.295296 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs
+  artifactKey: Guid(0fed4e10acde12c4e978a298ebfbe888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs using Guid(0fed4e10acde12c4e978a298ebfbe888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f0832adf38f0cf3d105c660ff44940') in 0.005988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062391 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Concrete_Barrier_1.prefab
+  artifactKey: Guid(2a3938a7dc8afd14c8a1c444ed19fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Concrete_Barrier_1.prefab using Guid(2a3938a7dc8afd14c8a1c444ed19fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461e9f8cf83304878a37713a517fbefc') in 0.025237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_1.prefab
+  artifactKey: Guid(28cb5228fee11f14988daebca5ca4033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_1.prefab using Guid(28cb5228fee11f14988daebca5ca4033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e7b296d4a2732b348fc30dd02cd1f2') in 0.036010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Concrete_Barrier_3.prefab
+  artifactKey: Guid(4ddde72b89e9a1e42b5de002b4331b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Concrete_Barrier_3.prefab using Guid(4ddde72b89e9a1e42b5de002b4331b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ac0b16908143d1f935edbad94b076f') in 0.036676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_2.prefab
+  artifactKey: Guid(1c93703266ee7b84e9f5daf4a3174bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_2.prefab using Guid(1c93703266ee7b84e9f5daf4a3174bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52e122d3c8dc2cdf4bf74cd600244cb') in 0.036700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Concrete_Barrier_2.prefab
+  artifactKey: Guid(e77171f537338bd488a1df129c32e90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Concrete_Barrier_2.prefab using Guid(e77171f537338bd488a1df129c32e90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9470ae91e2f2c3219c009fe2cd3803') in 0.033017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Barrier_1.prefab
+  artifactKey: Guid(e7dd64b494bb6134ca762a9605578415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Barrier_1.prefab using Guid(e7dd64b494bb6134ca762a9605578415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d6564faf8268570ad8eae129b85e5b') in 0.033142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_3.prefab
+  artifactKey: Guid(4cdf8aded82838143909c967bca8ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_3.prefab using Guid(4cdf8aded82838143909c967bca8ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84735a7684af67b6295dd16c3261f2ba') in 0.032496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Barrier_2.prefab
+  artifactKey: Guid(0b6c182872082e840a8ed8a844f78dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Barrier_2.prefab using Guid(0b6c182872082e840a8ed8a844f78dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5a8f6f647468df5b626e8801794c64') in 0.037584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_4.prefab
+  artifactKey: Guid(611b45d4a6009244f9cf19063165967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_4.prefab using Guid(611b45d4a6009244f9cf19063165967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e962512c8b8193a12d7380de051eecf5') in 0.035622 seconds 
