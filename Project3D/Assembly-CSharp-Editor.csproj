@@ -54,26 +54,26 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\Package Manager\VisualDesignCafe.Packages.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Community.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.Editor.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.PackageManager.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Memory.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.Editor.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Events.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.Editor.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Nature.Editor.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Nature.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Web.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.Editor.ShaderX.dll" />
-    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\99.Resource\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Memory.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Web.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Nature.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.Editor.ShaderX.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.Editor.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.Editor.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Community.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.Editor.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.PackageManager.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Packages.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Nature.Editor.dll" />
+    <Analyzer Include="C:\Users\SGA\Desktop\Unity3D\Project3D\Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Events.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\99.Resource\Visual Design Cafe\ShaderX\Editor\TemplateXImporterWrapper.cs" />
-    <Compile Include="Assets\99.Resource\Visual Design Cafe\ShaderX\Editor\ShaderXImporterEditorWrapper.cs" />
-    <Compile Include="Assets\99.Resource\Visual Design Cafe\ShaderX\Editor\ShaderXImporterWrapper.cs" />
+    <Compile Include="Assets\Visual Design Cafe\ShaderX\Editor\TemplateXImporterWrapper.cs" />
+    <Compile Include="Assets\Visual Design Cafe\ShaderX\Editor\ShaderXImporterEditorWrapper.cs" />
+    <Compile Include="Assets\Visual Design Cafe\ShaderX\Editor\ShaderXImporterWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -356,49 +356,49 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Rendering.Nature">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Nature.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Nature.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Packages">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\Package Manager\VisualDesignCafe.Packages.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Packages.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.Events">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Events.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Events.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Rendering.Instancing.Editor">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.Editor.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.ShaderX">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Nature">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Memory">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Memory.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Memory.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.PackageManager">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.PackageManager.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.PackageManager.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.ShaderX.Editor">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.Editor.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Rendering.Instancing">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.Community">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Community.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Community.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.ShaderX">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.Editor.ShaderX.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.Editor.ShaderX.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Rendering.Nature.Editor">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Nature.Editor.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Nature.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Nature.Editor">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.Editor.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VisualDesignCafe.Editor.Web">
-      <HintPath>Assets\99.Resource\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Web.dll</HintPath>
+      <HintPath>Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Web.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
