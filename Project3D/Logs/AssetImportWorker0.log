@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 8.1  (6.3.0) 64bit Core' Language: 'ko' Physical Memory: 16321 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16264 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Program Files\Unity 2021.3.19f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Desktop/Unity3D/Project3D
+C:/Users/SGA/Desktop/Unity3D/Project3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60582
-Successfully changed project path to: C:/Users/user/Desktop/Unity3D/Project3D
-C:/Users/user/Desktop/Unity3D/Project3D
+49976
+Successfully changed project path to: C:/Users/SGA/Desktop/Unity3D/Project3D
+C:/Users/SGA/Desktop/Unity3D/Project3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,113 +47,109 @@ C:/Users/user/Desktop/Unity3D/Project3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2452] Host "[IP] 125.135.60.21 [Port] 0 [Flags] 2 [Guid] 3144089977 [EditorId] 3144089977 [Version] 1048832 [Id] WindowsEditor(7,user01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3900] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 3448611429 [EditorId] 3448611429 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2452] Host "[IP] 125.135.60.21 [Port] 0 [Flags] 2 [Guid] 3144089977 [EditorId] 3144089977 [Version] 1048832 [Id] WindowsEditor(7,user01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3900] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 3448611429 [EditorId] 3448611429 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 84.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
-[Subsystems] Discovering subsystems at path D:/Program Files/Unity 2021.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/Unity3D/Project3D/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/SGA/Desktop/Unity3D/Project3D/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
-    Vendor:   NVIDIA
-    VRAM:     1928 MB
-    Driver:   26.21.14.4166
+    Renderer: Intel(R) HD Graphics 630 (ID=0x5912)
+    Vendor:   Intel
+    VRAM:     8132 MB
+    Driver:   31.0.101.2112
 Initialize mono
-Mono path[0] = 'D:/Program Files/Unity 2021.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/Unity 2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Program Files/Unity 2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files/Unity 2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Program Files/Unity 2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005175 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007146 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 75.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
+- Completed reload, in  0.749 seconds
 Domain Reload Profiling:
-	ReloadAssembly (745ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (750ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (524ms)
-			LoadAssemblies (103ms)
+		EndReloadAssembly (506ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (294ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (266ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
+				RefreshPlugins (74ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.030316 seconds.
+Registered in 0.012290 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.496 seconds
+- Completed reload, in  1.204 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1497ms)
-		BeginReloadAssembly (163ms)
+	ReloadAssembly (1205ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1191ms)
-			LoadAssemblies (144ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (966ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
+			SetupTypeCache (222ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (508ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (424ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (263ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2964 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 39 unused Assets / (1.8 MB). Loaded Objects now: 3465.
-Memory consumption went from 132.9 MB to 131.1 MB.
-Total: 4.111931 ms (FindLiveObjects: 0.351018 ms CreateObjectMapping: 0.268616 ms MarkObjects: 3.095825 ms  DeleteObjects: 0.395592 ms)
+Memory consumption went from 132.7 MB to 130.9 MB.
+Total: 4.017300 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.178300 ms MarkObjects: 3.246000 ms  DeleteObjects: 0.334600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,22 +163,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 98890.883635 seconds.
-  path: Assets/New Folder
-  artifactKey: Guid(ecb658eebc4d4164bb3d252b29531abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(ecb658eebc4d4164bb3d252b29531abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea361e587c75882135fdf9eb0e8615b') in 0.010437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.478066 seconds.
-  path: Assets/Terrain
-  artifactKey: Guid(ecb658eebc4d4164bb3d252b29531abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain using Guid(ecb658eebc4d4164bb3d252b29531abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557d42d35a0d7d190562188e3e378986') in 0.005163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2432.897561 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
+  Time since last request: 1618.926982 seconds.
+  path: Assets/Ulleung Terrain.asset
+  artifactKey: Guid(6859ac945e444134c9c8f936fd354e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ulleung Terrain.asset using Guid(6859ac945e444134c9c8f936fd354e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
 You must inherit from Editor. See the Editor class script documentation.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -194,4 +178,466 @@ UnityEditor.CustomEditorAttributes:FindCustomEditorType (UnityEngine.Object,bool
 UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
 UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
 
- -> (artifact id: 'd99341af5ec20dd0ae67ef0a454a9a82') in 0.211789 seconds 
+ -> (artifact id: 'eadfb134f8845629a55dee5649c5d00b') in 0.140666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db99a0c5779553cfe9197dc11fe47c2e') in 0.150647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.996872 seconds.
+  path: Assets/kawetofe_assets
+  artifactKey: Guid(075393c5dd7c68d4397b0fc3725aaccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kawetofe_assets using Guid(075393c5dd7c68d4397b0fc3725aaccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22951a90746ea3b7c287051c3b17f341') in 0.009457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.098860 seconds.
+  path: Assets/kawetofe_assets/AAARoadBarricades
+  artifactKey: Guid(ad452cd747ccddd4a9ea7ca6f92479fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kawetofe_assets/AAARoadBarricades using Guid(ad452cd747ccddd4a9ea7ca6f92479fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a4979e26edd4eadeb171c90a1d0a4f') in 0.011382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.216015 seconds.
+  path: Assets/kawetofe_assets/AAARoadBarricades/prefabs
+  artifactKey: Guid(b958998ac653e7f4186850c7d02fe7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kawetofe_assets/AAARoadBarricades/prefabs using Guid(b958998ac653e7f4186850c7d02fe7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f82e899a0bc1aeb034544105990935') in 0.011808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.155572 seconds.
+  path: Assets/kawetofe_assets/AAARoadBarricades/prefabs/kw_barrier_police.prefab
+  artifactKey: Guid(defe2fa889bd18f45b30aca5f815485a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kawetofe_assets/AAARoadBarricades/prefabs/kw_barrier_police.prefab using Guid(defe2fa889bd18f45b30aca5f815485a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e5d9a6f93a258b4e7c5cffceaee380') in 0.092282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kawetofe_assets/AAARoadBarricades/prefabs/kw_concretePlane.prefab
+  artifactKey: Guid(4042f284d9f40654f933b695bc7fe2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kawetofe_assets/AAARoadBarricades/prefabs/kw_concretePlane.prefab using Guid(4042f284d9f40654f933b695bc7fe2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63391a4d4af908816b683bf8a9d452eb') in 0.098956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/kawetofe_assets/AAARoadBarricades/prefabs/kw_barrier_striped.prefab
+  artifactKey: Guid(35cba3a52a8a7c44baa038f403ea2be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kawetofe_assets/AAARoadBarricades/prefabs/kw_barrier_striped.prefab using Guid(35cba3a52a8a7c44baa038f403ea2be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84e545c16c8d7d5c57c1e5b47926311') in 0.041718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kawetofe_assets/AAARoadBarricades/prefabs/kw_barriers_cone.prefab
+  artifactKey: Guid(f86e73b6642ff254cac331ce6e5bfb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kawetofe_assets/AAARoadBarricades/prefabs/kw_barriers_cone.prefab using Guid(f86e73b6642ff254cac331ce6e5bfb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442476bdf1150f29f003c3e072231774') in 0.059892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.065646 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Materials
+  artifactKey: Guid(8ebb527547e00834bb38dd05f7664656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Materials using Guid(8ebb527547e00834bb38dd05f7664656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c8a6a4e1e84f5ca7fba43110824370') in 0.012506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.287044 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Ground.mat
+  artifactKey: Guid(2f984dd1b63fbc24abdd916834492e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Ground.mat using Guid(2f984dd1b63fbc24abdd916834492e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c82169961f16634d53b7af9c388dc74') in 0.104646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Standard_Material.mat
+  artifactKey: Guid(0799a1e95665ef14f8fe2cbcd4ba3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Standard_Material.mat using Guid(0799a1e95665ef14f8fe2cbcd4ba3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc5309b05443770a3b72c2f7a319362') in 0.083493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.860065 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs
+  artifactKey: Guid(33d9da17d5975244db32a765fa368621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs using Guid(33d9da17d5975244db32a765fa368621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6e0834fb1e0f2bafeb9188ec0a4cb2') in 0.012824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.150649 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Daffodil_03.prefab
+  artifactKey: Guid(13dd10d6717971d4ea9125d158299b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Daffodil_03.prefab using Guid(13dd10d6717971d4ea9125d158299b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fd09016020acf148f10ac223e0a129') in 0.026636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Forest_Mountain_Moss_01.prefab
+  artifactKey: Guid(512b72c73a22e904d87662ebca8eb1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Forest_Mountain_Moss_01.prefab using Guid(512b72c73a22e904d87662ebca8eb1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2df3c0bce23ba6b0420f467fa7e65ef') in 0.025008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Orange_09.prefab
+  artifactKey: Guid(0ab22827d0f3f0b40a97e9430d684283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Orange_09.prefab using Guid(0ab22827d0f3f0b40a97e9430d684283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e4f03f089203cb527ff00017c7f0c9') in 0.025085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Meadow_07.prefab
+  artifactKey: Guid(cf22a2db10f09a34495e9f83913738c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Meadow_07.prefab using Guid(cf22a2db10f09a34495e9f83913738c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab83011b9c1848cacd77d088c8bf988') in 0.027786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Sunflower_04.prefab
+  artifactKey: Guid(18bb023d75a113f4cb8d1452371f5c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Sunflower_04.prefab using Guid(18bb023d75a113f4cb8d1452371f5c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d2e4cc40a1cfff98ab53f003d86fb7') in 0.041929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Purple_05.prefab
+  artifactKey: Guid(d354c41a99993964baca0254487708d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Purple_05.prefab using Guid(d354c41a99993964baca0254487708d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6494537f0c672088baaf1a0a100b4b') in 0.094149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Moss_Grown_09.prefab
+  artifactKey: Guid(24457fdf8e66c3c49b7599931e0fdcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Moss_Grown_09.prefab using Guid(24457fdf8e66c3c49b7599931e0fdcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3303943732b81dea5082aacb678fcca') in 0.097419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Moss_Grown_11.prefab
+  artifactKey: Guid(a524090786e7ba545bd5ce3d24c9a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Moss_Grown_11.prefab using Guid(a524090786e7ba545bd5ce3d24c9a3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3374b66086e8d0eeaa8db66385003d9') in 0.082492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Pile_Forest_Moss_05.prefab
+  artifactKey: Guid(9a91bc2b0a89c4748a0c5b940bd461a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Pile_Forest_Moss_05.prefab using Guid(9a91bc2b0a89c4748a0c5b940bd461a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533c3440727d452c6206db9325caccf3') in 0.086436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Orange_10.prefab
+  artifactKey: Guid(eae42a57b046b1a42a79ae6319bccca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Orange_10.prefab using Guid(eae42a57b046b1a42a79ae6319bccca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2df11e4027c74f954333ddff80a62ea') in 0.089612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Lake_Ground_04.prefab
+  artifactKey: Guid(66072c42e7f38924f90a2ea3e36cc606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Lake_Ground_04.prefab using Guid(66072c42e7f38924f90a2ea3e36cc606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b358a354b5f04791a67a7f44b75a016b') in 0.059560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Meadow_08.prefab
+  artifactKey: Guid(7baba197ce36c92439b423eabaad3737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Meadow_08.prefab using Guid(7baba197ce36c92439b423eabaad3737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83afa9ba0ca47861ce830534f1795880') in 0.057256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Forest_Mountain_Moss_02.prefab
+  artifactKey: Guid(034023ff02a37fc47aab6bc6c49bf15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Forest_Mountain_Moss_02.prefab using Guid(034023ff02a37fc47aab6bc6c49bf15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7382fb3dc02aa10e99f1afb873883158') in 0.052139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Hyacinth_04.prefab
+  artifactKey: Guid(194e9111af0c33840a49d573f2b26952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Hyacinth_04.prefab using Guid(194e9111af0c33840a49d573f2b26952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16645e31ffbb410901b2dcad78789c0') in 0.046684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Pile_Forest_Moss_10.prefab
+  artifactKey: Guid(c8134dd87be4906419f13922ddc5bf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Pile_Forest_Moss_10.prefab using Guid(c8134dd87be4906419f13922ddc5bf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c50a660f1cfb5363cda079636596e14') in 0.048115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Purple_08.prefab
+  artifactKey: Guid(d3ee913ed32937344b0587e70dc777a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Purple_08.prefab using Guid(d3ee913ed32937344b0587e70dc777a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37c2a8e49d4b6ce60eb0a9f6161d12b') in 0.058784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Meadow_Path_05.prefab
+  artifactKey: Guid(d5b8de414112a004a82d0437b5f7a780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Meadow_Path_05.prefab using Guid(d5b8de414112a004a82d0437b5f7a780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db0ba7b512d34e90cf16c53e33be43d') in 0.034273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.739716 seconds.
+  path: Assets/Abandoned World
+  artifactKey: Guid(2182f5486860de74d8b8b90ea9c37a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World using Guid(2182f5486860de74d8b8b90ea9c37a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d598234ecb424c8c1787f7c0e3b4224') in 0.015430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.018886 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier
+  artifactKey: Guid(3e23c0935c80fab41bfdf3312244f158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier using Guid(3e23c0935c80fab41bfdf3312244f158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7972a266c6b05ae28a841953a448254b') in 0.013380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.438046 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs
+  artifactKey: Guid(0fed4e10acde12c4e978a298ebfbe888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs using Guid(0fed4e10acde12c4e978a298ebfbe888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbffe5288d8264985abda68365506b51') in 0.007196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.157638 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Concrete_Barrier_1.prefab
+  artifactKey: Guid(2a3938a7dc8afd14c8a1c444ed19fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Concrete_Barrier_1.prefab using Guid(2a3938a7dc8afd14c8a1c444ed19fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02481c883be2b43582f322298a811671') in 0.043277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_1.prefab
+  artifactKey: Guid(28cb5228fee11f14988daebca5ca4033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_1.prefab using Guid(28cb5228fee11f14988daebca5ca4033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc49905dbbce6067c6369f4b2175dc7') in 0.085786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Concrete_Barrier_3.prefab
+  artifactKey: Guid(4ddde72b89e9a1e42b5de002b4331b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Concrete_Barrier_3.prefab using Guid(4ddde72b89e9a1e42b5de002b4331b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e06f7f95035f21a08b3df6016287523') in 0.052585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_2.prefab
+  artifactKey: Guid(1c93703266ee7b84e9f5daf4a3174bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_2.prefab using Guid(1c93703266ee7b84e9f5daf4a3174bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5587e609ceb5bcde6d18f2b80347128e') in 0.054528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Concrete_Barrier_2.prefab
+  artifactKey: Guid(e77171f537338bd488a1df129c32e90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Concrete_Barrier_2.prefab using Guid(e77171f537338bd488a1df129c32e90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad22d89d83da0c102c06ded6991faa46') in 0.059515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Barrier_1.prefab
+  artifactKey: Guid(e7dd64b494bb6134ca762a9605578415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Barrier_1.prefab using Guid(e7dd64b494bb6134ca762a9605578415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b529bb5a1104305a442ca55239ae17') in 0.039817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_3.prefab
+  artifactKey: Guid(4cdf8aded82838143909c967bca8ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_3.prefab using Guid(4cdf8aded82838143909c967bca8ea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15011823d7ef9d8040c313d361a8d046') in 0.054879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Barrier_2.prefab
+  artifactKey: Guid(0b6c182872082e840a8ed8a844f78dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Barrier_2.prefab using Guid(0b6c182872082e840a8ed8a844f78dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abe657a2ca5d70d59282e691709c181') in 0.115785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_4.prefab
+  artifactKey: Guid(611b45d4a6009244f9cf19063165967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned World/Metal and Concrete Barrier/Prefabs/Metal_Element_4.prefab using Guid(611b45d4a6009244f9cf19063165967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139c2c25e8e75e12de3084529a358f08') in 0.074128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.794753 seconds.
+  path: Assets/Damaged Road Materials
+  artifactKey: Guid(8babd71b002cb444e9529eb82aa7e7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Damaged Road Materials using Guid(8babd71b002cb444e9529eb82aa7e7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c00f78014839286540e38b0ef22035') in 0.014300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.803853 seconds.
+  path: Assets/Heightmaps
+  artifactKey: Guid(64b3dddc48b983c44b01ab80ac00f1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heightmaps using Guid(64b3dddc48b983c44b01ab80ac00f1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5037434e1333d094fdcbc63b8b1ab7') in 0.012245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.284751 seconds.
+  path: Assets/Pickup
+  artifactKey: Guid(261b307ff151111419942c928de95c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pickup using Guid(261b307ff151111419942c928de95c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085560353a91f2282a6f31c07d3986a5') in 0.011188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 184.023390 seconds.
+  path: Assets/Scenes/Ulleung.unity
+  artifactKey: Guid(c74e0bcaf853afc47932232afa94abdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Ulleung.unity using Guid(c74e0bcaf853afc47932232afa94abdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7d1cec759f0d02e191ff35670ea533') in 0.014737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.242414 seconds.
+  path: Assets/99.Resource
+  artifactKey: Guid(05f7d0edc2474b7499ae851806758982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource using Guid(05f7d0edc2474b7499ae851806758982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49943d812168e7d49fa0681a37325ee1') in 0.018139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.546074 seconds.
+  path: Assets/99.Resource/Visual Design Cafe/Nature Shaders
+  artifactKey: Guid(cfd0ac3633f70164c9721d047f74b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/Visual Design Cafe/Nature Shaders using Guid(cfd0ac3633f70164c9721d047f74b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a79917db7ae74305a3ede4c01e61ef') in 0.030943 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015293 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1195ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (936ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2949 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (1.8 MB). Loaded Objects now: 3512.
+Memory consumption went from 137.4 MB to 135.6 MB.
+Total: 3.684000 ms (FindLiveObjects: 0.224800 ms CreateObjectMapping: 0.118100 ms MarkObjects: 3.011000 ms  DeleteObjects: 0.328900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.231958 seconds.
+  path: Assets/99.Resource/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Conifer.prefab
+  artifactKey: Guid(cce4d8667f2436a479759f07084d8ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Conifer.prefab using Guid(cce4d8667f2436a479759f07084d8ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
+You must inherit from Editor. See the Editor class script documentation.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.CustomEditorAttributes:Rebuild ()
+UnityEditor.CustomEditorAttributes:FindCustomEditorTypeByType (System.Type,bool)
+UnityEditor.CustomEditorAttributes:FindCustomEditorType (UnityEngine.Object,bool)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+Shader error in 'Nature Shaders/Tree Bark': Couldn't open include file 'Assets/Visual Design Cafe/Nature Renderer/Shader Includes/Nature Renderer.templatex'. at line 11465
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _BAKED_MESH_DATA _COLOR_TINT _LIGHTING_QUALITY_HIGH _NORMALMAP _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST _COLOR_HSL _EMISSION _LIGHTING_QUALITY_LOW _SECONDARY_MAPS _SPECULARHIGHLIGHTS_OFF _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _WIND_OFF
+Shader warning in 'Nature Shaders/Tree Bark': Ignoring duplicate keyword line 'multi_compile_instancing __ INSTANCING_ON PROCEDURAL_INSTANCING_ON'
+Shader error in 'Nature Shaders/Tree Bark': Couldn't open include file 'Assets/Visual Design Cafe/Nature Renderer/Shader Includes/Nature Renderer.templatex'. at line 11465
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _BAKED_MESH_DATA _COLOR_TINT _LIGHTING_QUALITY_HIGH _NORMALMAP _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ALPHATEST _COLOR_HSL _EMISSION _LIGHTING_QUALITY_LOW _SECONDARY_MAPS _SPECULARHIGHLIGHTS_OFF _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _WIND_OFF
+Shader warning in 'Nature Shaders/Tree Bark': Ignoring duplicate keyword line 'multi_compile_instancing __ INSTANCING_ON PROCEDURAL_INSTANCING_ON'
+Shader error in 'Nature Shaders/Tree Leaves': Couldn't open include file 'Assets/Visual Design Cafe/Nature Renderer/Shader Includes/Nature Renderer.templatex'. at line 11378
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _ALPHATEST _BAKED_MESH_DATA _COLOR_TINT _LIGHTING_QUALITY_HIGH _NORMALMAP _SPECULARHIGHLIGHTS_OFF _TRANSLUCENCY _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _COLOR_HSL _EMISSION _LIGHTING_QUALITY_LOW _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
+Shader warning in 'Nature Shaders/Tree Leaves': Ignoring duplicate keyword line 'multi_compile_instancing __ INSTANCING_ON PROCEDURAL_INSTANCING_ON'
+Shader warning in 'Nature Shaders/Tree Leaves': '_TRANSLUCENCY': macro redefinition. Previous definition found at :1. at line 8017
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _ALPHATEST _BAKED_MESH_DATA _COLOR_HSL _LIGHTING_QUALITY_HIGH _NORMALMAP _TRANSLUCENCY _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _COLOR_TINT _EMISSION _LIGHTING_QUALITY_LOW _SPECULARHIGHLIGHTS_OFF _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
+Shader error in 'Nature Shaders/Tree Leaves': Couldn't open include file 'Assets/Visual Design Cafe/Nature Renderer/Shader Includes/Nature Renderer.templatex'. at line 11378
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _ALPHATEST _BAKED_MESH_DATA _COLOR_TINT _LIGHTING_QUALITY_HIGH _NORMALMAP _SPECULARHIGHLIGHTS_OFF _TRANSLUCENCY _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _COLOR_HSL _EMISSION _LIGHTING_QUALITY_LOW _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
+Shader warning in 'Nature Shaders/Tree Leaves': Ignoring duplicate keyword line 'multi_compile_instancing __ INSTANCING_ON PROCEDURAL_INSTANCING_ON'
+Shader warning in 'Nature Shaders/Tree Leaves': '_TRANSLUCENCY': macro redefinition. Previous definition found at :1. at line 8017
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _ALPHATEST _BAKED_MESH_DATA _COLOR_HSL _LIGHTING_QUALITY_HIGH _NORMALMAP _TRANSLUCENCY _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _COLOR_TINT _EMISSION _LIGHTING_QUALITY_LOW _SPECULARHIGHLIGHTS_OFF _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
+ -> (artifact id: 'cdb35ebf260a0a37855bdc39cdb1ed6e') in 0.267233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/99.Resource/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab
+  artifactKey: Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/99.Resource/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab using Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Nature Shaders/Tree Leaves': Couldn't open include file 'Assets/Visual Design Cafe/Nature Renderer/Shader Includes/Nature Renderer.templatex'. at line 11378
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _ALPHATEST _BAKED_MESH_DATA _COLOR_TINT _LIGHTING_QUALITY_HIGH _NORMALMAP _SPECULARHIGHLIGHTS_OFF _TRANSLUCENCY _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _COLOR_HSL _EMISSION _LIGHTING_QUALITY_LOW _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
+Shader warning in 'Nature Shaders/Tree Leaves': Ignoring duplicate keyword line 'multi_compile_instancing __ INSTANCING_ON PROCEDURAL_INSTANCING_ON'
+Shader warning in 'Nature Shaders/Tree Leaves': '_TRANSLUCENCY': macro redefinition. Previous definition found at :1. at line 139
+
+Compiling Subshader: 0, Pass: FORWARD, Vertex program with DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH _ALPHATEST _BAKED_MESH_DATA _COLOR_TINT _LIGHTING_QUALITY_HIGH _NORMALMAP _SPECULARHIGHLIGHTS_OFF _TRANSLUCENCY _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING PROCEDURAL_INSTANCING_ON SHADER_API_GLES30 SHADOWS_SCREEN SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING VERTEXLIGHT_ON _COLOR_HSL _EMISSION _LIGHTING_QUALITY_LOW _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
+Shader warning in 'Nature Shaders/Tree Leaves': '_TRANSLUCENCY': macro redefinition. Previous definition found at :1. at line 4103
+
+Compiling Subshader: 0, Pass: FORWARD_DELTA, Vertex program with DIRECTIONAL _ALPHATEST _BAKED_MESH_DATA _COLOR_TINT _LIGHTING_QUALITY_HIGH _NORMALMAP _SPECULARHIGHLIGHTS_OFF _TRANSLUCENCY _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDADD UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRECTIONAL_COOKIE FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_SHADOW_MIXING POINT POINT_COOKIE PROCEDURAL_INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE SHADOWS_DEPTH SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT SPOT UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _COLOR_HSL _EMISSION _LIGHTING_QUALITY_LOW _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
+Shader warning in 'Nature Shaders/Tree Leaves': '_TRANSLUCENCY': macro redefinition. Previous definition found at :1. at line 8017
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _ALPHATEST _BAKED_MESH_DATA _COLOR_HSL _LIGHTING_QUALITY_HIGH _NORMALMAP _TRANSLUCENCY _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _COLOR_TINT _EMISSION _LIGHTING_QUALITY_LOW _SPECULARHIGHLIGHTS_OFF _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
+Shader error in 'Nature Shaders/Tree Leaves': Couldn't open include file 'Assets/Visual Design Cafe/Nature Renderer/Shader Includes/Nature Renderer.templatex'. at line 11378
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _ALPHATEST _BAKED_MESH_DATA _COLOR_TINT _LIGHTING_QUALITY_HIGH _NORMALMAP _SPECULARHIGHLIGHTS_OFF _TRANSLUCENCY _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _COLOR_HSL _EMISSION _LIGHTING_QUALITY_LOW _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
+Shader warning in 'Nature Shaders/Tree Leaves': Ignoring duplicate keyword line 'multi_compile_instancing __ INSTANCING_ON PROCEDURAL_INSTANCING_ON'
+Shader warning in 'Nature Shaders/Tree Leaves': '_TRANSLUCENCY': macro redefinition. Previous definition found at :1. at line 139
+
+Compiling Subshader: 0, Pass: FORWARD, Vertex program with DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH _ALPHATEST _BAKED_MESH_DATA _COLOR_TINT _LIGHTING_QUALITY_HIGH _NORMALMAP _SPECULARHIGHLIGHTS_OFF _TRANSLUCENCY _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING PROCEDURAL_INSTANCING_ON SHADER_API_GLES30 SHADOWS_SCREEN SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING VERTEXLIGHT_ON _COLOR_HSL _EMISSION _LIGHTING_QUALITY_LOW _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
+Shader warning in 'Nature Shaders/Tree Leaves': '_TRANSLUCENCY': macro redefinition. Previous definition found at :1. at line 4103
+
+Compiling Subshader: 0, Pass: FORWARD_DELTA, Vertex program with DIRECTIONAL _ALPHATEST _BAKED_MESH_DATA _COLOR_TINT _LIGHTING_QUALITY_HIGH _NORMALMAP _SPECULARHIGHLIGHTS_OFF _TRANSLUCENCY _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDADD UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRECTIONAL_COOKIE FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_SHADOW_MIXING POINT POINT_COOKIE PROCEDURAL_INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE SHADOWS_DEPTH SHADOWS_SCREEN SHADOWS_SHADOWMASK SHADOWS_SOFT SPOT UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _COLOR_HSL _EMISSION _LIGHTING_QUALITY_LOW _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
+Shader warning in 'Nature Shaders/Tree Leaves': '_TRANSLUCENCY': macro redefinition. Previous definition found at :1. at line 8017
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _ALPHATEST _BAKED_MESH_DATA _COLOR_HSL _LIGHTING_QUALITY_HIGH _NORMALMAP _TRANSLUCENCY _WIND
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _COLOR_TINT _EMISSION _LIGHTING_QUALITY_LOW _SPECULARHIGHLIGHTS_OFF _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
+ -> (artifact id: 'baa9e8151e8835bb72f817336d26f0f9') in 0.157412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.218285 seconds.
+  path: Assets/Heightmaps/UsedMap
+  artifactKey: Guid(e9e0225090d96b5438465f1e848a8441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heightmaps/UsedMap using Guid(e9e0225090d96b5438465f1e848a8441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b675cba16dd2124b4a235a9b1baa409') in 0.017514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.606650 seconds.
+  path: Assets/Heightmaps/Heightmap_6.raw
+  artifactKey: Guid(be112da65b78b494da5184a3e211a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heightmaps/Heightmap_6.raw using Guid(be112da65b78b494da5184a3e211a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fdc12d7572b7f373f7381108832901') in 0.026240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.646492 seconds.
+  path: Assets/Heightmaps/Heightmap_7.raw
+  artifactKey: Guid(62cf6e227ff6a4e4f95e8421a5dc3be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heightmaps/Heightmap_7.raw using Guid(62cf6e227ff6a4e4f95e8421a5dc3be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e229d9ddef7b48b1f25a52aa44f3cfe') in 0.022969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.797653 seconds.
+  path: Assets/Heightmaps/Heightmap_1.raw
+  artifactKey: Guid(c9bfa5bb775f9f2439d531b698075731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heightmaps/Heightmap_1.raw using Guid(c9bfa5bb775f9f2439d531b698075731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c9d4900ca29efb948308e53f750a63') in 0.013934 seconds 
