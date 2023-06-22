@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16264 MB
+OS: 'Windows 8.1  (6.3.0) 64bit Core' Language: 'ko' Physical Memory: 16321 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+D:\Program Files\Unity 2021.3.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/SGA/Desktop/Unity3D/Project3D
+C:/Users/user/Desktop/Unity3D/Project3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50923
-Successfully changed project path to: C:/Users/SGA/Desktop/Unity3D/Project3D
-C:/Users/SGA/Desktop/Unity3D/Project3D
+61861
+Successfully changed project path to: C:/Users/user/Desktop/Unity3D/Project3D
+C:/Users/user/Desktop/Unity3D/Project3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,109 +47,113 @@ C:/Users/SGA/Desktop/Unity3D/Project3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7424] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 112712498 [EditorId] 112712498 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7872] Host "[IP] 125.135.60.21 [Port] 0 [Flags] 2 [Guid] 3229918663 [EditorId] 3229918663 [Version] 1048832 [Id] WindowsEditor(7,user01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7424] Host "[IP] 192.168.0.123 [Port] 0 [Flags] 2 [Guid] 112712498 [EditorId] 112712498 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HQKDT44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7872] Host "[IP] 125.135.60.21 [Port] 0 [Flags] 2 [Guid] 3229918663 [EditorId] 3229918663 [Version] 1048832 [Id] WindowsEditor(7,user01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 78.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/SGA/Desktop/Unity3D/Project3D/Assets
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity 2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/Unity3D/Project3D/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 630 (ID=0x5912)
-    Vendor:   Intel
-    VRAM:     8132 MB
-    Driver:   31.0.101.2112
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     1928 MB
+    Driver:   26.21.14.4166
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Mono path[0] = 'D:/Program Files/Unity 2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity 2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity 2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007064 seconds.
+Register platform support module: D:/Program Files/Unity 2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity 2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004712 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.23 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
+- Completed reload, in  0.723 seconds
 Domain Reload Profiling:
-	ReloadAssembly (668ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (724ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (468ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (504ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (111ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (270ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (284ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (133ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013914 seconds.
+Registered in 0.024907 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.85 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
+- Completed reload, in  1.466 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1277ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1467ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1005ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1176ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
+			SetupTypeCache (296ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (450ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (496ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2968 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (1.8 MB). Loaded Objects now: 3472.
-Memory consumption went from 134.1 MB to 132.3 MB.
-Total: 3.701600 ms (FindLiveObjects: 0.234500 ms CreateObjectMapping: 0.164500 ms MarkObjects: 2.985400 ms  DeleteObjects: 0.316400 ms)
+Unloading 39 unused Assets / (1.8 MB). Loaded Objects now: 3477.
+Memory consumption went from 134.6 MB to 132.8 MB.
+Total: 3.855338 ms (FindLiveObjects: 0.423158 ms CreateObjectMapping: 0.316122 ms MarkObjects: 2.755070 ms  DeleteObjects: 0.359523 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,22 +167,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10865.205316 seconds.
-  path: Assets/Visual Design Cafe/ShaderX/Templates
-  artifactKey: Guid(f051915cc7469b6439897f9ccd9e4f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/ShaderX/Templates using Guid(f051915cc7469b6439897f9ccd9e4f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4728793246477898287060555ff494') in 0.012794 seconds 
+  Time since last request: 177981.486299 seconds.
+  path: Assets/Scenes/Map.unity
+  artifactKey: Guid(ead531b20f7785a4494ba9861a4b9ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map.unity using Guid(ead531b20f7785a4494ba9861a4b9ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd5f709e8b4284b68261fedfd01b867') in 0.010042 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Visual Design Cafe/ShaderX
-  artifactKey: Guid(dc18eece4d9054c40b299ba6ca4c9021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/ShaderX using Guid(dc18eece4d9054c40b299ba6ca4c9021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ac84621a32806d061e14f2534d5f65') in 0.020448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Visual Design Cafe/ShaderX/ShaderX.asset
-  artifactKey: Guid(34c6b4122e4750041ac42641b9e049de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/ShaderX/ShaderX.asset using Guid(34c6b4122e4750041ac42641b9e049de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
+  Time since last request: 122.581693 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(5d159b88a90cf754b9cf034459124491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(5d159b88a90cf754b9cf034459124491) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
 You must inherit from Editor. See the Editor class script documentation.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
@@ -190,205 +188,43 @@ UnityEditor.CustomEditorAttributes:FindCustomEditorType (UnityEngine.Object,bool
 UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
 UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
 
- -> (artifact id: 'c17b7a260221d04b1382b1932354b15f') in 0.039716 seconds 
+ -> (artifact id: '4789e7a640cd8ba4d5220779c8f6ec4f') in 0.041754 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.434263 seconds.
-  path: Assets/Visual Design Cafe/ShaderX/Templates/Lit
-  artifactKey: Guid(444bfcc806bc8f945a8e2a7385c8d45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/ShaderX/Templates/Lit using Guid(444bfcc806bc8f945a8e2a7385c8d45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d106c479d7ebf226e9591d9c1300e3') in 0.010219 seconds 
+  Time since last request: 24.769121 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(5d159b88a90cf754b9cf034459124491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(5d159b88a90cf754b9cf034459124491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e4bc79559a828a4a894d0701a4a899') in 0.010804 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.191058 seconds.
-  path: Assets/Visual Design Cafe/ShaderX/Plugins
-  artifactKey: Guid(e4022b664d1b16848a085167b05be695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/ShaderX/Plugins using Guid(e4022b664d1b16848a085167b05be695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9242d0158d2d554680cd453df2c8c2e0') in 0.010943 seconds 
+  Time since last request: 21.496166 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(288280b4be11b34479081ab29ad95a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(288280b4be11b34479081ab29ad95a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1127e315530b34f68c953ff4b541e4') in 0.011176 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.748146 seconds.
-  path: Assets/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.ShaderX.dll
-  artifactKey: Guid(536460d3aedee184b8f956031c70c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.ShaderX.dll using Guid(536460d3aedee184b8f956031c70c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5af735b0db4baba89e8530388fe1439') in 0.017297 seconds 
+  Time since last request: 19.402155 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(deffc9cd5b44fa145828d882df761998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(deffc9cd5b44fa145828d882df761998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2385b608c4ffe94b18b9046c3cd8db') in 0.012259 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.316632 seconds.
-  path: Assets/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.Editor.ShaderX.dll
-  artifactKey: Guid(45eee98f04c0f2449a40216c0ee9fd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.Editor.ShaderX.dll using Guid(45eee98f04c0f2449a40216c0ee9fd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2cddacb70adda38e696aa872225c13') in 0.009628 seconds 
+  Time since last request: 36.769810 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(deffc9cd5b44fa145828d882df761998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 2.asset using Guid(deffc9cd5b44fa145828d882df761998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2befacc0bc8ff14cf3df533d8d0852') in 0.126033 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.316528 seconds.
-  path: Assets/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.ShaderX.Editor.dll
-  artifactKey: Guid(da3a78c44cb604b4397d2fe6c9dfa81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/ShaderX/Plugins/VisualDesignCafe.ShaderX.Editor.dll using Guid(da3a78c44cb604b4397d2fe6c9dfa81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82e997401a7278eb7e0b10e12a366f6') in 0.009577 seconds 
+  Time since last request: 90.051892 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(5d159b88a90cf754b9cf034459124491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(5d159b88a90cf754b9cf034459124491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746489e454e0e8692122d38250266805') in 0.125283 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.306583 seconds.
-  path: Assets/Visual Design Cafe/ShaderX/Editor
-  artifactKey: Guid(586b889e1ff35534cb4f8b3d1acbbc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/ShaderX/Editor using Guid(586b889e1ff35534cb4f8b3d1acbbc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4189f601d4280fa143a84a10e8509994') in 0.012260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.630568 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer/Editor Resources
-  artifactKey: Guid(b1799629d99d2f243b4331509dc9302f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer/Editor Resources using Guid(b1799629d99d2f243b4331509dc9302f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11f6c683480ab8c3e8827bcb07cbf28') in 0.010144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.992366 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer/Runtime
-  artifactKey: Guid(d371ce81c4051f644afc676ebc3df96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer/Runtime using Guid(d371ce81c4051f644afc676ebc3df96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1fb6270b2b7207f333a0d00dea7fae') in 0.010188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.632707 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings
-  artifactKey: Guid(e23855edcba4bb3429f115f27df13683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings using Guid(e23855edcba4bb3429f115f27df13683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844b2ae8337a7dfd1ac19fd758789928') in 0.010031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.173966 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/HD SKy.exr
-  artifactKey: Guid(d6d70b7a93682a24880b2d8e3d31fc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/HD SKy.exr using Guid(d6d70b7a93682a24880b2d8e3d31fc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5223a338ac11c9d32c6894fcf4a48a') in 0.101900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/HD Volume.asset
-  artifactKey: Guid(f6934de0d170cec478cde8cb426622b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/HD Volume.asset using Guid(f6934de0d170cec478cde8cb426622b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e647a8627034a423075a708bbc453811') in 0.022020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Universal Volume.asset
-  artifactKey: Guid(f50527bf03fa799438ab20dbf73b1fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Universal Volume.asset using Guid(f50527bf03fa799438ab20dbf73b1fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89cacf7f72264d7d08888829eab2e80') in 0.010099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/HD Terrain.mat
-  artifactKey: Guid(2245a35b69b0fbe4196efe99da6082bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/HD Terrain.mat using Guid(2245a35b69b0fbe4196efe99da6082bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f129f75df57efbed8688a3bad802ad64') in 0.098795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Volume.png
-  artifactKey: Guid(1ed6b65722aa6f94a9d9ccab53efe0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Volume.png using Guid(1ed6b65722aa6f94a9d9ccab53efe0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97323dc1fc36853edb33b783789bcda') in 0.050084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Standard Terrain.mat
-  artifactKey: Guid(d6532a2578c89a148b94c3acd647ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Standard Terrain.mat using Guid(d6532a2578c89a148b94c3acd647ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4233e8ea02745b6aa44e65df2e60711') in 0.031428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Standard Sky.mat
-  artifactKey: Guid(ba6cba86ccdbfc6458bb72e48df46552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Standard Sky.mat using Guid(ba6cba86ccdbfc6458bb72e48df46552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5834606c884b285f42869c1415f7c1c2') in 0.129239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Universal Sky.mat
-  artifactKey: Guid(4eaec2a2266e50b4d865fafeaa7f6141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Universal Sky.mat using Guid(4eaec2a2266e50b4d865fafeaa7f6141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50818c524e83ac9139672e6674e8223') in 0.040377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Universal Terrain.mat
-  artifactKey: Guid(0e7aa49ac539c95448c6a361a634e133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Universal Terrain.mat using Guid(0e7aa49ac539c95448c6a361a634e133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fd043ddd81af55848d5b86a38dbfd7') in 0.030991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/VolumeProfileAsset.png
-  artifactKey: Guid(fd8ca9ee43755d643b29edaa585b054d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/VolumeProfileAsset.png using Guid(fd8ca9ee43755d643b29edaa585b054d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396c67bb2c64b08a572b3dff373baa19') in 0.046543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.298298 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Realistic Demo.lighting
-  artifactKey: Guid(16ef94da8d70d984680b74163366bf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Realistic Demo.lighting using Guid(16ef94da8d70d984680b74163366bf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10caf36366462e9a3c4087c871bc25a') in 0.013168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.490537 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline
-  artifactKey: Guid(a75ec6773c46fb742ae069205f9aa25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline using Guid(a75ec6773c46fb742ae069205f9aa25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c24a671df54ebe26ea4f0ae5631d98f') in 0.012051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.177670 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Camera Gizmo HD.mat
-  artifactKey: Guid(272c68470e4b1314097d5d652e02350b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Camera Gizmo HD.mat using Guid(272c68470e4b1314097d5d652e02350b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c3d24e2df677763b50fa97e83f8d08') in 0.023416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Timeline.playable
-  artifactKey: Guid(3fef572d4e2edad4284c189b015e67f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Timeline.playable using Guid(3fef572d4e2edad4284c189b015e67f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d8190fdefbe9ae5b0463be638c6b92') in 0.028196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Text.prefab
-  artifactKey: Guid(cde78147571be4f4bbb5fd4666a26af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Text.prefab using Guid(cde78147571be4f4bbb5fd4666a26af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078cf3f6a56ed63cb5962f0a3dca4a04') in 0.033730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Camera Gizmo URP.mat
-  artifactKey: Guid(5a6c29789c8807d499039619319289bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Camera Gizmo URP.mat using Guid(5a6c29789c8807d499039619319289bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549152b75b692da7b31fa7f2716683e2') in 0.060624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Timeline.prefab
-  artifactKey: Guid(17896e9e47bbf1748bf52facb83a48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Timeline.prefab using Guid(17896e9e47bbf1748bf52facb83a48d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c45c556c1f5699f6d8be005ba4a70ac') in 0.018272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Line HD.mat
-  artifactKey: Guid(866ca5f7b2303c049b630cb2e1003c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Line HD.mat using Guid(866ca5f7b2303c049b630cb2e1003c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9365265c24199e6bc91a748e1e982cd9') in 0.038156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Line URP.mat
-  artifactKey: Guid(90462939b4a17f643b8f3627da48d477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Line URP.mat using Guid(90462939b4a17f643b8f3627da48d477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6cf0cba27807bc6c03093d2e4d6f5e') in 0.023774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Camera Gizmo.mat
-  artifactKey: Guid(3f90e092079cb3d4ca36fbbea6236408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Camera Gizmo.mat using Guid(3f90e092079cb3d4ca36fbbea6236408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45f158d04e04433a53f932e51435ba8') in 0.116106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Gradient.png
-  artifactKey: Guid(1fbe8650c6acc5b4fb89444a5f63e6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Gradient.png using Guid(1fbe8650c6acc5b4fb89444a5f63e6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28f0783e8a31a8e3de0bbdcff693a20') in 0.060807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Line.mat
-  artifactKey: Guid(9e81fd98f36fa6546960343c4a1d9ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Line.mat using Guid(9e81fd98f36fa6546960343c4a1d9ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07143349cb5f9638dcb6c38854eadb7') in 0.025801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Dummy.renderTexture
-  artifactKey: Guid(f31e202e96b4e874eaf85e81e754882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Timeline/Dummy.renderTexture using Guid(f31e202e96b4e874eaf85e81e754882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb5a6df5bfb13bfe54a8f4fb2c0c71d') in 0.043140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.288581 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer.fbx
-  artifactKey: Guid(84780ae5ff5a1ca4985fc4b147cd81a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer.fbx using Guid(84780ae5ff5a1ca4985fc4b147cd81a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Nature Shaders/Tree Bark': Couldn't open include file 'Assets/Visual Design Cafe/Nature Renderer/Shader Includes/Nature Renderer.templatex'. at line 11465
+  Time since last request: 2558.338741 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Conifer.prefab
+  artifactKey: Guid(cce4d8667f2436a479759f07084d8ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Conifer.prefab using Guid(cce4d8667f2436a479759f07084d8ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Nature Shaders/Tree Bark': Couldn't open include file 'Assets/Visual Design Cafe/Nature Renderer/Shader Includes/Nature Renderer.templatex'. at line 11465
 
 Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _BAKED_MESH_DATA _COLOR_TINT _LIGHTING_QUALITY_HIGH _NORMALMAP _WIND
 Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
@@ -432,19 +268,13 @@ Shader warning in 'Nature Shaders/Tree Leaves': '_TRANSLUCENCY': macro redefinit
 Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON SHADOWS_DEPTH _ALPHATEST _BAKED_MESH_DATA _COLOR_HSL _LIGHTING_QUALITY_HIGH _NORMALMAP _TRANSLUCENCY _WIND
 Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
 Disabled keywords: PROCEDURAL_INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _COLOR_TINT _EMISSION _LIGHTING_QUALITY_LOW _SPECULARHIGHLIGHTS_OFF _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
- -> (artifact id: '94611d5af29e8ae1ab155dffb2e774ac') in 1.547502 seconds 
+ -> (artifact id: '92ddde3fdd61e25f01090758735db0a1') in 0.344272 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Bark.mat
-  artifactKey: Guid(b3b1064828dfaa1478b9eb16c4dd51b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Bark.mat using Guid(b3b1064828dfaa1478b9eb16c4dd51b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b580638d48c1ba34c70a85b80241d9c') in 0.049007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress.fbx
-  artifactKey: Guid(edae4aeba61861a448b96cc6df69c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress.fbx using Guid(edae4aeba61861a448b96cc6df69c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Nature Shaders/Tree Leaves': Couldn't open include file 'Assets/Visual Design Cafe/Nature Renderer/Shader Includes/Nature Renderer.templatex'. at line 11378
+  Time since last request: 0.000116 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab
+  artifactKey: Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Cypress.prefab using Guid(5f935f8fac3d57e47bf64ce987cf46a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Nature Shaders/Tree Leaves': Couldn't open include file 'Assets/Visual Design Cafe/Nature Renderer/Shader Includes/Nature Renderer.templatex'. at line 11378
 
 Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _ALPHATEST _BAKED_MESH_DATA _COLOR_TINT _LIGHTING_QUALITY_HIGH _NORMALMAP _SPECULARHIGHLIGHTS_OFF _TRANSLUCENCY _WIND
 Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
@@ -486,758 +316,82 @@ Shader warning in 'Nature Shaders/Tree Leaves': '_TRANSLUCENCY': macro redefinit
 Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with INSTANCING_ON SHADOWS_DEPTH _ALPHATEST _BAKED_MESH_DATA _COLOR_HSL _LIGHTING_QUALITY_HIGH _NORMALMAP _TRANSLUCENCY _WIND
 Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
 Disabled keywords: PROCEDURAL_INSTANCING_ON SHADER_API_GLES30 SHADOWS_CUBE UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _COLOR_TINT _EMISSION _LIGHTING_QUALITY_LOW _SPECULARHIGHLIGHTS_OFF _SURFACE_MAP_METALLIC_GLOSS _SURFACE_MAP_OFF _SURFACE_MAP_PACKED _TRANSLUCENCY_MAP _WIND_OFF
- -> (artifact id: 'df71b96bcb8fbb428d1738326f22ac12') in 1.113528 seconds 
+ -> (artifact id: '92324cb4b55c7443fe6ce561983e4b5b') in 0.080707 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard.mat
-  artifactKey: Guid(f38129caef3a2854e806254192b46337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Billboard.mat using Guid(f38129caef3a2854e806254192b46337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31dffbe716e5b26052c0898b3b29aa8') in 0.050941 seconds 
+  Time since last request: 16.304623 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Detailed Grass 01 - Variant 2.prefab
+  artifactKey: Guid(5203ed3c52a18f54c9f483844d768d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Detailed Grass 01 - Variant 2.prefab using Guid(5203ed3c52a18f54c9f483844d768d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02175589e28bd5afd129e36eae8238a2') in 0.058137 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Billboard.mat
-  artifactKey: Guid(7b3b0bbb41aad8d498346c69e3af75aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop_Billboard.mat using Guid(7b3b0bbb41aad8d498346c69e3af75aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013289b8bba8002a229ef9f0ee484096') in 0.053246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop.mat
-  artifactKey: Guid(484d480047172944b92b8f1eff56fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Cypress_Forest_Desktop.mat using Guid(484d480047172944b92b8f1eff56fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f874a5d0d3ade3aa25477c7a1e6b13') in 0.029536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Cap.mat
-  artifactKey: Guid(869de798d1018874785f1dfbb10a01a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Cap.mat using Guid(869de798d1018874785f1dfbb10a01a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ba5c41f53f3d9d02ac70201e3c3f38') in 0.036027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Bark.mat
-  artifactKey: Guid(c27accfbe09d7274ea785a7b4e21a7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Bark.mat using Guid(c27accfbe09d7274ea785a7b4e21a7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc4633520d3f7f07f63c46f9213ad62') in 0.026203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Branches.mat
-  artifactKey: Guid(2d8f43f89265fc742ae7f01886320b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Trees/Source Assets/Conifer_Branches.mat using Guid(2d8f43f89265fc742ae7f01886320b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6fe153f3a592c206926cfb952b016e') in 0.038651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.924533 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5096c08626611b6aa13ad88e654de6') in 0.178410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.627735 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b87314a02f94c137605695800daf75f') in 0.161710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 123.226989 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7bc5c70fd022a60d8aaecaa463afee') in 0.161443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.791489 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acebc741ec53022cbb2f3922dac56cb') in 0.188601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 162.460329 seconds.
-  path: Assets/Tree.prefab
-  artifactKey: Guid(c06607876c1323f4cae2c151754e55c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree.prefab using Guid(c06607876c1323f4cae2c151754e55c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9a7de81334716f38ed5fb6d4869e11') in 0.861424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 97.459760 seconds.
-  path: Assets/Tree.prefab
-  artifactKey: Guid(c06607876c1323f4cae2c151754e55c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree.prefab using Guid(c06607876c1323f4cae2c151754e55c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b260efd568e858777feb4d04d210f15') in 0.137437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.723254 seconds.
-  path: Assets/Tree_Textures
-  artifactKey: Guid(323e633b7c02dfb45a927ae164c5bec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures using Guid(323e633b7c02dfb45a927ae164c5bec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48932508f2d736aa2cc28c856e1687f5') in 0.011704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.984873 seconds.
-  path: Assets/Tree_Textures/diffuse.png
-  artifactKey: Guid(ee9773ef9a482ba4a8243836f5d97850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/diffuse.png using Guid(ee9773ef9a482ba4a8243836f5d97850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2270f386899048b08f0b6688726aa7') in 0.044245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tree_Textures/shadow.png
-  artifactKey: Guid(d8715f47827887c4e9e589dbdb0921fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/shadow.png using Guid(d8715f47827887c4e9e589dbdb0921fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3edf10decc73068431fb0db032e189') in 0.045683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tree_Textures/translucency_gloss.png
-  artifactKey: Guid(10f941946f660f34297085239ca958b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(10f941946f660f34297085239ca958b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ec6652c5dd1467a6dbbaea7f6538c6') in 0.020569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tree_Textures/normal_specular.png
-  artifactKey: Guid(86d63498e02612341b41a1b4c5890c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures/normal_specular.png using Guid(86d63498e02612341b41a1b4c5890c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249ad6734c1bdecce334a5bb86fd9b14') in 0.034519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 256.892644 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Ground
-  artifactKey: Guid(69de00e5160b50a42bf06a62da4a74b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Ground using Guid(69de00e5160b50a42bf06a62da4a74b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04f893aff1e20dfff0b85a66e6ff311') in 0.002922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.843663 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Rock_A_02.prefab
-  artifactKey: Guid(d300c554f4589a640a733a84d30422d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Rock_A_02.prefab using Guid(d300c554f4589a640a733a84d30422d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f9b718468b5bd7241910da1fb7ba3b') in 0.310111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Rock_C_01.prefab
-  artifactKey: Guid(398b156fac7c6f44db09e9ad046c24dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Rock_C_01.prefab using Guid(398b156fac7c6f44db09e9ad046c24dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77efe11ad0502f57c71598f4cc6bfb5') in 0.064908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 81.680849 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets
-  artifactKey: Guid(758e0eaa59f613248a6aa63e0940d3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets using Guid(758e0eaa59f613248a6aa63e0940d3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d0d41d4ea294cc9196b0280cd2c89d') in 0.060027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_A_MaskMap.tif
-  artifactKey: Guid(e1049f992eef23b4cb3b66745c229c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_A_MaskMap.tif using Guid(e1049f992eef23b4cb3b66745c229c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50c4da36eba1eb4a2467e98a213f2ca') in 0.074531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_A.mat
-  artifactKey: Guid(5d53f2d3d2871cc40bfce7f567098cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_A.mat using Guid(5d53f2d3d2871cc40bfce7f567098cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332eff76c4c9be1e1b55bff4e34875b7') in 0.038995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_A_Normal.tif
-  artifactKey: Guid(e9e566d59c8df664d8eb70743cd5b760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_A_Normal.tif using Guid(e9e566d59c8df664d8eb70743cd5b760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d188c36fe96013b91b668d671e8c34') in 0.033347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_C_Albedo.tif
-  artifactKey: Guid(1be3013bed1856b4da24006709df06fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_C_Albedo.tif using Guid(1be3013bed1856b4da24006709df06fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e43ddc5bb127079f8b882572d4ff5d9') in 0.022185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_C_MaskMap.tif
-  artifactKey: Guid(138f3a0ce05a2a140a07d6bc6cd2239e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_C_MaskMap.tif using Guid(138f3a0ce05a2a140a07d6bc6cd2239e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f82687902c0c20fe24a705bebee2fcc') in 0.030265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_C_Normal.tif
-  artifactKey: Guid(0333fad25ec40c044b5a72bd4bb1f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_C_Normal.tif using Guid(0333fad25ec40c044b5a72bd4bb1f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa3294e355c5b770c5879fd8fc5df28') in 0.044519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_A_Albedo.tif
-  artifactKey: Guid(8130d7188b7daf94b8134f64a750fc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_A_Albedo.tif using Guid(8130d7188b7daf94b8134f64a750fc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d213c5faebf77913601173e65e2af7') in 0.023062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_C_01.fbx
-  artifactKey: Guid(9ec4ab395efae3f44b859f77742dd451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_C_01.fbx using Guid(9ec4ab395efae3f44b859f77742dd451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d88c6a8fce510c5fc1c4dc1594c382') in 0.143845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_A_02.fbx
-  artifactKey: Guid(0347a2ca593e212468d38a00c0f15925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_A_02.fbx using Guid(0347a2ca593e212468d38a00c0f15925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c15b00410385d38bb2b4a0486af9d08') in 0.136178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_C.mat
-  artifactKey: Guid(8ea1a0ccea574fe478c4389cb5ecc052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Rocks/Source Assets/Rock_C.mat using Guid(8ea1a0ccea574fe478c4389cb5ecc052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20df1f782a6290461f2dfe1a7e99c4f8') in 0.071363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1908.908100 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045d8ea2b950ec0410ce221dbe13c17d') in 0.145914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 348.018686 seconds.
-  path: Assets/99.Resource/Damaged Road Materials/Materials/Road Dam3 Marked/Road Dam3 Marked3 Displacement.mat
-  artifactKey: Guid(62f2694c461ec844b95d3097fd4cd439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Damaged Road Materials/Materials/Road Dam3 Marked/Road Dam3 Marked3 Displacement.mat using Guid(62f2694c461ec844b95d3097fd4cd439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1022153a6a17bb8e504a60e7366cd95') in 0.104294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.500787 seconds.
-  path: Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_Albedo.tga
-  artifactKey: Guid(9309cc333eb058d42845f677f4c821dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_Albedo.tga using Guid(9309cc333eb058d42845f677f4c821dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fcd62deaff772ff2e356edc796e371') in 0.098342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_Normal.tga
-  artifactKey: Guid(7860ef8ce9baf9c468754d5bc095698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_Normal.tga using Guid(7860ef8ce9baf9c468754d5bc095698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1376ca5c6f9dd8aff577b4fbc8dcb1') in 0.044837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_Gloss.tga
-  artifactKey: Guid(33d424fab37d98843baf2a9b47006822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_Gloss.tga using Guid(33d424fab37d98843baf2a9b47006822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2611c1ff583faac860f2913e197c9526') in 0.029005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_AO.tga
-  artifactKey: Guid(900dfff76d50a22449f6404494cbf2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_AO.tga using Guid(900dfff76d50a22449f6404494cbf2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0144e7063e07989bd7d2125f510dd5') in 0.024572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/99.Resource/Old Sign Roads/Textures/road_sign_Normal.png
-  artifactKey: Guid(3f9c03e58ff6acd4a9dc1d5045b02004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Old Sign Roads/Textures/road_sign_Normal.png using Guid(3f9c03e58ff6acd4a9dc1d5045b02004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3d65faf62250f1cfc37768071ec099') in 0.045147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_Roughness.tga
-  artifactKey: Guid(6dbbc2796bef05f419648116bc934abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_Roughness.tga using Guid(6dbbc2796bef05f419648116bc934abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c83742f38db7e1fc5811a4a0a26dae9') in 0.029855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_Metalness.tga
-  artifactKey: Guid(0e7596312c222504bb503db1719ebaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_Metalness.tga using Guid(0e7596312c222504bb503db1719ebaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc512bcd1a04db657cac0e23ca167407') in 0.022472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_Displacement.tga
-  artifactKey: Guid(5faa8b25c7db6524d900199163aca390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Damaged Road Materials/Textures/Road Dam Marked/Road Dam3 Marked3/Road Dam3 Marked3_4K_Displacement.tga using Guid(5faa8b25c7db6524d900199163aca390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f56dcaa7d8e87811fb04824cc106b2a') in 0.028343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/99.Resource/Old Sign Roads/Textures/road_sign_AlbedoTransparency.png
-  artifactKey: Guid(0749fec4e4881ff4a8e77b459118e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Old Sign Roads/Textures/road_sign_AlbedoTransparency.png using Guid(0749fec4e4881ff4a8e77b459118e7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfa0794939bc39a0161f2559134b275') in 0.024379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/99.Resource/Old Sign Roads/Textures/road_sign_SpecularSmoothness.png
-  artifactKey: Guid(cd74450e1d59907419a60212f2b05f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Old Sign Roads/Textures/road_sign_SpecularSmoothness.png using Guid(cd74450e1d59907419a60212f2b05f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6ff954be31a14a6ce847234abd1905') in 0.028143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 146.345123 seconds.
-  path: Assets/99.Resource/Damaged Road Materials/Materials/Road Dam3 Marked/Road Dam3 Marked3 Displacement.mat
-  artifactKey: Guid(62f2694c461ec844b95d3097fd4cd439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Damaged Road Materials/Materials/Road Dam3 Marked/Road Dam3 Marked3 Displacement.mat using Guid(62f2694c461ec844b95d3097fd4cd439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d418d91478ab6a0200d138de7840310') in 0.057885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 305.906402 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05c3362ba4378862ef91b8c2ab3e55e') in 0.241830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.818160 seconds.
-  path: Assets/99.Resource/Ambulance
-  artifactKey: Guid(8a4c0c36d71670d4aade7503f788ec20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Ambulance using Guid(8a4c0c36d71670d4aade7503f788ec20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103de697d285916a60968ab9183f61c7') in 0.010653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.484488 seconds.
-  path: Assets/99.Resource/Ambulance/Model
-  artifactKey: Guid(24689818587b4b24b8f8d666b1be6e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Ambulance/Model using Guid(24689818587b4b24b8f8d666b1be6e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aba5485885db2f416f5b86c2cf1c19f') in 0.010277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.521884 seconds.
-  path: Assets/99.Resource/Ambulance/Prefab
-  artifactKey: Guid(940f6ba0072292f439ec9c1746723d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Ambulance/Prefab using Guid(940f6ba0072292f439ec9c1746723d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575c6289ac044177457eb72d1efc2673') in 0.011239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.156187 seconds.
-  path: Assets/99.Resource/Ambulance/Prefab/Ambulance_damage.prefab
-  artifactKey: Guid(a36b609e33fb04b4596c17fd7f459123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/99.Resource/Ambulance/Prefab/Ambulance_damage.prefab using Guid(a36b609e33fb04b4596c17fd7f459123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c69f840d00103dc1354e46ee7654e5') in 0.314912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 320.048097 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets
-  artifactKey: Guid(d68ec0b3f6d7aef429ebb63976550de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets using Guid(d68ec0b3f6d7aef429ebb63976550de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60a84f286602bdaf86bc7056674e2ab') in 0.010666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.132430 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 - Albedo.tif
-  artifactKey: Guid(3dd15d49c118f61499885324a339f8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 - Albedo.tif using Guid(3dd15d49c118f61499885324a339f8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2563211a0027636c0d19bdb362455f2') in 0.049749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
+  Time since last request: 0.582263 seconds.
   path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 LOD0.mat
   artifactKey: Guid(ecbc095465bcd0948b9ae5c6a7504ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 LOD0.mat using Guid(ecbc095465bcd0948b9ae5c6a7504ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bada39eb807e8cd7643c1d33274410bf') in 0.531678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 LOD1.mat
-  artifactKey: Guid(f692413a7eabe3e4f8312dacd24335e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 LOD1.mat using Guid(f692413a7eabe3e4f8312dacd24335e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e7dccddb00e5038daddb13bc671761') in 0.285430 seconds 
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 LOD0.mat using Guid(ecbc095465bcd0948b9ae5c6a7504ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca01c46d70aa7786126e35fc6145f4fd') in 0.123977 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 - Packed.tif
-  artifactKey: Guid(b4de55d41c47f8c4c8539247a0ac96e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 - Packed.tif using Guid(b4de55d41c47f8c4c8539247a0ac96e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e403965290cb45c8696b4b3cca59f58') in 0.076842 seconds 
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 LOD1.mat
+  artifactKey: Guid(f692413a7eabe3e4f8312dacd24335e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 LOD1.mat using Guid(f692413a7eabe3e4f8312dacd24335e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd4f188d745464d81aa84dae8997e49') in 0.051985 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
+  Time since last request: 0.000074 seconds.
   path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 Variant 2.fbx
   artifactKey: Guid(61663b936e8ed8e478b3ca473242a904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 Variant 2.fbx using Guid(61663b936e8ed8e478b3ca473242a904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c23d91e1922b1aefce168ec4a813cb3') in 0.166461 seconds 
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 Variant 2.fbx using Guid(61663b936e8ed8e478b3ca473242a904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2545c6a26f7084b0291b7cecb2630bc2') in 0.120710 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 - Normal.tif
-  artifactKey: Guid(8f251482df167b54a80ce8a91ec829a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Grass/Source Assets/Detailed Grass 01 - Normal.tif using Guid(8f251482df167b54a80ce8a91ec829a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e6dea73ebf9b6ce2d32fc47b7faa48') in 0.062206 seconds 
+  Time since last request: 35.266135 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/White Flowers 01 - Variant 1.prefab
+  artifactKey: Guid(b06663635cebb894a949841a80904ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/White Flowers 01 - Variant 1.prefab using Guid(b06663635cebb894a949841a80904ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d7577605a186592efdf0bd4fbe8e7b') in 0.042692 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 132.253404 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets
-  artifactKey: Guid(74614bdb6f5380e4b9ad1534b3780e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets using Guid(74614bdb6f5380e4b9ad1534b3780e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23316f0e74a30f769cd9f7c93f6ad630') in 0.004499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.090875 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 - Albedo.tif
-  artifactKey: Guid(188f5c13c7594574dbcc7b4d09d096bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 - Albedo.tif using Guid(188f5c13c7594574dbcc7b4d09d096bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ce0ca7cf9ce741fbca69a27cad073e') in 0.041770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 Variant 1.fbx
-  artifactKey: Guid(1a42587076229144597fc772980b652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 Variant 1.fbx using Guid(1a42587076229144597fc772980b652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567d2bcf066f4e019bf8f8773c86b870') in 0.550237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 LOD1.mat
-  artifactKey: Guid(0d268f3d718faef4cae00fa5a1e2dc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 LOD1.mat using Guid(0d268f3d718faef4cae00fa5a1e2dc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0204a3add5010ee7643ab55303cbd4d2') in 0.684991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
+  Time since last request: 1.140949 seconds.
   path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 LOD0.mat
   artifactKey: Guid(732d6ee05f8a32f40b3c7945c48b6ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 LOD0.mat using Guid(732d6ee05f8a32f40b3c7945c48b6ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00521338ac1b1eea4568dc5da920332') in 0.065520 seconds 
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 LOD0.mat using Guid(732d6ee05f8a32f40b3c7945c48b6ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd097b2293f415b32e909b7e124ff461d') in 0.030023 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 - Packed.tif
-  artifactKey: Guid(796a8e16864f2c345b7450fd87af1e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 - Packed.tif using Guid(796a8e16864f2c345b7450fd87af1e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d72a99b1539ed49e1dc1a7b6f8e5bfb') in 0.029118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 - Normal.tif
-  artifactKey: Guid(bcebc9e749476b64c8ab911aaad17cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 - Normal.tif using Guid(bcebc9e749476b64c8ab911aaad17cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890a65e1bc0371b97723d4a92647abc4') in 0.033977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.111283 seconds.
-  path: Assets/Scenes/TestMap.unity
-  artifactKey: Guid(8db1edef594e06d4c8f4e9258f1959d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestMap.unity using Guid(8db1edef594e06d4c8f4e9258f1959d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65ca8a9d0935f70e457d58294c89eed') in 0.018505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 566.009443 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets
-  artifactKey: Guid(2fbb49ac2a2696046bd7fa39f0444667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets using Guid(2fbb49ac2a2696046bd7fa39f0444667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a33d50fa3dcb5b5d993fde6e75b863') in 0.003231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.118136 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 - Albedo.tif
-  artifactKey: Guid(e791d4a2eeed0e447b56cf23abeaffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 - Albedo.tif using Guid(e791d4a2eeed0e447b56cf23abeaffc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3597bdb2441d86c6f1538f06ad04ad2c') in 0.052699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02.mat
-  artifactKey: Guid(47f95c06ce016d9448dbc0eb920fa0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02.mat using Guid(47f95c06ce016d9448dbc0eb920fa0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20056d400a4085c9bf38d09b427a4beb') in 0.502130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 Variant 2.fbx
-  artifactKey: Guid(cc25769bf99cd3f4488e19e93e9312ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 Variant 2.fbx using Guid(cc25769bf99cd3f4488e19e93e9312ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa7d41d071b81d994fcafe3b98e89ca') in 0.172861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 - Packed.tif
-  artifactKey: Guid(1f1d82b4cd118004792f119b477be914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 - Packed.tif using Guid(1f1d82b4cd118004792f119b477be914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4763576102701bb37630d16b6eb04c6') in 0.031344 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 Variant 1.fbx
+  artifactKey: Guid(1a42587076229144597fc772980b652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 Variant 1.fbx using Guid(1a42587076229144597fc772980b652c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e86fd1a90060cca9aecaa1d5f88c89') in 0.060458 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 - Normal.tif
-  artifactKey: Guid(ceaf6e36906e4a64591efcbfd114049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 - Normal.tif using Guid(ceaf6e36906e4a64591efcbfd114049d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26bc2ad60b4dc31d2894a8de669c970') in 0.043619 seconds 
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 LOD1.mat
+  artifactKey: Guid(0d268f3d718faef4cae00fa5a1e2dc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowers/Source Assets/White Flowers 01 LOD1.mat using Guid(0d268f3d718faef4cae00fa5a1e2dc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7ed4b304b7c25242bdadf67497cc8d') in 0.059132 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
+  Time since last request: 24.247485 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Flowering Plant 02 - Variant 1.prefab
+  artifactKey: Guid(bc30c949fb71d0642a5b1b237dbd689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Flowering Plant 02 - Variant 1.prefab using Guid(bc30c949fb71d0642a5b1b237dbd689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732f52bc2c28166379bb7e89bfb89afb') in 0.033342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Flowering Plant 02 - Variant 2.prefab
+  artifactKey: Guid(2f8939170d456df4c9ad03755e9d51b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Flowering Plant 02 - Variant 2.prefab using Guid(2f8939170d456df4c9ad03755e9d51b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfc3973d95454233d685fcb14f72372') in 0.027844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.817350 seconds.
   path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 Variant 1.fbx
   artifactKey: Guid(eaf269d5ca5b18c498a8dfad36da2f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 Variant 1.fbx using Guid(eaf269d5ca5b18c498a8dfad36da2f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22aaba356656dff4bfbfd119e33e23ac') in 0.119166 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011693 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.191 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1192ms)
-		BeginReloadAssembly (147ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (930ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (325ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2955 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (1.8 MB). Loaded Objects now: 3541.
-Memory consumption went from 140.8 MB to 139.1 MB.
-Total: 2.882100 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.131400 ms MarkObjects: 2.250200 ms  DeleteObjects: 0.268600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1069.482639 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(a03d4ab2256a2f44c8636de68985258e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WayPointEditor uses the CustomEditor attribute but does not inherit from Editor.
-You must inherit from Editor. See the Editor class script documentation.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-UnityEditor.CustomEditorAttributes:Rebuild ()
-UnityEditor.CustomEditorAttributes:FindCustomEditorTypeByType (System.Type,bool)
-UnityEditor.CustomEditorAttributes:FindCustomEditorType (UnityEngine.Object,bool)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
- -> (artifact id: '23f3aa2414a5e0c34a2bef1cb0af7333') in 0.265952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.312470 seconds.
-  path: Assets/Simple Water Shader HDRP
-  artifactKey: Guid(bc53bad3c2cf3df4ba8f0922c8fdf252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP using Guid(bc53bad3c2cf3df4ba8f0922c8fdf252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1847395a96504f289e7beef4ef294c') in 0.010325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.293495 seconds.
-  path: Assets/Simple Water Shader HDRP/Prefabs
-  artifactKey: Guid(2c8f2fe9905d49a4fa4d669ba28554e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Prefabs using Guid(2c8f2fe9905d49a4fa4d669ba28554e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025fd35044b95b2ef4972eb2d7779fbf') in 0.009794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.165721 seconds.
-  path: Assets/Simple Water Shader HDRP/Prefabs/Example 1.prefab
-  artifactKey: Guid(cbc0c5765668e1f4aaf61eca7657b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Prefabs/Example 1.prefab using Guid(cbc0c5765668e1f4aaf61eca7657b7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8b608202f6224e1c5893cfc0a7ce20') in 0.059831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Simple Water Shader HDRP/Prefabs/Example 2.prefab
-  artifactKey: Guid(638b2f6044371c2488105dc903823405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Prefabs/Example 2.prefab using Guid(638b2f6044371c2488105dc903823405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe20668bf202016727576eb731552e8') in 0.066326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Simple Water Shader HDRP/Prefabs/Example 4.prefab
-  artifactKey: Guid(68a125ef8ef1fa744b69e2dc22497d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Prefabs/Example 4.prefab using Guid(68a125ef8ef1fa744b69e2dc22497d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab17d079e1f59a77e4c4399ca80e877') in 0.066476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Simple Water Shader HDRP/Prefabs/Example 3.prefab
-  artifactKey: Guid(3f16941b9b36f414a95992d27425ee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Prefabs/Example 3.prefab using Guid(3f16941b9b36f414a95992d27425ee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b354e0b81c1b088e8131c558146a9038') in 0.066874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.799367 seconds.
-  path: Assets/Simple Water Shader HDRP/DemoScene.unity
-  artifactKey: Guid(bff62dc65058be24881d24b3a2e64257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/DemoScene.unity using Guid(bff62dc65058be24881d24b3a2e64257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a24f5794f08b333ca693239fabc538') in 0.010519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.460333 seconds.
-  path: Assets/Scenes/TestMap.unity
-  artifactKey: Guid(8db1edef594e06d4c8f4e9258f1959d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestMap.unity using Guid(8db1edef594e06d4c8f4e9258f1959d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee774cbca6deb9a1725356386398f0aa') in 0.003789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.689401 seconds.
-  path: Assets/Simple Water Shader HDRP/Materials
-  artifactKey: Guid(d7ac547cda63ffc4485123e5821c71db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Materials using Guid(d7ac547cda63ffc4485123e5821c71db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5829e57a07b9dfdbd3cd9c681999e6') in 0.011194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.172638 seconds.
-  path: Assets/Simple Water Shader HDRP/Materials/Terrain Layer 2.terrainlayer
-  artifactKey: Guid(0551f4f590362a24ca560bad0a941c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Materials/Terrain Layer 2.terrainlayer using Guid(0551f4f590362a24ca560bad0a941c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f588445bd4105f8ad6024497ffb9b30') in 0.024584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Simple Water Shader HDRP/Materials/Water_mat_01.mat
-  artifactKey: Guid(85cb1dd88820e214e8fe125a59fad88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Materials/Water_mat_01.mat using Guid(85cb1dd88820e214e8fe125a59fad88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ccc77f82fe5d6037892eea5aaa1f60') in 0.045130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Simple Water Shader HDRP/Materials/Water_mat_02.mat
-  artifactKey: Guid(1d4b1ef5ff447c948a375ff30ed21f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Materials/Water_mat_02.mat using Guid(1d4b1ef5ff447c948a375ff30ed21f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644cdea7933d69e0ba70f16469352e6a') in 0.030591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Simple Water Shader HDRP/Materials/Terrain Layer.terrainlayer
-  artifactKey: Guid(a68136126e1f157498c258e0e36f641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Materials/Terrain Layer.terrainlayer using Guid(a68136126e1f157498c258e0e36f641f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b863295f5e75a0c07287a3dad302f4f') in 0.038399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Simple Water Shader HDRP/Materials/Water_mat_03.mat
-  artifactKey: Guid(bdab09e533704e24f9dc08153e56a0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Materials/Water_mat_03.mat using Guid(bdab09e533704e24f9dc08153e56a0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a82d0b964b64578d538c2390bc6dd1') in 0.032437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Simple Water Shader HDRP/Materials/Water_mat_04.mat
-  artifactKey: Guid(ba83f096c38203e43bce0e25c2e7f7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Materials/Water_mat_04.mat using Guid(ba83f096c38203e43bce0e25c2e7f7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25cb0dcc8e47336556b62a179e8afc0') in 0.022650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.520963 seconds.
-  path: Assets/Simple Water Shader HDRP/Meshs
-  artifactKey: Guid(3fa00fb679cd098448b10df3ff521477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Meshs using Guid(3fa00fb679cd098448b10df3ff521477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59290728a3e539053dd04bbd2cca28f1') in 0.010952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.172962 seconds.
-  path: Assets/Simple Water Shader HDRP/Meshs/WaterBlock.mesh
-  artifactKey: Guid(3da23cdf512599b42881988944f3918c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Meshs/WaterBlock.mesh using Guid(3da23cdf512599b42881988944f3918c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae32709f0b95f34ee895d59aa3f47030') in 0.041600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.451630 seconds.
-  path: Assets/Simple Water Shader HDRP/Shaders
-  artifactKey: Guid(dae31b2586b0e1548aed50e98c650bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Shaders using Guid(dae31b2586b0e1548aed50e98c650bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14d6aebec7f64c490df67a2bd9490a0') in 0.009753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.663657 seconds.
-  path: Assets/Simple Water Shader HDRP/Textures
-  artifactKey: Guid(af4a28eeecf412746a8bfb177ee6539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Textures using Guid(af4a28eeecf412746a8bfb177ee6539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f2ee14c1917a71c1bec25427deddc2') in 0.011145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.166047 seconds.
-  path: Assets/Simple Water Shader HDRP/Textures/Send.png
-  artifactKey: Guid(b4220dee6015d5e419e167d4ca243ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Textures/Send.png using Guid(b4220dee6015d5e419e167d4ca243ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3cab7a5db9ca18c53deb4156753426') in 0.043073 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Simple Water Shader HDRP/Textures/WaterSurface_single.tif
-  artifactKey: Guid(37f38e7050b320748b86f45dd1ac5d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Textures/WaterSurface_single.tif using Guid(37f38e7050b320748b86f45dd1ac5d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8534fceeaa18c329d6ff0434cc1722') in 0.027375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Simple Water Shader HDRP/Textures/Send_bottom.png
-  artifactKey: Guid(fc1bda304f0fe35468709dd5f55db5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Textures/Send_bottom.png using Guid(fc1bda304f0fe35468709dd5f55db5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860411ece9955ec498ac4830cca230a7') in 0.031318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Simple Water Shader HDRP/Textures/Send_Normals.png
-  artifactKey: Guid(970d50c2139b66442a6b5b0096ffdc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Textures/Send_Normals.png using Guid(970d50c2139b66442a6b5b0096ffdc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83636c19e40f447490076452a129d0d4') in 0.044842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Simple Water Shader HDRP/Textures/Send_2.png
-  artifactKey: Guid(59ceb14a348fb3049a8617c0caeb5c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Textures/Send_2.png using Guid(59ceb14a348fb3049a8617c0caeb5c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0e5e9406be7097732c1b36b0c56c0c') in 0.021086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Simple Water Shader HDRP/Textures/WaterSurface_atlas.tif
-  artifactKey: Guid(be4ad3b6d9061544d9f8695beb025619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Textures/WaterSurface_atlas.tif using Guid(be4ad3b6d9061544d9f8695beb025619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d3ec0c6467a17f6d6d3c468bb8af5a') in 0.028701 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 71.978100 seconds.
-  path: Assets/Simple Water Shader HDRP/DemoScene
-  artifactKey: Guid(8ebf261c2deb91440ad509244294f736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/DemoScene using Guid(8ebf261c2deb91440ad509244294f736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8cc44f0da6ac18c145cb42161ac9b1f') in 0.010688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.163329 seconds.
-  path: Assets/Simple Water Shader HDRP/DemoScene/LightingData.asset
-  artifactKey: Guid(9e72f532b3b2cca4496c684c29212219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/DemoScene/LightingData.asset using Guid(9e72f532b3b2cca4496c684c29212219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5c0d40c2c92d8500f757f2e079c167') in 0.004677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Simple Water Shader HDRP/DemoScene/New Terrain.asset
-  artifactKey: Guid(01b6aa01358d8054bb8096c62620d5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/DemoScene/New Terrain.asset using Guid(01b6aa01358d8054bb8096c62620d5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4519bfb9bc343db8df8c181b16312f6') in 0.058711 seconds 
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 Variant 1.fbx using Guid(eaf269d5ca5b18c498a8dfad36da2f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad83a56cc802a7417894b09a65fe4427') in 0.034617 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Simple Water Shader HDRP/DemoScene/Sky and Fog Volume Profile.asset
-  artifactKey: Guid(9294ac1577f555247bcef7f710932f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/DemoScene/Sky and Fog Volume Profile.asset using Guid(9294ac1577f555247bcef7f710932f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235a7cbf64a542a92b94558790651b87') in 0.011053 seconds 
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02.mat
+  artifactKey: Guid(47f95c06ce016d9448dbc0eb920fa0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02.mat using Guid(47f95c06ce016d9448dbc0eb920fa0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12546c7f4664a5e9f09a8290a87984ea') in 0.023267 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Simple Water Shader HDRP/DemoScene/Lightmap-0_comp_dir.png
-  artifactKey: Guid(f20c9371e2178b54bac7243e5207180f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/DemoScene/Lightmap-0_comp_dir.png using Guid(f20c9371e2178b54bac7243e5207180f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bf1f6b46bc660c5e151227f5bcbe3a') in 0.042729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Simple Water Shader HDRP/DemoScene/Lightmap-0_comp_light.exr
-  artifactKey: Guid(854e41dbd91dae648bc8cd152a9dfad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/DemoScene/Lightmap-0_comp_light.exr using Guid(854e41dbd91dae648bc8cd152a9dfad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b82f721fcac8745a9cd47e415e7ca7') in 0.090808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Simple Water Shader HDRP/DemoScene/ReflectionProbe-0.exr
-  artifactKey: Guid(adf03cf801f45174b8a83fc5ec174116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/DemoScene/ReflectionProbe-0.exr using Guid(adf03cf801f45174b8a83fc5ec174116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd422f1fc73572bec02ddddbfe182b25f') in 0.038672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.292547 seconds.
-  path: Assets/Simple Water Shader HDRP/Shaders/WaterShaderHDRP.shadergraph
-  artifactKey: Guid(f3ff61003df241e4a84f6c4962ed1e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Water Shader HDRP/Shaders/WaterShaderHDRP.shadergraph using Guid(f3ff61003df241e4a84f6c4962ed1e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4fbcac57f68cc0610781bada9ea6cc') in 0.021290 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011600 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\Unity3D\Project3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.378 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1379ms)
-		BeginReloadAssembly (293ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (944ms)
-			LoadAssemblies (259ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (370ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2954 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (1.8 MB). Loaded Objects now: 3548.
-Memory consumption went from 140.8 MB to 139.0 MB.
-Total: 3.318600 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.131900 ms MarkObjects: 2.674100 ms  DeleteObjects: 0.285900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 Variant 2.fbx
+  artifactKey: Guid(cc25769bf99cd3f4488e19e93e9312ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source Assets/Flowering Plant 02 Variant 2.fbx using Guid(cc25769bf99cd3f4488e19e93e9312ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14872be87ed7f654a0744a89445da36e') in 0.040080 seconds 
