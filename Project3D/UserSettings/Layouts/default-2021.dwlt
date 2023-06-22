@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 128
+  controlID: 119
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 134
+  controlID: 108
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 135
+  controlID: 109
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -727,9 +727,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 93.61699, y: 27.589594, z: 90.20802}
+    m_Target: {x: 14.151325, y: 27.848766, z: 112.15308}
     speed: 2
-    m_Value: {x: 93.61699, y: 27.589594, z: 90.20802}
+    m_Value: {x: 14.151325, y: 27.848766, z: 112.15308}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -776,13 +776,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.12989894, y: 0.86960244, z: -0.31720307, w: -0.35581723}
+    m_Target: {x: 0.1421976, y: 0.84412634, z: -0.27566445, w: 0.43779564}
     speed: 2
-    m_Value: {x: -0.12934555, y: 0.8699443, z: -0.3158499, w: -0.35595712}
+    m_Value: {x: 0.14151108, y: 0.8443594, z: -0.27433938, w: 0.43791518}
   m_Size:
-    m_Target: 3.0553808
+    m_Target: 1.6678172
     speed: 2
-    m_Value: 2.9238093
+    m_Value: 1.5959973
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -848,24 +848,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source
-      Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Art/Flowering Plants/Source
-    Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\user\Desktop\Unity3D\Project3D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 171}
-    m_SelectedIDs: 92640000
-    m_LastClickedID: 25746
-    m_ExpandedIDs: 00000000826200008462000086620000d46200004a6400005064000064640000666400006864000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 395}
+    m_SelectedIDs: 80590000
+    m_LastClickedID: 22912
+    m_ExpandedIDs: 0000000056590000585900005c5900007459000076590000785900007a5900007c590000d6590000dc590000de590000e0590000325d0000b65d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -893,7 +891,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000826200008462000086620000
+    m_ExpandedIDs: 000000005659000058590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -920,8 +918,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c62300007680000000000000025e00008c570000ec5800004e5900008c590000745f0000aa5f0000d85f00000660000020600000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300007680000000000000025e00008c570000ec5800004e5900008c590000745f0000aa5f0000d85f0000066000002060000036570000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1011,9 +1009,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: dc600000
       m_LastClickedID: 0
-      m_ExpandedIDs: eaf2ffffb6f5ffff
+      m_ExpandedIDs: be54fefffebeffff2efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1066,7 +1064,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 58e4ffff
+  m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
     m_CachedPref: 160
     m_ControlHash: -371814159
@@ -1076,5 +1074,5 @@ MonoBehaviour:
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
-    m_IsLocked: 1
+    m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
