@@ -10,7 +10,6 @@ Material:
   m_Name: Cypress_Bark
   m_Shader: {fileID: 4800000, guid: 5354841ef6d24a94ab5a4d1b80a940fb, type: 3}
   m_ValidKeywords:
-  - _BAKED_MESH_DATA
   - _COLOR_TINT
   - _LIGHTING_QUALITY_HIGH
   - _NORMALMAP
@@ -120,7 +119,7 @@ Material:
     - _AlphaTestThreshold: 0.5
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
-    - _BakedMeshData: 1
+    - _BakedMeshData: 0
     - _BlendMode: 0
     - _ColorCorrection: 0
     - _ColorVariationSpread: 0.2
