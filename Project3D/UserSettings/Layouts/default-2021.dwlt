@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 100
+  controlID: 18
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 28
+  controlID: 38
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 29
+  controlID: 39
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -768,9 +768,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 93.68423, y: 29.754227, z: 41.110443}
+    m_Target: {x: 49.46656, y: 6.0944457, z: 80.59862}
     speed: 2
-    m_Value: {x: 93.68423, y: 29.754227, z: 41.110443}
+    m_Value: {x: 49.46656, y: 6.0944457, z: 80.59862}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -817,13 +817,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.23969968, y: 0.34935567, z: -0.09259236, w: -0.90133744}
+    m_Target: {x: 0.08046268, y: 0.88049394, z: -0.16032839, w: 0.43941864}
     speed: 2
-    m_Value: {x: -0.23969969, y: 0.34935567, z: -0.09259236, w: -0.90133744}
+    m_Value: {x: 0.08109934, y: 0.88001573, z: -0.16160576, w: 0.43917945}
   m_Size:
-    m_Target: 1.3378148
+    m_Target: 7.897257
     speed: 2
-    m_Value: 1.3378148
+    m_Value: 8.269379
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -889,22 +889,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Adventure_Character
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Adventure_Character
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\SGA\Desktop\Unity3D\Project3D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: de5c0000
-    m_LastClickedID: 23774
-    m_ExpandedIDs: 00000000965c0000985c00009a5c0000de5c000000ca9a3b
+    m_SelectedIDs: 9a5c0000
+    m_LastClickedID: 23706
+    m_ExpandedIDs: 00000000965c0000985c00009a5c0000da5c0000de5c00008e68000094680000966800009e68000020780000387a0000967a00002c81000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -959,8 +959,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c62300007680000000000000025e00008c570000ec5800004e5900008c590000745f0000aa5f0000d85f00000660000020600000365700008e700000867000008a700000e65c0000e45c0000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300007680000000000000025e00008c570000ec5800004e5900008c590000745f0000aa5f0000d85f00000660000020600000365700008e700000867000008a700000e65c0000c87a00001e810000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1050,9 +1050,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 42f8ffff
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2efbffff
+      m_ExpandedIDs: e0e9feffa8f3feff7a17ffff101bffff8421ffffa42dffff9234ffff5635ffff8081ffffc681ffff5e85ffffde88ffff5c8affff0297ffffd89bfffffca4ffff6aabffff74abffff44d9ffffe2e2ffff2efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

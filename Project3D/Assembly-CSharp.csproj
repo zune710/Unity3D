@@ -56,27 +56,27 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AQUAS-Lite\Scripts\AQUAS_Lite_Reflection.cs" />
+    <Compile Include="Assets\00.Resource\Water\AQUAS-Lite\Scripts\AQUAS_Lite_Reflection.cs" />
     <Compile Include="Assets\Script\WayPoint\Editors\WayPoint.cs" />
     <Compile Include="Assets\Script\CameraController.cs" />
     <Compile Include="Assets\Script\Math\LineCollision.cs" />
-    <Compile Include="Assets\99.Resource\Real-Time Procedural Cable Simple\Scripts\CableProceduralCurve.cs" />
-    <Compile Include="Assets\AQUAS-Lite\Scripts\AQUAS_Lite_Camera.cs" />
+    <Compile Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\Scripts\CableProceduralCurve.cs" />
+    <Compile Include="Assets\00.Resource\Water\AQUAS-Lite\Scripts\AQUAS_Lite_Camera.cs" />
     <Compile Include="Assets\Visual Design Cafe\Nature Renderer\Runtime\NatureRenderer.SRP.cs" />
-    <Compile Include="Assets\99.Resource\Real-Time Procedural Cable Simple\Scripts\CableProceduralMultipoint.cs" />
+    <Compile Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\Scripts\CableProceduralMultipoint.cs" />
     <Compile Include="Assets\Script\Math\MyGizmo.cs" />
     <Compile Include="Assets\Script\WayPoint\Node.cs" />
-    <Compile Include="Assets\99.Resource\Real-Time Procedural Cable Simple\Scripts\CableProceduralStatic.cs" />
+    <Compile Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\Scripts\CableProceduralStatic.cs" />
     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\UseReferenceCamera.cs" />
     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\CompileShaders.cs" />
     <Compile Include="Assets\Script\WayPoint\Editors\WayPointEditor.cs" />
     <Compile Include="Assets\Script\Matrix.cs" />
     <Compile Include="Assets\Script\EnemyController.cs" />
-    <Compile Include="Assets\AQUAS-Lite\Scripts\AQUAS_Lite_CamNav.cs" />
+    <Compile Include="Assets\00.Resource\Water\AQUAS-Lite\Scripts\AQUAS_Lite_CamNav.cs" />
     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\RenderPipelineLighting.cs" />
     <Compile Include="Assets\Script\Math\CenterController.cs" />
     <Compile Include="Assets\Script\Math\BulletController.cs" />
-    <Compile Include="Assets\99.Resource\Real-Time Procedural Cable Simple\Scripts\CableProceduralSimple.cs" />
+    <Compile Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\Scripts\CableProceduralSimple.cs" />
     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\OpenWebsiteButton.cs" />
     <Compile Include="Assets\Script\Rotation\Rotation.cs" />
   </ItemGroup>
@@ -89,7 +89,7 @@
     <None Include="Assets\Visual Design Cafe\Nature Shaders\Common\Nodes\Integrations\Nature Renderer.cginc" />
     <None Include="Assets\Visual Design Cafe\Nature Renderer\Resources\Nature Renderer Batcher.compute" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\XBoxOne.hlsl" />
-    <None Include="Assets\99.Resource\Real-Time Procedural Cable Simple\ReadmeSimpleCable.txt" />
+    <None Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\ReadmeSimpleCable.txt" />
     <None Include="Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Packages.dll" />
     <None Include="Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Nature.Editor.dll" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.dll" />
@@ -99,23 +99,23 @@
     <None Include="Assets\Visual Design Cafe\Nature Renderer\Resources\Nature Renderer VR.compute" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.Editor.ShaderX.dll" />
     <None Include="Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Memory.dll" />
-    <None Include="Assets\AQUAS-Lite\Shaders\AQUAS-Lite_Frontface.shader" />
+    <None Include="Assets\00.Resource\Water\AQUAS-Lite\Shaders\AQUAS-Lite_Frontface.shader" />
     <None Include="Assets\Visual Design Cafe\Nature Renderer\Resources\Nature Renderer Instancing.compute" />
-    <None Include="Assets\AQUAS-Lite\Readme.txt" />
+    <None Include="Assets\00.Resource\Water\AQUAS-Lite\Readme.txt" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\GLCore.hlsl" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\Switch.hlsl" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\GLES2.hlsl" />
-    <None Include="Assets\99.Resource\Real-Time Procedural Cable Simple\ReadmeStaticCable.txt" />
+    <None Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\ReadmeStaticCable.txt" />
     <None Include="Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.PackageManager.dll" />
     <None Include="Assets\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.Editor.dll" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.Editor.dll" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\D3D11.hlsl" />
     <None Include="Assets\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.dll" />
-    <None Include="Assets\99.Resource\Real-Time Procedural Cable Simple\ReadmeCurveCable.txt" />
+    <None Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\ReadmeCurveCable.txt" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\PSSL.hlsl" />
     <None Include="Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.dll" />
-    <None Include="Assets\AQUAS-Lite\Shaders\AQUAS-Lite_Backface.shader" />
-    <None Include="Assets\99.Resource\Real-Time Procedural Cable Simple\ReadmeMultiPointCable.txt" />
+    <None Include="Assets\00.Resource\Water\AQUAS-Lite\Shaders\AQUAS-Lite_Backface.shader" />
+    <None Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\ReadmeMultiPointCable.txt" />
     <None Include="Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Events.dll" />
   </ItemGroup>
   <ItemGroup>
