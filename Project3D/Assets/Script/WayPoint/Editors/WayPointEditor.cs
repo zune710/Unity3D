@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(WayPoint))]
+//[CustomEditor(typeof(WayPoint))]
 public class WayPointEditor : EditorWindow
 {
     [MenuItem("CustomEditor/WayPoint")]

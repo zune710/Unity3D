@@ -154,7 +154,8 @@ public class EnemyController : MonoBehaviour
         }
 
         /*
-        if (Target != null)
+         */
+        if (Target != null && getNode)
         {
             Vector3 Direction = (Target.Position - transform.position).normalized;
 
@@ -180,7 +181,6 @@ public class EnemyController : MonoBehaviour
                     move = true;
             }
         }
-         */
 
     }
 

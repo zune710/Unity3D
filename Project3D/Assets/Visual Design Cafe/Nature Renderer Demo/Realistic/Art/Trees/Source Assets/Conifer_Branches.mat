@@ -18,8 +18,10 @@ Material:
   - _TRANSLUCENCY
   - _WIND
   m_InvalidKeywords:
+  - _BAKEDMESHDATA_OFF
   - _DISABLE_DECALS
   - _INTERACTION_OFF
+  - _LINKMAPTILINGOFFSET_ON
   - _OVERLAY
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
