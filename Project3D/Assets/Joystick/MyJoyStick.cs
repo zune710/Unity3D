@@ -42,10 +42,6 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
     // ** 얼마만큼 움직여야할지에 대한 값.
     private Vector3 Movement;
 
-
-    private float Angle;
-
-
     void Awake()
     {
         /*
@@ -73,8 +69,6 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
     {
         // ** BackBoard의 반지름을 구함.
         Radius = BackBoard.rect.width / 2;
-
-        Angle = 0.0f;
     }
 
     void Update()
@@ -98,9 +92,10 @@ public class MyJoyStick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoint
 
         // ** 스틱이 가리키는 방향을 구함.
         Direction = Stick.localPosition.normalized;
-        
+
         // ** 타겟이 Direction과 같은 방향을 바라보게 함.
-        Target.transform.rotation = Quaternion.Euler(0.0f, Mathf.Atan2(Direction.x, Direction.y) * Mathf.Rad2Deg, 0.0f);
+        if (Look)
+            Target.transform.rotation = Quaternion.Euler(0.0f, Mathf.Atan2(Direction.x, Direction.y) * Mathf.Rad2Deg, 0.0f);
 
         /*
          * 양옆: 회전, 앞뒤: 이동

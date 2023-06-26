@@ -80,6 +80,14 @@
     <Compile Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\Scripts\CableProceduralSimple.cs" />
     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\OpenWebsiteButton.cs" />
     <Compile Include="Assets\Script\Rotation\Rotation.cs" />
+    <Compile Include="Assets\Map2Resource\Supercyan Character Pack Animal People Sample\Scripts\AccessoryWearLogic.cs" />
+    <Compile Include="Assets\Map2Resource\Supercyan Character Pack Animal People Sample\Scripts\AccessoryLogic.cs" />
+    <Compile Include="Assets\Map2Resource\Supercyan Character Pack Animal People Sample\Scripts\FreeCameraLogic.cs" />
+    <Compile Include="Assets\Map2Resource\Supercyan Character Pack Animal People Sample\Scripts\DemoFree.cs" />
+    <Compile Include="Assets\Map2Resource\Supercyan Character Pack Animal People Sample\Scripts\SimpleSampleCharacterControl.cs" />
+    <Compile Include="Assets\Map2Resource\Quirky Series Ultimate\_Scripts\QuirkySeriesDemo.cs" />
+    <Compile Include="Assets\Map2Resource\Quirky Series Ultimate\_Scripts\RotateOnScroll.cs" />
+    <Compile Include="Assets\Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\GLES3.hlsl" />
@@ -87,8 +95,10 @@
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\Vulkan.hlsl" />
     <None Include="Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Web.dll" />
     <None Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Third-Party Notices.txt" />
+    <None Include="Assets\Map2Resource\Fantasy Forest Environment Free Sample\StandardNoCulling.shader" />
     <None Include="Assets\Visual Design Cafe\Nature Shaders\Common\Nodes\Integrations\Nature Renderer.cginc" />
     <None Include="Assets\Visual Design Cafe\Nature Renderer\Resources\Nature Renderer Batcher.compute" />
+    <None Include="Assets\Map2Resource\Quirky Series Ultimate\_Shader\SoftSurface.shader" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\XBoxOne.hlsl" />
     <None Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\ReadmeSimpleCable.txt" />
     <None Include="Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Packages.dll" />
@@ -103,7 +113,9 @@
     <None Include="Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.Editor.ShaderX.dll" />
     <None Include="Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Memory.dll" />
     <None Include="Assets\00.Resource\Water\AQUAS-Lite\Shaders\AQUAS-Lite_Frontface.shader" />
+    <None Include="Assets\Map2Resource\Supercyan Character Pack Animal People Sample\Shaders\SupercyanShader.shader" />
     <None Include="Assets\Visual Design Cafe\Nature Renderer\Resources\Nature Renderer Instancing.compute" />
+    <None Include="Assets\Map2Resource\Supercyan Character Pack Animal People Sample\Shaders\SupercyanShaderLighting.cginc" />
     <None Include="Assets\00.Resource\Water\AQUAS-Lite\Readme.txt" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\GLCore.hlsl" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\Switch.hlsl" />
@@ -112,6 +124,7 @@
     <None Include="Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.PackageManager.dll" />
     <None Include="Assets\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.Editor.dll" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.Editor.dll" />
+    <None Include="Assets\Map2Resource\FantasyEnvironments\Environments\README.txt" />
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\D3D11.hlsl" />
     <None Include="Assets\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.dll" />
     <None Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\ReadmeCurveCable.txt" />
@@ -120,6 +133,7 @@
     <None Include="Assets\00.Resource\Water\AQUAS-Lite\Shaders\AQUAS-Lite_Backface.shader" />
     <None Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\ReadmeMultiPointCable.txt" />
     <None Include="Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.Events.dll" />
+    <None Include="Assets\Map2Resource\Quirky Series Ultimate\_Shader\ToonRamp.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
