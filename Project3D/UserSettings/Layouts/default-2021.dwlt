@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 124
     height: 608
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 121
+  controlID: 131
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -415,7 +415,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -112046
+  m_LastSelectedObjectID: -11018
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -457,22 +457,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/MaximeBrunoni/BridgesPack/Art/Materials
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/MaximeBrunoni/BridgesPack/Art/Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\SGA\Desktop\Unity3D\Project3D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1894}
-    m_SelectedIDs: ae780000
-    m_LastClickedID: 30894
-    m_ExpandedIDs: 00000000525a0000545a0000565a0000585a00005a5a00005c5a00005e5a0000605a0000625a0000645a0000665a0000685a00006a5a00006c5a00006e5a0000705a0000725a0000745a0000765a0000785a00007a5a00007c5a00007e5a0000805a0000825a0000845a0000865a0000885a00008a5a00008c5a00008e5a0000905a0000925a0000945a0000965a0000985a00009a5a00009c5a00009e5a0000a05a0000a25a00004c5b000090660000a4780000b2780000be780000c678000000ca9a3b
+    scrollPos: {x: 0, y: 1846}
+    m_SelectedIDs: aa5c0000
+    m_LastClickedID: 23722
+    m_ExpandedIDs: 000000005e5b0000605b0000625b0000645b0000665b0000685b00006a5b00006c5b00006e5b0000705b0000725b0000745b0000765b0000785b00007a5b00007c5b00007e5b0000805b0000825b0000845b0000865b0000885b00008a5b00008c5b00008e5b0000905b0000925b0000945b0000965b0000985b00009a5b00009c5b00009e5b0000a05b0000a25b0000a45b0000a65b0000a85b0000aa5b0000ac5b0000ae5b0000a85c0000da5c0000dc5c0000e25c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,7 +500,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000525a0000545a0000565a0000585a00005a5a00005c5a00005e5a0000605a0000625a0000645a0000665a0000685a00006a5a00006c5a00006e5a0000705a0000725a0000745a0000765a0000785a00007a5a00007c5a00007e5a0000805a0000825a0000845a0000865a0000885a00008a5a00008c5a00008e5a0000905a0000925a0000945a0000965a0000985a00009a5a00009c5a00009e5a0000a05a0000a25a0000
+    m_ExpandedIDs: 000000005e5b0000605b0000625b0000645b0000665b0000685b00006a5b00006c5b00006e5b0000705b0000725b0000745b0000765b0000785b00007a5b00007c5b00007e5b0000805b0000825b0000845b0000865b0000885b00008a5b00008c5b00008e5b0000905b0000925b0000945b0000965b0000985b00009a5b00009c5b00009e5b0000a05b0000a25b0000a45b0000a65b0000a85b0000aa5b0000ac5b0000ae5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -528,7 +528,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300000a5900009a600000268700001e880000728d0000545f0000748d0000708d00006a8d000082640000a2640000c2640000000000008e5b0000
+    m_ExpandedInstanceIDs: c62300000a5900009a600000268700001e880000728d0000545f0000748d0000708d00006a8d000082640000a2640000c2640000000000008e5b0000625900000a5d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -591,7 +591,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 366
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -628,23 +628,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8a08ffff
-      m_LastClickedID: 0
-      m_ExpandedIDs: d4f8feffd8f8feff3827fffff029ffffac2affff642bffff182effff903affff1259ffffa68bffffb0aeffff70b5ffff9ed5ffff46d8ffffa6f3ffff2efbffff
+      m_SelectedIDs: f092ffff
+      m_LastClickedID: -27920
+      m_ExpandedIDs: 2094ffffaeebffff2efbffffe45f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: bridge_pontoon_01.001
-        m_OriginalName: bridge_pontoon_01.001
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -67376
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 2}
       m_SearchString: 
@@ -912,9 +912,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 46.352234, y: 2.8338387, z: 30.701511}
+    m_Target: {x: 22.536903, y: 3.0049381, z: 65.58663}
     speed: 2
-    m_Value: {x: 46.3522, y: 2.8338387, z: 30.701511}
+    m_Value: {x: 22.536903, y: 3.0049381, z: 65.58663}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -961,13 +961,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.30237257, y: 0.68192625, z: -0.37885812, w: -0.5485261}
+    m_Target: {x: 0.0010050754, y: -0.0925946, z: -0.0020294844, w: -0.99614143}
     speed: 2
-    m_Value: {x: -0.29123417, y: 0.6899987, z: -0.36723083, w: -0.5515669}
+    m_Value: {x: 0.0010046351, y: -0.09255404, z: -0.0020285954, w: -0.9957051}
   m_Size:
-    m_Target: 5.555808
+    m_Target: 34.980534
     speed: 2
-    m_Value: 5.555835
+    m_Value: 34.980534
   m_Ortho:
     m_Target: 0
     speed: 2

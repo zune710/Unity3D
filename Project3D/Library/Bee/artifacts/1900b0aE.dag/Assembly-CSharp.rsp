@@ -385,6 +385,7 @@
 "Assets/Script/WayPoint/Editors/WayPoint.cs"
 "Assets/Script/WayPoint/Editors/WayPointEditor.cs"
 "Assets/Script/WayPoint/Node.cs"
+"Assets/SoundManager.cs"
 "Assets/Visual Design Cafe/Nature Renderer Demo/Scripts/CompileShaders.cs"
 "Assets/Visual Design Cafe/Nature Renderer Demo/Scripts/OpenWebsiteButton.cs"
 "Assets/Visual Design Cafe/Nature Renderer Demo/Scripts/RenderPipelineLighting.cs"
