@@ -59,6 +59,7 @@
     <Compile Include="Assets\00.Resource\Water\AQUAS-Lite\Scripts\AQUAS_Lite_Reflection.cs" />
     <Compile Include="Assets\Script\WayPoint\Editors\WayPoint.cs" />
     <Compile Include="Assets\Script\CameraController.cs" />
+    <Compile Include="Assets\01.Map2\IL3DN\Scripts\IL3DN_Wind.cs" />
     <Compile Include="Assets\Script\Math\LineCollision.cs" />
     <Compile Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\Scripts\CableProceduralCurve.cs" />
     <Compile Include="Assets\00.Resource\Water\AQUAS-Lite\Scripts\AQUAS_Lite_Camera.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\UseReferenceCamera.cs" />
     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\CompileShaders.cs" />
     <Compile Include="Assets\Script\WayPoint\Editors\WayPointEditor.cs" />
+    <Compile Include="Assets\01.Map2\IL3DN\Scripts\IL3DN_ChangeWalkingSound.cs" />
     <Compile Include="Assets\01.Map2\Supercyan Character Pack Animal People Sample\Scripts\AccessoryLogic.cs" />
     <Compile Include="Assets\Script\Matrix.cs" />
     <Compile Include="Assets\Script\EnemyController.cs" />
@@ -84,14 +86,12 @@
     <Compile Include="Assets\Script\Math\CenterController.cs" />
     <Compile Include="Assets\Script\Math\BulletController.cs" />
     <Compile Include="Assets\00.Resource\TelegraphPole\Real-Time Procedural Cable Simple\Scripts\CableProceduralSimple.cs" />
+    <Compile Include="Assets\01.Map2\IL3DN\Scripts\IL3DN_SimpleMouseLook.cs" />
+    <Compile Include="Assets\01.Map2\IL3DN\Scripts\IL3DN_SimpleFPSController.cs" />
     <Compile Include="Assets\01.Map2\Supercyan Character Pack Animal People Sample\Scripts\AccessoryWearLogic.cs" />
     <Compile Include="Assets\01.Map2\Quirky Series Ultimate\_Scripts\RotateOnScroll.cs" />
     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\OpenWebsiteButton.cs" />
     <Compile Include="Assets\Script\Rotation\Rotation.cs" />
-    <Compile Include="Assets\01.Map2\IL3DN\Scripts\IL3DN_SimpleMouseLook.cs" />
-    <Compile Include="Assets\01.Map2\IL3DN\Scripts\IL3DN_Wind.cs" />
-    <Compile Include="Assets\01.Map2\IL3DN\Scripts\IL3DN_SimpleFPSController.cs" />
-    <Compile Include="Assets\01.Map2\IL3DN\Scripts\IL3DN_ChangeWalkingSound.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\GLES3.hlsl" />

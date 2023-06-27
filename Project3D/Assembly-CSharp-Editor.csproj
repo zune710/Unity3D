@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Visual Design Cafe\ShaderX\Editor\TemplateXImporterWrapper.cs" />
+    <Compile Include="Assets\01.Map2\IL3DN\Scripts\Editor\IL3DN_Wind_Editor.cs" />
     <Compile Include="Assets\Visual Design Cafe\ShaderX\Editor\ShaderXImporterEditorWrapper.cs" />
     <Compile Include="Assets\Visual Design Cafe\ShaderX\Editor\ShaderXImporterWrapper.cs" />
-    <Compile Include="Assets\01.Map2\IL3DN\Scripts\Editor\IL3DN_Wind_Editor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
