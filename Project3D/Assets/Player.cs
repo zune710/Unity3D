@@ -14,6 +14,8 @@ public class Player : MonoBehaviour
     private Vector3 Direction;
     private Vector3 Movement;
 
+    private bool isOpening;
+
     private void Awake()
     {
         Cam = Camera.main;
@@ -26,11 +28,16 @@ public class Player : MonoBehaviour
         RunSpeed = 5.0f;
 
         Speed = WalkSpeed;
+
+        isOpening = true;
+
+        StartCoroutine(Opening());
     }
 
-    void Update()
+    private void FixedUpdate()
     {
-        CameraMove();
+        if (isOpening)
+            return;
 
         float Hor = Input.GetAxis("Horizontal");
         float Ver = Input.GetAxis("Vertical");
@@ -71,7 +78,36 @@ public class Player : MonoBehaviour
             Speed = WalkSpeed;
             Anim.SetBool("Run", false);
         }
+    }
 
+    private void LateUpdate()
+    {
+        CameraMove();
+    }
+
+    private IEnumerator Opening()
+    {
+        Vector3 startOffset = new Vector3(0.54f, 1.43f, 5.0f);
+        Vector3 endOffset = new Vector3(0.54f, 1.43f, -2.3f);
+
+        Vector3 startPos = transform.position + startOffset;
+        Vector3 endPos = transform.position + endOffset;
+
+        Cam.transform.position = startPos;
+        Cam.transform.rotation = Quaternion.Euler(5.7f, 0.0f, 0.0f);
+
+        while (true)
+        {
+            if (Mathf.Approximately(Cam.transform.position.z, endPos.z))
+                break;
+
+            Cam.transform.position = Vector3.Lerp(
+                Cam.transform.position, endPos, Time.deltaTime);
+
+            yield return null;
+        }
+
+        isOpening = false;
     }
 
     private void CameraMove()
