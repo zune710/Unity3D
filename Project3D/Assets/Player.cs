@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
     private Camera Cam;
     private Animator Anim;
 
+    public float CameraRotationX;
+    public float CameraRotationY;
+
     public float Speed;
     private float WalkSpeed;
     private float RunSpeed;
@@ -24,6 +27,9 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        CameraRotationX = 5.7f;
+        CameraRotationY = 0.0f;
+
         WalkSpeed = 2.0f;
         RunSpeed = 5.0f;
 
@@ -87,22 +93,35 @@ public class Player : MonoBehaviour
 
     private IEnumerator Opening()
     {
-        Vector3 startOffset = new Vector3(0.54f, 1.43f, 5.0f);
-        Vector3 endOffset = new Vector3(0.54f, 1.43f, -2.3f);
+        Vector3 startPos = transform.position + new Vector3(0.54f, 2.85f, -7.44f);
+        Vector3 endPos = transform.position + new Vector3(0.54f, 1.43f, -2.3f);
 
-        Vector3 startPos = transform.position + startOffset;
-        Vector3 endPos = transform.position + endOffset;
+        Quaternion startRot = Quaternion.Euler(28.0f, 0.0f, 0.0f);
+        Quaternion endRot = Quaternion.Euler(5.7f, 0.0f, 0.0f);
 
         Cam.transform.position = startPos;
-        Cam.transform.rotation = Quaternion.Euler(5.7f, 0.0f, 0.0f);
+        Cam.transform.rotation = startRot;
+
+        float time = 3.0f;
 
         while (true)
         {
-            if (Mathf.Approximately(Cam.transform.position.z, endPos.z))
+            if (time <= 0)
                 break;
+
+            /*
+            if (Mathf.Approximately(Cam.transform.position.z, endPos.z)
+                && Mathf.Approximately(Cam.transform.rotation.x, endRot.x))
+                break;
+             */
 
             Cam.transform.position = Vector3.Lerp(
                 Cam.transform.position, endPos, Time.deltaTime);
+
+            Cam.transform.rotation = Quaternion.Lerp(
+                Cam.transform.rotation, endRot, Time.deltaTime);
+
+            time -= Time.deltaTime;
 
             yield return null;
         }
@@ -119,6 +138,6 @@ public class Player : MonoBehaviour
             transform.position + offset,
             Time.deltaTime * 5.0f);
 
-        Cam.transform.rotation = Quaternion.Euler(5.7f, 0.0f, 0.0f);
+        Cam.transform.rotation = Quaternion.Euler(CameraRotationX, CameraRotationY, 0.0f);
     }
 }
