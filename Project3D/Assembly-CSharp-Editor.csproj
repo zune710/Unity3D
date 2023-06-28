@@ -57,9 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Visual Design Cafe\ShaderX\Editor\TemplateXImporterWrapper.cs" />
-    <Compile Include="Assets\01.Map2\IL3DN\Scripts\Editor\IL3DN_Wind_Editor.cs" />
+    <Compile Include="Assets\01.MapRsc\IL3DN\Scripts\Editor\IL3DN_Wind_Editor.cs" />
     <Compile Include="Assets\Visual Design Cafe\ShaderX\Editor\ShaderXImporterEditorWrapper.cs" />
     <Compile Include="Assets\Visual Design Cafe\ShaderX\Editor\ShaderXImporterWrapper.cs" />
+    <Compile Include="Assets\Fillefranz\PropMaker\Editor\LadderEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -829,6 +830,14 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{7538176B-B574-352F-A0D6-2E2A470AEE7B}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRRuntime.csproj">
+      <Project>{C1DF7709-2DB7-27CE-4606-BACD5B0FDB0D}</Project>
+      <Name>CFXRRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXREditor.csproj">
+      <Project>{9DD938D0-069B-6946-DD18-57B9E15693B2}</Project>
+      <Name>CFXREditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
