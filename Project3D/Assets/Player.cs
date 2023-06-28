@@ -7,8 +7,14 @@ public class Player : MonoBehaviour
     private Camera Cam;
     private Animator Anim;
 
+    [Range(-360.0f, 360.0f)]
     public float CameraRotationX;
+    [Range(-360.0f, 360.0f)]
     public float CameraRotationY;
+
+    public float CameraPositionX;
+    public float CameraPositionY;
+    public float CameraPositionZ;
 
     public float Speed;
     private float WalkSpeed;
@@ -30,6 +36,10 @@ public class Player : MonoBehaviour
         CameraRotationX = 5.7f;
         CameraRotationY = 0.0f;
 
+        CameraPositionX = 0.54f;
+        CameraPositionY = 1.43f;
+        CameraPositionZ = -2.3f;
+
         WalkSpeed = 2.0f;
         RunSpeed = 5.0f;
 
@@ -37,13 +47,13 @@ public class Player : MonoBehaviour
 
         isOpening = true;
 
-        StartCoroutine(Opening());
+        //StartCoroutine(Opening());
     }
 
     private void FixedUpdate()
     {
-        if (isOpening)
-            return;
+        //if (isOpening)
+        //    return;
 
         float Hor = Input.GetAxis("Horizontal");
         float Ver = Input.GetAxis("Vertical");
@@ -88,7 +98,7 @@ public class Player : MonoBehaviour
 
     private void LateUpdate()
     {
-        CameraMove();
+        //CameraMove();
     }
 
     private IEnumerator Opening()
@@ -131,8 +141,8 @@ public class Player : MonoBehaviour
 
     private void CameraMove()
     {
-        Vector3 offset = new Vector3(0.54f, 1.43f, -2.3f);
-        
+        Vector3 offset = new Vector3(CameraPositionX, CameraPositionY, CameraPositionZ);
+
         Cam.transform.position = Vector3.Lerp(
             Cam.transform.position,
             transform.position + offset,
