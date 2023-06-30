@@ -4,6 +4,33 @@ using UnityEngine;
 
 public class Animals : MonoBehaviour
 {
+    private enum ShapeKey
+    { 
+        Eyes_Annoyed,
+        Eyes_Blink,
+        Eyes_Cry,
+        Eyes_Dead,
+        Eyes_Excited,
+        Eyes_Happy,
+        Eyes_LookDown,
+        Eyes_LookIn,
+        Eyes_LookOut,
+        Eyes_LookUp,
+        Eyes_Rabid,
+        Eyes_Sad,
+        Eyes_Shrink,
+        Eyes_Sleep,
+        Eyes_Spin,
+        Eyes_Squint,
+        Eyes_Trauma,
+        Sweat_L,
+        Sweat_R,
+        Teardrop_L,
+        Teardrop_R
+    }
+
+    [SerializeField] private ShapeKey shapeKey = ShapeKey.Eyes_Blink;
+
     private Animator Anim;
     
     public float Speed;
@@ -34,7 +61,7 @@ public class Animals : MonoBehaviour
                                                 "Teardrop_L",
                                                 "Teardrop_R"
                                             };
-
+    
     private void Awake()
     {
         Anim = GetComponent<Animator>();
@@ -42,22 +69,15 @@ public class Animals : MonoBehaviour
 
     void Start()
     {
-        Anim.Play(shapekeyList[1]);
+        Anim.Play(shapekeyList[(int)shapeKey]);
 
-        //Speed = 3.0f;
-        
         ChangeDir = true;
         Collision = false;
     }
 
-    void Update()
-    {
-        
-    }
-
     private void FixedUpdate()
     {
-        if(transform.name != "Sparrow")
+        if(transform.name == "Pudu" || transform.name == "Muskrat")
         {
             if (ChangeDir || Collision)
             {
