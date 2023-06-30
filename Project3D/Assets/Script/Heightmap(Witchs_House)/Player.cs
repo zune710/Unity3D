@@ -23,8 +23,6 @@ public class Player : MonoBehaviour
     private Vector3 Direction;
     private Vector3 Movement;
 
-    public static bool isOpening = true;
-
     private void Awake()
     {
         Cam = Camera.main;
@@ -44,15 +42,11 @@ public class Player : MonoBehaviour
         RunSpeed = 5.0f;
 
         Speed = WalkSpeed;
-
-        isOpening = true;
-
-        StartCoroutine(Opening());
     }
 
     private void FixedUpdate()
     {
-        if (isOpening)
+        if (CameraFollow.isOpening)
             return;
 
         float Hor = Input.GetAxis("Horizontal");
@@ -96,63 +90,5 @@ public class Player : MonoBehaviour
             Speed = WalkSpeed;
             Anim.SetBool("Run", false);
         }
-    }
-
-    private void LateUpdate()
-    {
-        //CameraMove();
-    }
-
-    private IEnumerator Opening()
-    {
-        Vector3 startPos = transform.position + new Vector3(0.54f, 2.85f, -7.44f);
-        Vector3 endPos = transform.position + new Vector3(0.54f, 1.43f, -2.3f);
-
-        Quaternion startRot = Quaternion.Euler(28.0f, 0.0f, 0.0f);
-        Quaternion endRot = Quaternion.Euler(5.7f, 0.0f, 0.0f);
-
-        Cam.transform.position = startPos;
-        Cam.transform.rotation = startRot;
-
-        float time = 5.0f;
-
-        while (true)
-        {
-            if (time <= 0)
-                break;
-
-            /*
-            if (Mathf.Approximately(Cam.transform.position.z, endPos.z)
-                && Mathf.Approximately(Cam.transform.rotation.x, endRot.x))
-                break;
-             */
-
-            Cam.transform.position = Vector3.Lerp(
-                Cam.transform.position, endPos, Time.deltaTime);
-
-            Cam.transform.rotation = Quaternion.Lerp(
-                Cam.transform.rotation, endRot, Time.deltaTime);
-
-            time -= Time.deltaTime;
-
-            yield return null;
-        }
-
-        isOpening = false;
-    }
-
-    private void CameraMove()
-    {
-        Vector3 offset = new Vector3(CameraPositionX, CameraPositionY, CameraPositionZ);
-
-        Cam.transform.position = Vector3.Lerp(
-            Cam.transform.position,
-            transform.position + offset,
-            Time.deltaTime * 5.0f);
-
-        Cam.transform.rotation = Quaternion.Lerp(
-            Cam.transform.rotation,
-            Quaternion.Euler(CameraRotationX, CameraRotationY, 0.0f),
-            Time.deltaTime * 5.0f);
     }
 }

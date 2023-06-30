@@ -6,6 +6,8 @@ public class CameraFollow : MonoBehaviour
 {
     private Camera Cam;
 
+    public GameObject Target;
+
     [Range(-360.0f, 360.0f)]
     public float CameraRotationX;
     [Range(-360.0f, 360.0f)]
@@ -16,15 +18,9 @@ public class CameraFollow : MonoBehaviour
     public float CameraPositionZ;
 
     private float Speed;
-    private Vector3 ClickPos;
+    private float MouseSpeed;
 
-    public bool Drag;
-    public bool Move;
-    public bool check;
-
-    private float OldDistance;
-
-    //private float time;
+    public static bool isOpening = true;
 
     void Start()
     {
@@ -38,79 +34,76 @@ public class CameraFollow : MonoBehaviour
         CameraPositionZ = -2.3f;
 
         Speed = 5.0f;
-        ClickPos = Vector3.zero;
-        Drag = false;
-        Move = false;
-        check = false;
+        MouseSpeed = 1.5f;
 
-        OldDistance = 0.0f;
-
-        //time = 0.0f;
+        StartCoroutine(Opening());
     }
 
-    void Update()
+    private void FixedUpdate()
     {
-        if (Player.isOpening)
+        if (isOpening)
             return;
 
-        if (-20.0f < Cam.transform.eulerAngles.y && Cam.transform.eulerAngles.y < 20.0f)
-            Move = true;
-        else
-            Move = false;
-
-        if (Input.GetMouseButtonDown(1))
-        {
-            Drag = true;
-            ClickPos = Input.mousePosition;
-        }
-
-        if (Input.GetMouseButton(1))
-        {
-            Vector3 direction = (Input.mousePosition - ClickPos).normalized;
-            float distanceX = Mathf.Abs(Input.mousePosition.x - ClickPos.x);
-
-            if (OldDistance != distanceX)
-                check = true;
-
-            if(check)
-            {
-                // -20 ~ 20
-                CameraRotationY = Cam.transform.rotation.y + direction.x * Time.deltaTime * distanceX * 0.2f;
-                OldDistance = distanceX;
-
-                if (360.0f < CameraRotationY || CameraRotationY < -360.0f)
-                    CameraRotationY = CameraRotationY % 360.0f;
-
-                if (-20.0f < CameraRotationY && CameraRotationY < 20.0f)
-                    Move = true;
-
-                check = false;
-            }
-               
-            Debug.Log("CameraRotationY: " + CameraRotationY);
-        }
-
-        if (Input.GetMouseButtonUp(1))
-        {
-            Drag = false;
-            //time = 0.0f;
-        }
-
+        // Follow Target
         Vector3 offset = new Vector3(CameraPositionX, CameraPositionY, CameraPositionZ);
 
         Cam.transform.position = Vector3.Lerp(
             Cam.transform.position,
-            transform.position + offset,
+            Target.transform.position + offset,
             Time.deltaTime * Speed);
 
-        if(Move)
-        {
-            Cam.transform.rotation = Quaternion.Lerp(
-                Cam.transform.rotation,
-                Quaternion.Euler(CameraRotationX, CameraRotationY, 0.0f),
-                Time.deltaTime * Speed);
+        // Rotated by Mouse
+        Vector2 mousePos = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+        Vector3 camEuler = Cam.transform.rotation.eulerAngles;
 
-            //time += Time.deltaTime;
+        float x = Cam.transform.eulerAngles.x;
+
+        if (x < 180)
+            x = Mathf.Clamp(x, -1.0f, 70.0f);
+        else
+            x = Mathf.Clamp(x, 335f, 361f);
+
+        // -50.0f ~ 50.0f으로 제한 필요
+        //float y = Mathf.Clamp(camEuler.y + (mousePos.x * MouseSpeed), -50.0f, 50.0f);
+
+        Cam.transform.rotation = Quaternion.Euler(x, camEuler.y + (mousePos.x * MouseSpeed), camEuler.z);
+    }
+
+    private IEnumerator Opening()
+    {
+        Vector3 startPos = Target.transform.position + new Vector3(0.54f, 2.85f, -7.44f);
+        Vector3 endPos = Target.transform.position + new Vector3(0.54f, 1.43f, -2.3f);
+
+        Quaternion startRot = Quaternion.Euler(28.0f, 0.0f, 0.0f);
+        Quaternion endRot = Quaternion.Euler(5.7f, 0.0f, 0.0f);
+
+        Cam.transform.position = startPos;
+        Cam.transform.rotation = startRot;
+
+        float time = 5.0f;
+
+        while (true)
+        {
+            if (time <= 0)
+                break;
+
+            /*
+            if (Mathf.Approximately(Cam.transform.position.z, endPos.z)
+                && Mathf.Approximately(Cam.transform.rotation.x, endRot.x))
+                break;
+             */
+
+            Cam.transform.position = Vector3.Lerp(
+                Cam.transform.position, endPos, Time.deltaTime);
+
+            Cam.transform.rotation = Quaternion.Lerp(
+                Cam.transform.rotation, endRot, Time.deltaTime);
+
+            time -= Time.deltaTime;
+
+            yield return null;
         }
+
+        isOpening = false;
     }
 }
