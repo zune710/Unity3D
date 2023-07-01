@@ -92,7 +92,7 @@
     <Compile Include="Assets\Script\Heightmap(Witchs_House)\Animals.cs" />
     <Compile Include="Assets\01.MapRsc\Fillefranz\PropMaker\Scripts\Ladder.cs" />
     <Compile Include="Assets\Script\Heightmap(Witchs_House)\Player.cs" />
-    <Compile Include="Assets\Script\Heightmap(Witchs_House)\CameraFollow.cs" />
+    <Compile Include="Assets\Script\Heightmap(Witchs_House)\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Script\Math\CenterController.cs" />
     <Compile Include="Assets\Script\Math\BulletController.cs" />
     <Compile Include="Assets\01.MapRsc\Fillefranz\Tools\Tools\Parabola.cs" />

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private Camera Cam;
     private Animator Anim;
 
     [Range(-360.0f, 360.0f)]
@@ -25,7 +24,6 @@ public class Player : MonoBehaviour
 
     private void Awake()
     {
-        Cam = Camera.main;
         Anim = GetComponent<Animator>();
     }
 
@@ -46,8 +44,8 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (CameraFollow.isOpening)
-            return;
+        //if (CameraFollow.isOpening)
+        //    return;
 
         float Hor = Input.GetAxis("Horizontal");
         float Ver = Input.GetAxis("Vertical");
