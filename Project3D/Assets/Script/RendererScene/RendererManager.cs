@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class RendererManager : MonoBehaviour
 {
-    private Renderer renderer;
+    private Renderer renderer_;
 
     private const string path = "Legacy Shaders/Transparent/Specular";
 
     void Start()
     {
-        renderer = GetComponent<Renderer>();
+        renderer_ = GetComponent<Renderer>();
 
         //material.SetColor("_Color", Color.green);  // Standard Shader의 Properties에 _Color 있음 - 사용 O
         //material.SetFloat("_Alpha", 0.5f);  // Standard Shader의 Properties에 _Alpha 없음 - 사용 X
@@ -31,7 +31,6 @@ public class RendererManager : MonoBehaviour
             yield return null;
 
             // ** Alpha(1) -= Time.deltaTime(0.002정도)
-            // ** Time.deltaTime
             color.a -= Time.deltaTime;
 
             renderer.material.color = color;

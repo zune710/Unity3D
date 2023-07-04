@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class CameraControl : MonoBehaviour
 {
@@ -38,11 +39,6 @@ public class CameraControl : MonoBehaviour
 
     void Update()
     {
-        Debug.DrawLine(transform.position, transform.position + direction * distance, Color.green);  // 월드 좌표
-
-        // ** 모든 충돌을 감지
-        RaycastHit[] hits = Physics.RaycastAll(transform.position, direction, distance, mask);
-
         // ** 조건 1
         // 기존 리스트에 있는 Renderer와 현재 감지된 오브젝트의 Renderer를 비교
         // 기존 Renderer와 감지된 오브젝트의 Renderer가 동일하면 지우지 않음
@@ -53,6 +49,24 @@ public class CameraControl : MonoBehaviour
         // 기존 리스트에는 존재하나 감지된 배열에 없다면
         // 기존 값으로 되돌려야 할 오브젝트
 
+        Debug.DrawLine(transform.position, transform.position + direction * distance, Color.green);  // 월드 좌표
+
+        // ** 모든 충돌을 감지
+        RaycastHit[] hits = Physics.RaycastAll(transform.position, direction, distance, mask);
+
+
+        // Script!
+
+        //** 충돌된 모든 원소들 중에 Renderer만 추출한 새로운 리스트를 생성
+        List<Renderer> renderers = hits.Select(hit => hit.transform.GetComponent<Renderer>())
+            .Where(renderer => renderer != null).ToList();
+
+        //renderers.Select(renderer => objectRenderers.Contains(renderer));
+
+        // ** 기존 리스트에는 포함되었지만 현재 ray에 감지된 리스트에는 없는 renderer
+        List<Renderer> extractionList = objectRenderers.Where(renderer => !renderers.Contains(renderer)).ToList();
+
+
         /*
         // ** hits 배열의 모든 원소를 확인
         foreach (RaycastHit hit in hits)
@@ -60,30 +74,44 @@ public class CameraControl : MonoBehaviour
             // ** ray의 충돌이 감지된 Object의 Renderer를 받아옴 
             Renderer renderer = hit.transform.GetComponent<Renderer>();
 
+            // ** renderer == null 이라면 다음 원소를 확인
+            if (renderer == null)
+                continue;
+
+            // ** 이전 리스트 중에 동일한 원소가 포함되어 있는지 확인
+            if (!objectRenderers.Contains(renderer))
+            {
+                // ** 포함되지 않았다면...
+                // ** 추가
+                objectRenderers.Add(renderer);
+            }
+
             // ** objectRenderers 리스트의 모든 원소를 확인
             foreach (Renderer element in objectRenderers)
             {
-                // ** renderer == null 이라면 다음 원소를 확인
-                if (renderer == null)
-                    continue;
+                // Where(원소 => 조건): 조건에 맞는 원소를 모두 찾아 그 위치를 반환하는 람다식(hit는 foreach 문처럼 원소 의미) -> 받아온 원소들을 ToArray 사용하여 배열로 변경
+                //RaycastHit[] hitArr = hits.Where(hit => hit.transform.GetComponent<Renderer>() == element).ToArray();
 
-                // ** 이전 리스트 중에 동일한 원소가 포함되어 있는지 확인
+                if(HitList.Contains(element))
+                {
+                    // ** 투명화된 객체를 원래 상태로 되돌림
+                    StartCoroutine(SetFadeIn(element));
+                }
+            }
+
+            // ** 충돌이 있다면 Renderer를 확인
+            if (renderer != null)
+            {
+                // ** List에 이미 포함된 Renderer인지 확인
                 if (!objectRenderers.Contains(renderer))
                 {
-                    // ** 포함되지 않았다면...
-                    // ** 추가
-                    objectRenderers.Add(renderer);
-                }
-                else
-                {
-                    // ** 포함되어 있다면...
-                    // ** 삭제
-                    //objectRenderers.Remove(element);
+                    StartCoroutine(SetFadeOut(renderer));
                 }
             }
         }
+         */
 
-
+        /*
         // ** 1회라도 실행된다면 감지된 충돌이 있다는 것
         foreach (RaycastHit hit in hits)
         {
@@ -104,15 +132,22 @@ public class CameraControl : MonoBehaviour
         // ** 확인된 모든 Renderer의 투명화 작업을 진행
         foreach (Renderer element in objectRenderers)
             StartCoroutine(SetFadeOut(element));
-
          */
 
+        // ==================================================================
 
+        /*
         // MyScript!
+
+        // hit의 Renderer를 담을 리스트
+        List<Renderer> HitList = new List<Renderer>();
+
         // ** 1회라도 실행된다면 감지된 충돌이 있다는 것
+        // ** hits 배열의 모든 원소를 확인
         foreach (RaycastHit hit in hits)
         {
             Renderer renderer = hit.transform.GetComponent<Renderer>();
+            HitList.Add(renderer);
 
             // ** 충돌이 있다면 Renderer를 확인
             if (renderer != null)
@@ -123,44 +158,28 @@ public class CameraControl : MonoBehaviour
                     // ** List에 추가
                     objectRenderers.Add(renderer);
 
-                    // ** 확인된 모든 Renderer의 투명화 작업을 진행
+                    // ** 확인된 Renderer의 투명화 작업을 진행
                     StartCoroutine(SetFadeOut(renderer));
                 }
             }
         }
 
+        // ** objectRenderers 리스트의 모든 원소를 확인
         for (int i = 0; i < objectRenderers.Count;)  // ++i 없음 주의
         {
-            bool check = true;
-
-            for (int j = 0; j < hits.Length; ++j)
+            // ** 기존 리스트(objectRenderers)에는 존재하나 감지된 배열(hits)에 없을 때 -> 조건 3에 해당
+            if (!HitList.Contains(objectRenderers[i]))
             {
-                Renderer renderer = hits[j].transform.GetComponent<Renderer>();
-
-                // ** objectRenderers[i]와 renderer가 다를 때
-                if (objectRenderers[i] != renderer)
-                {
-                    // ** j가 hits의 Last Index이면 -> 조건 3에 해당
-                    if (j == hits.Length - 1)
-                    {
-                        StartCoroutine(SetFadeIn(objectRenderers[i]));
-                        objectRenderers.Remove(objectRenderers[i]);
-                        check = false;
-                        break;
-                    }
-                }
-                // ** objectRenderers[i]와 renderer가 동일하면
-                else
-                    // ** objectRenderers[i]는 조건 3에 해당 X
-                    // ** 남은 원소를 확인할 필요가 없으므로 for문(hits) 탈출
-                    break;
+                StartCoroutine(SetFadeIn(objectRenderers[i]));
+                objectRenderers.Remove(objectRenderers[i]);
+                // 원소 하나가 삭제되었으므로 i를 증가하지 않아도 다음 원소가 이어서 나온다.
             }
-
-            // ** 원소가 Remove되지 않았다면 i 증가
-            if (check)
+            // ** 기존 리스트(objectRenderers)와 감지된 배열(hits)에 모두 존재한다면 -> 조건 3에 해당 X
+            else
+                // i를 증가해 주어야 다음 원소가 이어서 나온다.
                 ++i;
         }
-
+        
         // ** ray의 충돌이 감지된 Object가 하나도 없다면
         if (hits.Length == 0)
         {
@@ -171,6 +190,7 @@ public class CameraControl : MonoBehaviour
             // ** 기존에 있던 Renderer를 Clear
             objectRenderers.Clear();
         }
+         */
     }
 
     IEnumerator SetFadeOut(Renderer renderer)
