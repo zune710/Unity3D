@@ -84,6 +84,7 @@
     <Compile Include="Assets\Script\WayPoint\Editors\WayPointEditor.cs" />
     <Compile Include="Assets\00.Resource\00.MapRsc\IL3DN\Scripts\IL3DN_ChangeWalkingSound.cs" />
     <Compile Include="Assets\00.Resource\00.MapRsc\Supercyan Character Pack Animal People Sample\Scripts\AccessoryLogic.cs" />
+    <Compile Include="Assets\Script\RendererScene\CameraControl.cs" />
     <Compile Include="Assets\Script\Matrix.cs" />
     <Compile Include="Assets\Script\EnemyController.cs" />
     <Compile Include="Assets\00.Resource\Water\AQUAS-Lite\Scripts\AQUAS_Lite_CamNav.cs" />
@@ -106,7 +107,6 @@
     <Compile Include="Assets\FX\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\OpenWebsiteButton.cs" />
     <Compile Include="Assets\Script\Rotation\Rotation.cs" />
-    <Compile Include="Assets\Script\RendererScene\CameraControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\GLES3.hlsl" />
