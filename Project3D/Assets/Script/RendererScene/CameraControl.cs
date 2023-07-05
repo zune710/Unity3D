@@ -1,40 +1,82 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
+using UnityEditor;
+using System.Linq;  // Language-Integrated Query
+
 
 public class CameraControl : MonoBehaviour
 {
-    private Camera mainCamera;
     private Vector3 direction;
-    private Transform target;
-    private float distance;
+
+    public Transform target;
 
     public LayerMask mask;
 
-    //private bool Check;
+    public const string path = "Custom/Transparent/MyShader";
 
     [SerializeField] private List<Renderer> objectRenderers = new List<Renderer>();
 
-    private const string path = "Legacy Shaders/Transparent/Specular";
-    private const string customPath = "Custom/Transparent/MyShader";
+    private Vector3[] outCorners = new Vector3[4];
+
+    [Header("Invisibility")]
+    public bool FrustumList;
+
+    [Range(0.0f, 1.0f)]
+    public float X;
+
+    [Range(0.0f, 1.0f)]
+    public float Y;
+
+    [Range(0.0f, 1.0f)]
+    public float W;
+
+    [Range(0.0f, 1.0f)]
+    public float H;
+
+    [Range(0.3f, 50.0f)]
+    public float distance;
 
 
     private void Awake()
     {
-        //camera = GetComponent<Camera>();
-        mainCamera = Camera.main;
-
         target = GameObject.Find("Player").transform;
     }
 
     private void Start()
     {
+#if UNITY_EDITOR
+        if (!target)
+        {
+            EditorApplication.ExitPlaymode();
+            Debug.Log("Target could not be loaded.");
+        }
+
+        if (path.Length <= 0)
+        {
+            EditorApplication.ExitPlaymode();
+            Debug.Log("Path could not be loaded.");
+        }
+#endif
+
+        //프러스텀 컬링이 아니라 투명화 체크하기 위한 것이므로 변수에 아래 카메라 설정을 대입해서 쓰지 않는다.
+        // 대입해서 쓰면 진짜 프러스텀 컬링이 되기 때문
+        //X = Camera.main.rect.x;
+        //Y = Camera.main.rect.y;
+        //W = Camera.main.rect.width;
+        //H = Camera.main.rect.height;
+        // 투명화 체크만 할 것이므로 X, Y, W, H 변수에 따로 값을 줘서 사용한다.
+
+        X = 0.48f;
+        Y = 0.35f;
+        W = 0.04f;
+        H = 0.3f;
+
+        FrustumList = false;
+
         direction = (target.position - transform.position).normalized;
 
         distance = Vector3.Distance(target.position, transform.position);
-
-        //Check = false;
     }
 
     void Update()
@@ -49,25 +91,93 @@ public class CameraControl : MonoBehaviour
         // 기존 리스트에는 존재하나 감지된 배열에 없다면
         // 기존 값으로 되돌려야 할 오브젝트
 
+        if (FrustumList)
+        {
+            Camera.main.CalculateFrustumCorners(
+            new Rect(X, Y, W, H),
+            distance,                     // 거리. cf. Camera.main.farClipPlane: 카메라 인스펙터 뷰의 Far 값
+            Camera.main.stereoActiveEye,  // 카메라 옵션
+            outCorners);                  // out: outCorners에 값을 받음. 각 FrustumCorner에서부터 distance만큼의 위치 Vector 값
+
+            Debug.DrawLine(transform.position, transform.position + direction * distance, Color.green);  // 월드 좌표
+
+            // 투명화 범위?
+            for (int i = 0; i < outCorners.Length; ++i)
+                Debug.DrawLine(transform.position, transform.position + (outCorners[i] - transform.position).normalized * distance, Color.blue);
+        }
+
+        List<RaycastHit>[] hits = new List<RaycastHit>[4];
+        List<Renderer> renderers = new List<Renderer>();
+
+        // ** 모든 충돌을 감지
+        for (int i = 0; i < 4; ++i)
+        {
+            hits[i] = Physics.RaycastAll(transform.position, outCorners[i], distance, mask).ToList();
+
+            //** 충돌된 모든 원소들 중에 Renderer만 추출한 새로운 리스트를 생성
+            // Union: 중복 제거하고 결합, AddRange: 중복 상관없이 다 합침
+            //renderers.Union(hits[i].Select(hit => hit.transform.GetComponent<Renderer>()).Where(renderer => renderer != null).ToList());  // 오브젝트가 깜박이는 현상 있음
+            renderers.AddRange(hits[i].Select(hit => hit.transform.GetComponent<Renderer>()).Where(renderer => renderer != null).ToList());
+        }
+
+        // ** 기존 리스트에는 포함되었지만 현재 ray에 감지된 리스트에는 없는 Renderer
+        List<Renderer> extractionList = objectRenderers.Where(renderer => !renderers.Contains(renderer)).ToList();
+
+        // ** 추출이 완료된 Renderer를 기존 알파값으로 되돌린다.
+        // ** 그리고 삭제
+        foreach (Renderer renderer in extractionList)
+        {
+            StartCoroutine(SetFadeIn(renderer));
+            objectRenderers.Remove(renderer);
+        }
+
+        for (int i = 0; i < 4; ++i)
+        {
+            // ** hits 배열의 모든 원소를 확인
+            foreach (RaycastHit hit in hits[i])
+            {
+                // ** ray의 충돌이 감지된 Object의 Renderer를 받아옴 
+                Renderer renderer = hit.transform.GetComponent<Renderer>();
+
+                // ** renderer == null 이라면 다음 원소를 확인
+                if (renderer == null)
+                    continue;
+
+                // ** 이전 리스트 중에 동일한 원소가 포함되어 있는지 확인
+                if (!objectRenderers.Contains(renderer))
+                {
+                    // ** 포함되지 않았다면...
+                    // ** 추가
+                    objectRenderers.Add(renderer);
+                    StartCoroutine(SetFadeOut(renderer));
+                }
+            }
+        }
+
+
+        /*
+         * ray 하나로 감지하여 투명화 script
+         * 
         Debug.DrawLine(transform.position, transform.position + direction * distance, Color.green);  // 월드 좌표
 
         // ** 모든 충돌을 감지
-        RaycastHit[] hits = Physics.RaycastAll(transform.position, direction, distance, mask);
-
-
-        // Script!
+        List<RaycastHit> hits = Physics.RaycastAll(transform.position, direction, distance, mask).ToList();
 
         //** 충돌된 모든 원소들 중에 Renderer만 추출한 새로운 리스트를 생성
         List<Renderer> renderers = hits.Select(hit => hit.transform.GetComponent<Renderer>())
             .Where(renderer => renderer != null).ToList();
 
-        //renderers.Select(renderer => objectRenderers.Contains(renderer));
-
-        // ** 기존 리스트에는 포함되었지만 현재 ray에 감지된 리스트에는 없는 renderer
+        // ** 기존 리스트에는 포함되었지만 현재 ray에 감지된 리스트에는 없는 Renderer
         List<Renderer> extractionList = objectRenderers.Where(renderer => !renderers.Contains(renderer)).ToList();
 
+        // ** 추출이 완료된 Renderer를 기존 알파값으로 되돌린다.
+        // ** 그리고 삭제
+        foreach (Renderer renderer in extractionList)
+        {
+            StartCoroutine(SetFadeIn(renderer));
+            objectRenderers.Remove(renderer);
+        }
 
-        /*
         // ** hits 배열의 모든 원소를 확인
         foreach (RaycastHit hit in hits)
         {
@@ -84,32 +194,35 @@ public class CameraControl : MonoBehaviour
                 // ** 포함되지 않았다면...
                 // ** 추가
                 objectRenderers.Add(renderer);
+                StartCoroutine(SetFadeOut(renderer));
             }
 
-            // ** objectRenderers 리스트의 모든 원소를 확인
-            foreach (Renderer element in objectRenderers)
-            {
-                // Where(원소 => 조건): 조건에 맞는 원소를 모두 찾아 그 위치를 반환하는 람다식(hit는 foreach 문처럼 원소 의미) -> 받아온 원소들을 ToArray 사용하여 배열로 변경
-                //RaycastHit[] hitArr = hits.Where(hit => hit.transform.GetComponent<Renderer>() == element).ToArray();
-
-                if(HitList.Contains(element))
-                {
-                    // ** 투명화된 객체를 원래 상태로 되돌림
-                    StartCoroutine(SetFadeIn(element));
-                }
-            }
-
-            // ** 충돌이 있다면 Renderer를 확인
-            if (renderer != null)
-            {
-                // ** List에 이미 포함된 Renderer인지 확인
-                if (!objectRenderers.Contains(renderer))
-                {
-                    StartCoroutine(SetFadeOut(renderer));
-                }
-            }
         }
-         */
+*/
+
+        #region 필요X
+        //// ** objectRenderers 리스트의 모든 원소를 확인
+        //foreach (Renderer element in objectRenderers)
+        //{
+        //    // Where(원소 => 조건): 조건에 맞는 원소를 모두 찾아 그 위치를 반환하는 람다식(hit는 foreach 문처럼 원소 의미) -> 받아온 원소들을 ToArray 사용하여 배열로 변경
+        //    //RaycastHit[] hitArr = hits.Where(hit => hit.transform.GetComponent<Renderer>() == element).ToArray();
+
+        //    if(renderers.Contains(element))
+        //    {
+        //        // ** 투명화된 객체를 원래 상태로 되돌림
+        //        StartCoroutine(SetFadeIn(element));
+        //    }
+        //}
+        //
+        //// ** 충돌이 있다면 Renderer를 확인
+        //if (renderer != null)
+        //{
+        //    // ** List에 이미 포함된 Renderer인지 확인
+        //    if (!objectRenderers.Contains(renderer))
+        //    {
+        //        StartCoroutine(SetFadeOut(renderer));
+        //    }
+        //}
 
         /*
         // ** 1회라도 실행된다면 감지된 충돌이 있다는 것
@@ -136,8 +249,15 @@ public class CameraControl : MonoBehaviour
 
         // ==================================================================
 
+        #endregion
+
         /*
         // MyScript!
+
+        Debug.DrawLine(transform.position, transform.position + direction * distance, Color.green);
+
+        // ** 모든 충돌을 감지
+        RaycastHit[] hits = Physics.RaycastAll(transform.position, direction, distance, mask);
 
         // hit의 Renderer를 담을 리스트
         List<Renderer> HitList = new List<Renderer>();
