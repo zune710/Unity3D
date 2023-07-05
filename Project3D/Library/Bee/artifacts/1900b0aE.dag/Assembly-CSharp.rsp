@@ -399,6 +399,7 @@
 "Assets/Script/Math/MyGizmo.cs"
 "Assets/Script/Matrix.cs"
 "Assets/Script/RendererScene/CameraControl.cs"
+"Assets/Script/RendererScene/FOVController.cs"
 "Assets/Script/RendererScene/RendererManager.cs"
 "Assets/Script/Rotation/Rotation.cs"
 "Assets/Script/SoundManager.cs"
